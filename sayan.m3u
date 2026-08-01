@@ -8932,9 +8932,13 @@ https://dev.denver69.fun/Mozzz/UNITESSPORTS2/master.m3u8
 #https://port.denver69.fun/Kids/shinchan.m3u8
 #EXTM3U
 
-#EXTINF:-1 tvg-id="4248047" group-title="Live events" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Rocket-Classic_fc-web.jpg", FC: World Feed - Day 3 vs Detroit Golf Club - Detroit, Michigan (Rocket Classic 2026)
+#EXTINF:-1 tvg-id="4247442" group-title="Live events" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Guyana-Amazon-Warriors-vs-San-Francisco-Unicorns_fc-web.jpg", FC: Guyana Amazon Warriors vs San Francisco Unicorns (Global Super League - 2026)
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1
-https://dai-fancode.pages.dev/mumbai/4248047_english_hls_84d731038268847_1ta-di_h264/index.m3u8
+https://dai-fancode.pages.dev/mumbai/4247442_english_hls_46f008f7787192_1ta-di_h264/index.m3u8
+
+#EXTINF:-1 tvg-id="143650" group-title="Live events" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mubadala_Web-match-card.png", FC: ATP 500 - Mubadala DC Open 2026 vs Washington, United States (ATP 500 - Mubadala DC Open 2026)
+#EXTVLCOPT:http-user-agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1
+https://dai-fancode.pages.dev/mumbai/143650_english_hls_83b9312ab58473_1ta-di_h264/index.m3u8
 
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -8986,6 +8990,30 @@ https://jcevents.hotstar.com/bpk-tv/034d1fb94cae87294a06f4dc266084b9/Fallback/03
 #EXTINF:-1 tvg-id="4473" tvg-logo="https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/StarSports2Tamil_Transparent_495e7bfa-b0b9-4055-a22e-56f3507ca469.png" group-title="Live events",Star Sports 2 Tamil
 #EXTHTTP:{"User-Agent":"Hotstar;in.startv.hotstar/25.02.24.8.11169 (Android/15)","Cookie":"hdntl=exp=1785672062~acl=%2f*~id=1b9b8a8ae2d9fa9e504f5afea26a4306~data=hdntl~hmac=3623ae81c008e0ad47ab2914bc26397ebeb12bc04e6ff6ac1f7602b36a352d57","Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com"}
 https://jcevents.hotstar.com/bpk-tv/4db6f833701e78ae4443cb268020f03b/Fallback/4db6f833701e78ae4443cb268020f03b.m3u8
+
+#EXTINF:-1 tvg-id="1090536267_ENG" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021585/1785546383720269_CWG26_athletics_MENS_POLE_VAULT_FINAL_KULDEEP_and_DEV_MEENA_landscape_thumb.jpg",Sony: Men's Pole Vault - Final - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000397/CWG_Stre0108/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
+
+#EXTINF:-1 tvg-id="1090536267_HIN" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021585/1785546383720269_CWG26_athletics_MENS_POLE_VAULT_FINAL_KULDEEP_and_DEV_MEENA_landscape_thumb.jpg",Sony: Men's Pole Vault - Final - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000298/CWG_Stre0108/HIN/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
+
+#EXTINF:-1 tvg-id="1090536267_TAM" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021585/1785546383720269_CWG26_athletics_MENS_POLE_VAULT_FINAL_KULDEEP_and_DEV_MEENA_landscape_thumb.jpg",Sony: Men's Pole Vault - Final - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000293/CWG_Stre0108/TAM/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
+
+#EXTINF:-1 tvg-id="1090536267_TEL" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021585/1785546383720269_CWG26_athletics_MENS_POLE_VAULT_FINAL_KULDEEP_and_DEV_MEENA_landscape_thumb.jpg",Sony: Men's Pole Vault - Final - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000292/CWG_Stre0108/TEL/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
+
+#EXTINF:-1 tvg-id="1090536267_KAN" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021585/1785546383720269_CWG26_athletics_MENS_POLE_VAULT_FINAL_KULDEEP_and_DEV_MEENA_landscape_thumb.jpg",Sony: Men's Pole Vault - Final - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000389/CWG_Stre0108/KAN/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
+
+#EXTINF:-1 tvg-id="1090536268_ENG" group-title="Live events" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/blitz_assets/1090536268/thumbnail/1785617112555_1784647626419819_CWG26_Athletics_pictogram_thumbnail.jpg",Sony: Women's One Mile - Athletics
+#EXTVLCOPT:http-user-agent=Denver1769
+https://sonydaimenew.akamaized.net/hls/live/20000400/CWG_Stre0108/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785663123~acl=/*~id=24890011055049516109605735991997~hmac=9868a09767ecb8438ea23629e6b77f5c0374b3b9d7ca43e29a2479ac55df6194
 
 
 #EXTINF:-1 tvg-id="Hindi" tvg-logo="https://sportzpower.com/wp-content/uploads/2025/09/2026-Mens-T20-World-Cup-1536x864.png" group-title="Live events",WC 4K HINDI
