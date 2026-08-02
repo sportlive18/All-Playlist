@@ -1,0 +1,50 @@
+name: Merge M3U Playlists
+
+on:
+  schedule:
+    # Runs every 1 hours – adjust as you like
+    - cron: '0 */1 * * *'
+  workflow_dispatch:   # allows manual trigger from the Actions tab
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push changes
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch and merge playlists
+        run: |
+          # List of URLs in the exact order you provided
+          urls=(
+            "https://l3.streamstar18.workers.dev"
+            "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"
+            "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"
+            "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
+            "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv2.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"
+          )
+
+          # First file: keep full content (including #EXTM3U header)
+          curl -s "${urls[0]}" > combined.m3u
+
+          # Subsequent files: skip the first line (the header) and append
+          for ((i=1; i<${#urls[@]}; i++)); do
+            curl -s "${urls[i]}" | tail -n +2 >> combined.m3u
+          done
+
+          echo "✅ Merged playlist created: combined.m3u"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add combined.m3u
+          git diff --staged --quiet || git commit -m "Auto-update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
