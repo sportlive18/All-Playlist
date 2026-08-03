@@ -12,10 +12,11 @@ PLAYLISTS = [
     {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
     {"name": "PRIMEVIDEO", "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
     {"name": "AXSPORTS", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u"},
-    {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv2.m3u"},
+    {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sixpg/zeyo-test/refs/heads/main/jtv.m3u"},
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
+    {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},  # NEW: Hotstar
 ]
 
 OUTPUT_FILE = "combined.m3u"
@@ -30,6 +31,7 @@ SOURCE_CATEGORY_OVERRIDE = {
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
     "AXSPORTS":    "AXS",
+    "HOTSTAR":     "Hotstar",       # NEW: Hotstar override
 }
 # These sources will use keyword-based categorization (below)
 # JIO-TV, ZEE, SONY, SUN
@@ -86,6 +88,7 @@ CATEGORY_ORDER = [
     "Willow",
     "Prime Video",
     "AXS",
+    "Hotstar",  # NEW: Hotstar added to category order
 ]
 
 # ------------------ HELPERS ------------------
