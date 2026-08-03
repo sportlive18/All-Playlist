@@ -170,10 +170,13 @@ http://193.47.62.41/hls/AWAWAW.m3u8?|Referer=http://www.fawanews.sc/&Origin=http
 #EXTINF:-1 group-title="Boxing" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Smack Down : ALT SERVER
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 
-#EXTINF:-1 group-title="🏏 FANCODE",===== 🏏 FANCODE CHANNELS (1) =====
+#EXTINF:-1 group-title="🏏 FANCODE",===== 🏏 FANCODE CHANNELS (2) =====
 
 #EXTINF:-1 tvg-id="4248196" tvg-name="Afghanistan Pathans Vs Bangladesh Tigers" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248196_53019_AFP_BAT_fc-web.jpg" tvg-language="English" group-title="Cricket",ENG | Afghanistan Pathans Vs Bangladesh Tigers
 https://dai-fancode.pages.dev/mumbai/4248196_english_hls_474e9b2ae850769_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4247968" tvg-name="West Delhi Lions Vs Purani Dilli 6" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/DPL-Mini.png" tvg-language="English" group-title="Cricket",ENG | West Delhi Lions Vs Purani Dilli 6
+https://dai-fancode.pages.dev/mumbai/4247968_english_hls_12b02df88b18060_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 group-title="📺 SONYLIV",===== 📺 SONYLIV CHANNELS (0) =====
 
@@ -186,9 +189,14 @@ https://dai-fancode.pages.dev/mumbai/4248196_english_hls_474e9b2ae850769_1ta-di_
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
 
-#EXTINF:-1 group-title="🏏 AXSPORTS",===== 🏏 AXSPORTS CHANNELS (0) =====
+#EXTINF:-1 group-title="🏏 AXSPORTS",===== 🏏 AXSPORTS CHANNELS (1) =====
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Ferrari%20Challenge%20North%20America.jpg" group-title="LIVE", Ferrari Challenge North America - Sonoma Raceway, California
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/274860/720p/chunks.m3u8?is_vip=false&token=1785831532-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6641ad0a13a9c6dfb723ee75a42ea44b
 
 #EXTINF:-1 group-title="📡 JIO-TV",===== 📡 JIO-TV CHANNELS (851) =====
 
