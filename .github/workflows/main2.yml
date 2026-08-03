@@ -2,8 +2,8 @@ name: Merge and Organize M3U Playlists
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:         # Manual trigger
+    - cron: '*/5 * * * *'  # Every 5 minutes (minimum recommended)
+  workflow_dispatch:
 
 jobs:
   merge:
@@ -28,10 +28,23 @@ jobs:
       - name: Run merge script
         run: python merge.py
 
-      - name: Commit and push changes
+      - name: Always commit (with or without changes)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Check if there are changes
           git add combined.m3u
-          git diff --staged --quiet || git commit -m "🤖 Auto-update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          
+          if git diff --staged --quiet; then
+            # No changes - create a heartbeat commit
+            echo "No playlist changes, creating heartbeat update"
+            echo "⏰ Last checked: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" > .last_check
+            git add .last_check
+            git commit -m "💓 Heartbeat $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          else
+            # Changes detected - commit the updates
+            git commit -m "🤖 Update M3U playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          fi
+          
           git push
