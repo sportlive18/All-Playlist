@@ -6,7 +6,7 @@ from datetime import datetime
 # Your playlists - each with a section name
 PLAYLISTS = [
     {
-        "name": "STREAMSTAR",
+        "name": "LIVE EVENT",
         "icon": "📺",
         "url": "https://l3.streamstar18.workers.dev"
     },
