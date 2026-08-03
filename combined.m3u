@@ -1,12 +1,33 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
 
-#EXTINF:-1 group-title="Live Events",===== Live Events (51) =====
+#EXTINF:-1 group-title="Live Events",===== Live Events (52) =====
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Asian Legends League T20 : TAPMAD - AQ
 https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Asian Legends League T20 : FANCODE - IN
 https://dai-fancode.pages.dev/mumbai/4248195_english_hls_cb68ac446465541_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : WILLOW - AQ
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ac2311e52a567706a77f5e2eeb75e707:518aff73a8da4c8b84fbe711505aabc8
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/54xvj77jse/out/v1/3a5f4414cdd545839f98cc93b790af70/cenc.mpd
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : WILLOW - ALT
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ac2311e52a567706a77f5e2eeb75e707:518aff73a8da4c8b84fbe711505aabc8
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/54xvj77jse/out/v1/3a5f4414cdd545839f98cc93b790af70/cenc.mpd
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : TAPMAD - AQ
+https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8|referer=https://tapmad.com
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : LOW SERVER
+http://193.47.62.193/hls/YOOOAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : FANCODE - IN
+https://dai-fancode.pages.dev/mumbai/143634_english_hls_3a8752838638691_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Indonesia vs Vietnam : LOW SERVER
 http://193.47.62.190/hls/NNNNAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
@@ -26,6 +47,9 @@ https://bl.rutube.ru/livestream/7c13a51576b9ff2601f08f5d57dd5169/index.m3u8?s=ui
 #KODIPROP:inputstream.adaptive.license_key=5bf7ba08dbcbb5de11b183fe281c46ec:aaa3a81ae3d7c0c1b23e81decc61a788
 https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/jxu8h3g1qm/out/v1/eef0cc6bfe96430896fb3dd56e8f0dff/cenc.mpd
 
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",The Hundred Women : TAPMAD - AQ
+https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8|referer=https://tapmad.com
+
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",The Hundred Women : SKY SPORT NZ
 https://tmaxapp.site/8wirwjs76erftg/skysport1nz.m3u8
 
@@ -34,27 +58,6 @@ http://line.tvdsz.cc/play/live.php?mac=00:1A:79:B5:AD:FB&stream=809389&extension
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",The Hundred Women : LOW SERVER
 http://193.47.62.190/hls/NNNNAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : WILLOW - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ac2311e52a567706a77f5e2eeb75e707:518aff73a8da4c8b84fbe711505aabc8
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/54xvj77jse/out/v1/3a5f4414cdd545839f98cc93b790af70/cenc.mpd
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : WILLOW - ALT
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ac2311e52a567706a77f5e2eeb75e707:518aff73a8da4c8b84fbe711505aabc8
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/54xvj77jse/out/v1/3a5f4414cdd545839f98cc93b790af70/cenc.mpd
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : TAPMAD - AQ
-https://saseries.akamaized.net/hls/live/2110097/D2PAKvsWI-TesT-tapmad/master.m3u8|referer=https://tapmad.com
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : LOW SERVER
-http://193.47.62.193/hls/YOOOAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : FANCODE - IN
-https://dai-fancode.pages.dev/mumbai/143634_english_hls_3a8752838638691_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Welsh Fire vs Southern Brave :
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
@@ -209,7 +212,7 @@ https://dai-fancode.pages.dev/mumbai/143634_english_hls_3a8752838638691_1ta-di_h
 #EXTINF:-1 group-title="SonyLIV",===== SonyLIV (1) =====
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021699/1785655952244561_DURAND_CUP_2026_Langsning-FC-vs-Mumbay-FC_landscape_thumb.jpg" group-title="SonyLIV", Langsning FC vs Mumbay FC - 3 Aug 2026 [ENG] - IndianOil Durand Cup 2026
-https://sonydaimenew.akamaized.net/hls/live/20000298/Football0308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785807071~acl=/*~id=27643430865740720700584462903630~hmac=4be191ed18e4a62d686a732457d10725014c6d62e98600cf36058f60296efb20
+https://sonydaimenew.akamaized.net/hls/live/20000298/Football0308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785807679~acl=/*~id=76162858991314034874035483848372~hmac=f0aee50c2b7f5704293b15f421ea75f744f2f167d74b103157e763f51f6fa97a
 
 #EXTINF:-1 group-title="Willow",===== Willow (5) =====
 
