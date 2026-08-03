@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Fetch and merge playlists (with separate sections)
         run: |
@@ -24,9 +26,6 @@ jobs:
           # Start with extended M3U header including EPG URLs
           cat > "$FINAL_FILE" << 'EOF'
           #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
-          
-          #EXTINF:-1 group-title="📺 LIVE TV",----- LIVE TV CHANNELS -----
-          #EXTINF:-1 group-title="📺 LIVE TV",=================================
           
           EOF
 
@@ -41,13 +40,18 @@ jobs:
           sections["SONY"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"
           sections["SUN"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"
 
+          # Add main stream
+          echo "#EXTINF:-1 group-title=\"📺 STREAMSTAR\",===== STREAMSTAR CHANNELS =====" >> "$FINAL_FILE"
+          echo "" >> "$FINAL_FILE"
+          curl -s "https://l3.streamstar18.workers.dev" | grep -E "^#EXTINF:" -A1 | grep -v "^--$" >> "$FINAL_FILE" || true
+          echo "" >> "$FINAL_FILE"
+
           # Process each section
           for section in "FANCODE" "SONYLIV" "WILLOW" "PRIMEVIDEO" "JIO-TV" "ZEE" "SONY" "SUN"; do
             url="${sections[$section]}"
             echo "📥 Fetching: $section from $url"
             
             # Add section header
-            echo "" >> "$FINAL_FILE"
             echo "#EXTINF:-1 group-title=\"📺 $section\",===== $section CHANNELS =====" >> "$FINAL_FILE"
             echo "" >> "$FINAL_FILE"
             
@@ -69,16 +73,11 @@ jobs:
             echo "" >> "$FINAL_FILE"
           done
 
-          # Also add the main stream (first URL from original list)
-          echo "#EXTINF:-1 group-title=\"📺 STREAMSTAR\",===== STREAMSTAR CHANNELS =====" >> "$FINAL_FILE"
-          echo "" >> "$FINAL_FILE"
-          curl -s "https://l3.streamstar18.workers.dev" | grep -E "^#EXTINF:" -A1 | grep -v "^--$" >> "$FINAL_FILE" || true
-          
-          # Clean up: Remove duplicate #EXTM3U lines and empty lines
+          # Clean up: Remove duplicate lines and empty lines
           sed -i '/^#EXTM3U/d' "$FINAL_FILE"
           sed -i '/^[[:space:]]*$/d' "$FINAL_FILE"
           
-          # Add EPG data URL to the top if not already there
+          # Ensure EPG header is at the top
           if ! grep -q "x-tvg-url" "$FINAL_FILE"; then
             sed -i '1s/^/#EXTM3U x-tvg-url="https:\/\/www.tsepg.cf\/epg.xml.gz|https:\/\/avkb.short.gy\/tsepg.xml.gz"\n/' "$FINAL_FILE"
           fi
@@ -89,13 +88,48 @@ jobs:
           channel_count=$(grep -c "^#EXTINF" "$FINAL_FILE" || echo "0")
           echo "📊 Total channels: $channel_count"
           
-          # Create a backup with timestamp
-          cp "$FINAL_FILE" "combined_backup_$(date +'%Y%m%d_%H%M%S').m3u"
+          # Show file size
+          file_size=$(du -h "$FINAL_FILE" | cut -f1)
+          echo "📁 File size: $file_size"
+          
+          # Debug: Show first few lines
+          echo "📄 First 10 lines of merged file:"
+          head -n 10 "$FINAL_FILE"
 
-      - name: Commit and push changes
+      - name: Force update and commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add combined.m3u *.backup_*.m3u 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "🤖 Auto-update combined playlist with EPG $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          git push
+          
+          # Always stage the file
+          git add -f combined.m3u
+          
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "⚠️ No changes detected in the file"
+            echo "🔄 Forcing update by touching the file..."
+            
+            # Force a change by adding a timestamp comment
+            echo "" >> combined.m3u
+            echo "# Updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> combined.m3u
+            
+            # Stage again
+            git add -f combined.m3u
+            
+            # Commit with timestamp
+            git commit -m "🔄 Force update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
+          else
+            # Commit changes
+            git commit -m "🤖 Auto-update combined playlist with EPG $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          fi
+          
+          # Push changes
+          git push || echo "⚠️ Push failed, but changes are committed locally"
+
+      - name: Create backup with timestamp
+        if: always()
+        run: |
+          cp combined.m3u "combined_$(date +'%Y%m%d_%H%M%S').m3u"
+          git add "combined_*.m3u" 2>/dev/null || true
+          git commit -m "📦 Backup combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No backup to commit"
+          git push || echo "⚠️ Backup push failed"
