@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import requests
 import re
+import os
 from datetime import datetime
 
-# Your playlists - each with a section name
+# Your playlists - now with AXSPORTS added
 PLAYLISTS = [
     {
-        "name": "LIVE EVENT",
+        "name": "STREAMSTAR",
         "icon": "📺",
         "url": "https://l3.streamstar18.workers.dev"
     },
@@ -29,6 +30,11 @@ PLAYLISTS = [
         "name": "PRIMEVIDEO",
         "icon": "📺",
         "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+    },
+    {
+        "name": "AXSPORTS",  # ✅ NEWLY ADDED
+        "icon": "🏏",
+        "url": "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u"
     },
     {
         "name": "JIO-TV",
@@ -214,5 +220,4 @@ def main():
         print(f"❌ Error writing file: {e}")
 
 if __name__ == "__main__":
-    import os
     main()
