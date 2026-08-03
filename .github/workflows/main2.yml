@@ -1,8 +1,8 @@
-name: Merge M3U Playlists with EPG
+name: Merge M3U Playlists
 
 on:
   schedule:
-    - cron: '0 */1 * * *'  # Every 1 hour
+    - cron: '0 */6 * * *'  # Every 6 hours
   workflow_dispatch:         # Manual trigger
 
 jobs:
@@ -14,122 +14,65 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Fetch and merge playlists (with separate sections)
+      - name: Fetch and merge playlists (with proper formatting)
         run: |
-          # Create temporary files
+          # Create a temporary file
           TEMP_FILE="combined_temp.m3u"
           FINAL_FILE="combined.m3u"
-          
-          # Start with extended M3U header including EPG URLs
-          cat > "$FINAL_FILE" << 'EOF'
-          #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
-          
-          EOF
 
-          # Define URL groups with their section headers
-          declare -A sections
-          sections["FANCODE"]="https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"
-          sections["SONYLIV"]="https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"
-          sections["WILLOW"]="https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
-          sections["PRIMEVIDEO"]="https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
-          sections["JIO-TV"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv2.m3u"
-          sections["ZEE"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"
-          sections["SONY"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"
-          sections["SUN"]="https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"
+          # List of URLs in the exact order you provided
+          urls=(
+            "https://l3.streamstar18.workers.dev"
+            "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"
+            "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"
+            "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"
+            "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv2.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"
+            "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"
+          )
 
-          # Add main stream
-          echo "#EXTINF:-1 group-title=\"📺 STREAMSTAR\",===== STREAMSTAR CHANNELS =====" >> "$FINAL_FILE"
-          echo "" >> "$FINAL_FILE"
-          curl -s "https://l3.streamstar18.workers.dev" | grep -E "^#EXTINF:" -A1 | grep -v "^--$" >> "$FINAL_FILE" || true
-          echo "" >> "$FINAL_FILE"
+          # First file: keep full content
+          curl -s "${urls[0]}" > "$TEMP_FILE"
 
-          # Process each section
-          for section in "FANCODE" "SONYLIV" "WILLOW" "PRIMEVIDEO" "JIO-TV" "ZEE" "SONY" "SUN"; do
-            url="${sections[$section]}"
-            echo "📥 Fetching: $section from $url"
+          # Loop through remaining URLs
+          for ((i=1; i<${#urls[@]}; i++)); do
+            echo "Fetching: ${urls[i]}"
             
-            # Add section header
-            echo "#EXTINF:-1 group-title=\"📺 $section\",===== $section CHANNELS =====" >> "$FINAL_FILE"
-            echo "" >> "$FINAL_FILE"
+            # Fetch content and skip first line if it's the header
+            content=$(curl -s "${urls[i]}")
             
-            # Fetch content and extract channels
-            content=$(curl -s "$url" || echo "")
-            
-            if [ -n "$content" ]; then
-              # Remove header if present and extract channel entries
-              echo "$content" | grep -E "^#EXTINF:" -A1 | grep -v "^--$" >> "$FINAL_FILE" || true
-              
-              # Count channels in this section
-              count=$(echo "$content" | grep -c "^#EXTINF:" || echo "0")
-              echo "  ✅ Added $count channels from $section"
+            # Check if first line is #EXTM3U header
+            if echo "$content" | head -n1 | grep -q "^#EXTM3U"; then
+              # Skip first line and append
+              echo "$content" | tail -n +2 >> "$TEMP_FILE"
             else
-              echo "  ⚠️ Failed to fetch $section"
+              # Append as-is
+              echo "$content" >> "$TEMP_FILE"
             fi
             
-            # Add separator
-            echo "" >> "$FINAL_FILE"
+            # Add a blank line between playlists for readability
+            echo "" >> "$TEMP_FILE"
           done
 
-          # Clean up: Remove duplicate lines and empty lines
-          sed -i '/^#EXTM3U/d' "$FINAL_FILE"
-          sed -i '/^[[:space:]]*$/d' "$FINAL_FILE"
-          
-          # Ensure EPG header is at the top
-          if ! grep -q "x-tvg-url" "$FINAL_FILE"; then
-            sed -i '1s/^/#EXTM3U x-tvg-url="https:\/\/www.tsepg.cf\/epg.xml.gz|https:\/\/avkb.short.gy\/tsepg.xml.gz"\n/' "$FINAL_FILE"
-          fi
+          # Clean up: Remove duplicate #EXTM3U lines (keep only first)
+          awk '!seen[$0]++ || !/^#EXTM3U/' "$TEMP_FILE" > "$FINAL_FILE"
+
+          # Remove empty lines at the end
+          sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' "$FINAL_FILE"
 
           echo "✅ Merged playlist created: $FINAL_FILE"
           
           # Count channels for verification
           channel_count=$(grep -c "^#EXTINF" "$FINAL_FILE" || echo "0")
           echo "📊 Total channels: $channel_count"
-          
-          # Show file size
-          file_size=$(du -h "$FINAL_FILE" | cut -f1)
-          echo "📁 File size: $file_size"
-          
-          # Debug: Show first few lines
-          echo "📄 First 10 lines of merged file:"
-          head -n 10 "$FINAL_FILE"
 
-      - name: Force update and commit changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Always stage the file
-          git add -f combined.m3u
-          
-          # Check if there are changes to commit
-          if git diff --staged --quiet; then
-            echo "⚠️ No changes detected in the file"
-            echo "🔄 Forcing update by touching the file..."
-            
-            # Force a change by adding a timestamp comment
-            echo "" >> combined.m3u
-            echo "# Updated: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> combined.m3u
-            
-            # Stage again
-            git add -f combined.m3u
-            
-            # Commit with timestamp
-            git commit -m "🔄 Force update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
-          else
-            # Commit changes
-            git commit -m "🤖 Auto-update combined playlist with EPG $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
-          fi
-          
-          # Push changes
-          git push || echo "⚠️ Push failed, but changes are committed locally"
-
-      - name: Create backup with timestamp
-        if: always()
-        run: |
-          cp combined.m3u "combined_$(date +'%Y%m%d_%H%M%S').m3u"
-          git add "combined_*.m3u" 2>/dev/null || true
-          git commit -m "📦 Backup combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No backup to commit"
-          git push || echo "⚠️ Backup push failed"
+          git add combined.m3u
+          git diff --staged --quiet || git commit -m "🤖 Auto-update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push
