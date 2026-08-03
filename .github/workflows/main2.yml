@@ -2,22 +2,25 @@ name: Merge M3U Playlists
 
 on:
   schedule:
-    # Runs every 1 hours – adjust as you like
-    - cron: '0 */1 * * *'
-  workflow_dispatch:   # allows manual trigger from the Actions tab
+    - cron: '0 */1 * * *'  # Every 1 hours
+  workflow_dispatch:         # Manual trigger
 
 jobs:
   merge:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push changes
+      contents: write
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch and merge playlists
+      - name: Fetch and merge playlists (with proper formatting)
         run: |
+          # Create a temporary file
+          TEMP_FILE="combined_temp.m3u"
+          FINAL_FILE="combined.m3u"
+
           # List of URLs in the exact order you provided
           urls=(
             "https://l3.streamstar18.workers.dev"
@@ -31,20 +34,45 @@ jobs:
             "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"
           )
 
-          # First file: keep full content (including #EXTM3U header)
-          curl -s "${urls[0]}" > combined.m3u
+          # First file: keep full content
+          curl -s "${urls[0]}" > "$TEMP_FILE"
 
-          # Subsequent files: skip the first line (the header) and append
+          # Loop through remaining URLs
           for ((i=1; i<${#urls[@]}; i++)); do
-            curl -s "${urls[i]}" | tail -n +2 >> combined.m3u
+            echo "Fetching: ${urls[i]}"
+            
+            # Fetch content and skip first line if it's the header
+            content=$(curl -s "${urls[i]}")
+            
+            # Check if first line is #EXTM3U header
+            if echo "$content" | head -n1 | grep -q "^#EXTM3U"; then
+              # Skip first line and append
+              echo "$content" | tail -n +2 >> "$TEMP_FILE"
+            else
+              # Append as-is
+              echo "$content" >> "$TEMP_FILE"
+            fi
+            
+            # Add a blank line between playlists for readability
+            echo "" >> "$TEMP_FILE"
           done
 
-          echo "✅ Merged playlist created: combined.m3u"
+          # Clean up: Remove duplicate #EXTM3U lines (keep only first)
+          awk '!seen[$0]++ || !/^#EXTM3U/' "$TEMP_FILE" > "$FINAL_FILE"
 
-      - name: Commit and push if changed
+          # Remove empty lines at the end
+          sed -i -e :a -e '/^\n*$/{$d;N;ba' -e '}' "$FINAL_FILE"
+
+          echo "✅ Merged playlist created: $FINAL_FILE"
+          
+          # Count channels for verification
+          channel_count=$(grep -c "^#EXTINF" "$FINAL_FILE" || echo "0")
+          echo "📊 Total channels: $channel_count"
+
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add combined.m3u
-          git diff --staged --quiet || git commit -m "Auto-update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git diff --staged --quiet || git commit -m "🤖 Auto-update combined playlist $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
