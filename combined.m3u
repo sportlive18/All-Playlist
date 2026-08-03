@@ -1,12 +1,12 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
 
-#EXTINF:-1 group-title="📺 LIVE EVENT",===== 📺 LIVE EVENT CHANNELS (47) =====
+#EXTINF:-1 group-title="📺 STREAMSTAR",===== 📺 STREAMSTAR CHANNELS (47) =====
 
-#EXTINF:-1 group-title="Cricket" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Asian Legends League T20 : TAPMAD - AQ
+#EXTINF:-1 group-title="Cricket" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Asian Legends League T20 : TAPMAD - AQ
 https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com
 
-#EXTINF:-1 group-title="Cricket" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Asian Legends League T20 : FANCODE - IN
-https://dai-fancode.pages.dev/mumbai/4248197_english_hls_f9620bce7b28629_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#EXTINF:-1 group-title="Cricket" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Asian Legends League T20 : FANCODE - IN
+https://dai-fancode.pages.dev/mumbai/4248196_english_hls_474e9b2ae850769_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 group-title="Cricket" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",The Hundred Women : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -170,7 +170,10 @@ http://193.47.62.41/hls/AWAWAW.m3u8?|Referer=http://www.fawanews.sc/&Origin=http
 #EXTINF:-1 group-title="Boxing" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Smack Down : ALT SERVER
 https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 
-#EXTINF:-1 group-title="🏏 FANCODE",===== 🏏 FANCODE CHANNELS (0) =====
+#EXTINF:-1 group-title="🏏 FANCODE",===== 🏏 FANCODE CHANNELS (1) =====
+
+#EXTINF:-1 tvg-id="4248196" tvg-name="Afghanistan Pathans Vs Bangladesh Tigers" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248196_53019_AFP_BAT_fc-web.jpg" tvg-language="English" group-title="Cricket",ENG | Afghanistan Pathans Vs Bangladesh Tigers
+https://dai-fancode.pages.dev/mumbai/4248196_english_hls_474e9b2ae850769_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 group-title="📺 SONYLIV",===== 📺 SONYLIV CHANNELS (0) =====
 
@@ -183,7 +186,9 @@ https://ubuntu.fromthyheart.site/dailymotion/live/playlist/5.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
-https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
+
+#EXTINF:-1 group-title="🏏 AXSPORTS",===== 🏏 AXSPORTS CHANNELS (0) =====
 
 #EXTINF:-1 group-title="📡 JIO-TV",===== 📡 JIO-TV CHANNELS (851) =====
 
