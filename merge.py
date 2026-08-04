@@ -6,7 +6,7 @@ from datetime import datetime
 
 # ------------------ CONFIGURATION ------------------
 PLAYLISTS = [
-    {"name": "Live Events", "icon": "📺", "url": "https://l3.streamstar18.workers.dev"},          # renamed
+    {"name": "Live Events", "icon": "📺", "url": "https://l3.streamstar18.workers.dev"},
     {"name": "FANCODE", "icon": "🏏", "url": "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"},
     {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
     {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
@@ -16,30 +16,27 @@ PLAYLISTS = [
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
-    {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},  # NEW: Hotstar
+    {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},
+    {"name": "Sports Special", "icon": "🏟️", "url": "https://pasteking.u0k.workers.dev/kfyak.m3u8"},  # NEW
 ]
 
 OUTPUT_FILE = "combined.m3u"
 EPG_URL = "https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
-# For these playlist names, all channels will be placed in the given category.
 SOURCE_CATEGORY_OVERRIDE = {
-    "Live Events": "Live Events",   # all channels from streamstar go here
+    "Live Events": "Live Events",
     "FANCODE":     "Fancode",
     "SONYLIV":     "SonyLIV",
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
     "AXSPORTS":    "AXS",
-    "HOTSTAR":     "Hotstar",       # NEW: Hotstar override
+    "HOTSTAR":     "Hotstar",
+    "Sports Special": "Sports Special",   # NEW override
 }
-# These sources will use keyword-based categorization (below)
-# JIO-TV, ZEE, SONY, SUN
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
-# Used for sources NOT in the override list.
 CATEGORY_MAP = {
-    # Regional languages
     "Assamese":   ["assamese", "asomiya"],
     "Bengali":    ["bengali", "bangla", "bn"],
     "Bhojpuri":   ["bhojpuri", "bho"],
@@ -55,7 +52,6 @@ CATEGORY_MAP = {
     "Urdu":       ["urdu"],
     "English":    ["english", "en"],
     "French":     ["french", "fr"],
-    # Broadcast networks
     "Sun":        ["sun tv", "surya", "sun music", "sun news", "sun action", "sun life"],
     "Zee":        ["zee", "zee tv", "zee cinema", "zee news", "zee marathi", "zee bangla"],
     "Sony":       ["sony", "set", "sab", "sony liv", "sony max"],
@@ -65,7 +61,6 @@ CATEGORY_MAP = {
     "Nat Geo":    ["nat geo", "national geographic"],
     "Cartoon":    ["cartoon", "cn", "pogo", "nick"],
     "News":       ["news", "ndtv", "republic", "times now", "cnn", "bbc"],
-    # Sports & other genres
     "Cricket":    ["cricket"],
     "Football":   ["football", "soccer"],
     "Boxing":     ["boxing"],
@@ -79,16 +74,15 @@ CATEGORY_MAP = {
 DEFAULT_CATEGORY = "Other"
 
 # ------------------ CATEGORY ORDER (first = top) ------------------
-# Sports networks first, then all others alphabetically.
-# We'll sort categories: first those in this list (in order), then the rest alphabetically.
 CATEGORY_ORDER = [
+    "Sports Special",   # NEW – placed at the very top
     "Live Events",
     "Fancode",
     "SonyLIV",
     "Willow",
     "Prime Video",
     "AXS",
-    "Hotstar",  # NEW: Hotstar added to category order
+    "Hotstar",
 ]
 
 # ------------------ HELPERS ------------------
@@ -108,7 +102,6 @@ def clean_line(line):
     return line.strip()
 
 def extract_channel_blocks(lines):
-    """Yield each channel as a list of lines (including #EXTINF, KODIPROP, URL, etc.)"""
     block = []
     for line in lines:
         line = clean_line(line)
@@ -124,7 +117,6 @@ def extract_channel_blocks(lines):
         yield block
 
 def get_channel_title(block):
-    """Extract the channel title from the #EXTINF line"""
     for line in block:
         if line.startswith('#EXTINF'):
             parts = line.rsplit(',', 1)
@@ -133,7 +125,6 @@ def get_channel_title(block):
     return None
 
 def categorize_channel(title):
-    """Determine category based on channel title using keywords (case‑insensitive)"""
     if not title:
         return DEFAULT_CATEGORY
     title_lower = title.lower()
@@ -144,18 +135,12 @@ def categorize_channel(title):
     return DEFAULT_CATEGORY
 
 def fix_channel_block(block, category):
-    """
-    Rewrite a channel block: ensure #EXTINF has group-title="category".
-    Preserve all other tags.
-    """
     new_block = []
     for line in block:
         if line.startswith('#EXTINF'):
-            # If group-title already exists, replace it; otherwise insert
             if 'group-title=' in line:
                 line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
             else:
-                # Insert group-title after the #EXTINF tag and before any attributes
                 line = re.sub(r'(#EXTINF:[^,]+)', r'\1 group-title="' + category + '"', line)
             new_block.append(line)
         else:
@@ -167,7 +152,7 @@ def main():
     print("🚀 Starting playlist merge with category grouping...")
     print("=" * 50)
 
-    all_channels = []  # each entry: (category, block)
+    all_channels = []
 
     for playlist in PLAYLISTS:
         name = playlist["name"]
@@ -178,7 +163,6 @@ def main():
         if not lines:
             continue
 
-        # Determine if we override category for this source
         override_cat = SOURCE_CATEGORY_OVERRIDE.get(name)
 
         for block in extract_channel_blocks(lines):
@@ -189,12 +173,10 @@ def main():
                 category = categorize_channel(title)
             all_channels.append((category, block))
 
-    # Group by category
     groups = {}
     for cat, block in all_channels:
         groups.setdefault(cat, []).append(block)
 
-    # Sort categories: first those in CATEGORY_ORDER (preserving order), then rest alphabetically
     ordered_cats = []
     for cat in CATEGORY_ORDER:
         if cat in groups:
@@ -202,7 +184,6 @@ def main():
     remaining = sorted([cat for cat in groups.keys() if cat not in CATEGORY_ORDER])
     ordered_cats.extend(remaining)
 
-    # Build final playlist
     out_lines = [f'#EXTM3U x-tvg-url="{EPG_URL}"', '']
 
     total = 0
@@ -210,15 +191,13 @@ def main():
         blocks = groups[cat]
         count = len(blocks)
         total += count
-        # Section header (comment line)
         out_lines.append(f'#EXTINF:-1 group-title="{cat}",===== {cat} ({count}) =====')
         out_lines.append('')
         for block in blocks:
             fixed = fix_channel_block(block, cat)
             out_lines.extend(fixed)
-            out_lines.append('')  # blank line after each channel
+            out_lines.append('')
 
-    # Write output
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(out_lines))
