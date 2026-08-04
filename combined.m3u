@@ -1,7 +1,5 @@
-#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
-
-#EXTINF:-1 group-title="Sports Special",===== Sports Special (12) =====
-
+#EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
+#===== Sports Special (12 channels) =====
 #EXTINF:-tvg-logo="https://i.postimg.cc/Kv465DkN/Star2Digital.png" group-title="Sports Special",
 https://shotner.u0k.workers.dev/StarSports2HD.m3u8
 
@@ -38,10 +36,15 @@ https://shotner.u0k.workers.dev/TntSport3.m3u8
 #EXTINF:-tvg-logo="https://i.postimg.cc/7L3LhR53/TntSports4.png" group-title="Sports Special",
 https://shotner.u0k.workers.dev/TntSport4.m3u8
 
-#EXTINF:-1 group-title="Live Events",===== Live Events (73) =====
-
+#===== Live Events (74 channels) =====
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Myanmar vs Laos : LOW SERVER
 http://193.47.62.190/hls/IOOO.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Jeju SK vs FC Bayern Munchen : HD SERVER
+https://live2.streambylivepulse.com/live/channel16.m3u8|Referer=https://soco.livebytexscorez.com/
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Jeju SK vs FC Bayern Munchen : LOW SERVER
+http://193.47.62.190/hls/IOOOA.m3u8|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -113,9 +116,6 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh :
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Jeju SK vs FC Bayern Munchen :
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",BG Pathum United vs Aston Villa :
@@ -301,8 +301,7 @@ https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9
 https://dice-live-oc.akamaized.net/hdntl=exp=1784350679~acl=*dash%2flive%2f2093757%2f219028-322691%2f*!*dash%2flive%2f2093757-b%2f219028-322691-b%2f*!%2fv1%2fdashsegment%2f*~id=4ff44426-fabf-4f41-ba17-eda2146d0977~data=hdntl,dWlkPWY3RVJaWnwxNjg2YzEwNC04MTc3LTQ1OGItOWEyYi00YjA2MTE1MmI0MDEmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODQzNTA3MDcmZWlkPTIxOTAyOCZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=ed93423a4fb6b9fe39117bce7ae6b26e1aeb13d6d609b4b47b15516119e52f16/dash/live/2093757/219028-322691/manifest-d.mpd|User-Agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0
 
-#EXTINF:-1 group-title="Fancode",===== Fancode (2) =====
-
+#===== Fancode (2 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
 #DATE:- Tuesday, 4 August 2026 at 1:35:24 pm
@@ -310,15 +309,13 @@ https://dice-live-oc.akamaized.net/hdntl=exp=1784350679~acl=*dash%2flive%2f20937
 #EXTINF:-1 tvg-id="4247970" tvg-name="New Delhi Tigers Vs Outer Delhi Warriors" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg" tvg-language="English" group-title="Fancode",ENG | New Delhi Tigers Vs Outer Delhi Warriors
 https://dai-fancode.pages.dev/mumbai/4247970_english_hls_96c0e7798b23998_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 group-title="SonyLIV",===== SonyLIV (1) =====
-
+#===== SonyLIV (1 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021747/1785705117549385_DC26_Jamshedpur_FC_vs_SC_DELHI_landscape_thumb.jpg" group-title="SonyLIV", Jamshedpur FC vs SC Delhi - 4 Aug 2026 [ENG] - IndianOil Durand Cup 2026
-https://sonydaimenew.akamaized.net/hls/live/20000292/Jamshedp0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785884174~acl=/*~id=49555707923136121918783119665389~hmac=2060077d15c626fa162bf4c073f9d0a951b55573582edf7157e6888f61cb2859
+https://sonydaimenew.akamaized.net/hls/live/20000292/Jamshedp0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785884780~acl=/*~id=04611056689766018383441569199627~hmac=a381b4978696e3062181806c21d7f8fa2226db7dd3db3dbc6064a58cbbd1d2d5
 
-#EXTINF:-1 group-title="Willow",===== Willow (2) =====
-
+#===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:04:32 PM 04-08-2026
+#LAST_UPDATE:05:02 PM 04-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -329,82 +326,78 @@ https://sonydaimenew.akamaized.net/hls/live/20000292/Jamshedp0408/ENG/std_lrh-80
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=42a061037f88f2da0fa2b19a1dc20f09:1266d343d125eeed4d099b33f8233dc6
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/upo1nkr2nj/out/v1/fb387702540a42a1865d9934c72e6f2b/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/upo1nkr2nj/out/v1/fb387702540a42a1865d9934c72e6f2b/cenc.mpd
 
-#EXTINF:-1 group-title="Prime Video",===== Prime Video (4) =====
-
+#===== Prime Video (4 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:04:32 PM 04-08-2026
+#LAST_UPDATE:05:02 PM 04-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:4
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0H9ZCSKX8" tvg-name="Chennai Falcons vs. Mumbai Grizzlies" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ac1ab59b-62df-4128-9eeb-38e00cc8ca72/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Chennai Falcons vs. Mumbai Grizzlies
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H87D16H1" tvg-name="2026 Predator Pro Billiard Series: Rome" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9c47ee75-3c56-4b0f-b08b-61c2e4d673a5/20/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",2026 Predator Pro Billiard Series: Rome
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd
+https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0GXD8TLC7" tvg-name="Phygital Football, Group Stage" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.81743fb0-4571-43c3-8e53-1b84fd302dcb/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Phygital Football, Group Stage
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
 
-#EXTINF:-1 group-title="AXS",===== AXS (3) =====
+#EXTINF:-1 tvg-id="B0H9ZCSKX8" tvg-name="Chennai Falcons vs. Mumbai Grizzlies" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ac1ab59b-62df-4128-9eeb-38e00cc8ca72/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Chennai Falcons vs. Mumbai Grizzlies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
+#===== AXS (3 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 4:47:25 PM 04-08-2026
+#last update time: 5:02:27 PM 04-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Myanmar%20vs%20Laos.jpg" group-title="AXS", Myanmar vs Laos - ASEAN Championship
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a51101bf59507a97ae22197/chunks.m3u8?is_vip=false&token=1785926846-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-306d628147a74a2a7e59eba0677f026b
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a51101bf59507a97ae22197/chunks.m3u8?is_vip=false&token=1785927749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3ccce28159e83e160f2a64444658f8b5
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ES2%2C%20Tour%20of%20Poland%2C%20Stage%202.jpg" group-title="AXS", ES2, Tour of Poland, Stage 2 - UCI World Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1785926848-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ae441447548330a81113fa54a16f00b5
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1785927751-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-44f02df163048bd4dd9c6856e8081957
 
-#EXTINF:-1 group-title="Hotstar",===== Hotstar (4) =====
-
+#===== Hotstar (4 channels) =====
 # Playlist generated by Hotstar Extractor
 # Playlist Created By @rtxcric
 # Mode: NORMAL FHD 30 MINUTES AUTO-UPDATE
-# Generated: 2026-08-04 04:24:17 PM
+# Generated: 2026-08-04 04:38:28 PM
 
-#EXTINF:-1 tvg-id="946851058" tvg-name="Barak Legends vs Guwahati Royals HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3619/1785755403619-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842657~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.06.19.3-ut=paid-ttl=1800-type=paid-raf=1785841457-~hmac=337f4058b5839365ff73c7a669f49af8ebb5f2a5b07406b2b7c5ac7fb74379d6"}
+#EXTINF:-1 tvg-id="6059017026" tvg-name="Barak Legends vs Guwahati Royals HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3619/1785755403619-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785843472~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=26.06.09.1-ut=paid-ttl=1800-type=paid-raf=1785842272-~hmac=762644049662e58c03158320a4e21bba0621a6a4bb974731a18ffc7bc234647d"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live14p.hotstar.com/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842657~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.06.19.3-ut=paid-ttl=1800-type=paid-raf=1785841457-~hmac=337f4058b5839365ff73c7a669f49af8ebb5f2a5b07406b2b7c5ac7fb74379d6
+https://live14p.hotstar.com/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap.m3u8?a=ns&hdnea=exp=1785843472~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=26.06.09.1-ut=paid-ttl=1800-type=paid-raf=1785842272-~hmac=762644049662e58c03158320a4e21bba0621a6a4bb974731a18ffc7bc234647d
 
-#EXTINF:-1 tvg-id="8833527478" tvg-name="Global e-Cricket Premier League 2026: Day 4 HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/48/1785823160048-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842654~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=26.01.21.8-ut=paid-ttl=1800-type=paid-raf=1785841454-~hmac=1a9e59fae8c9eb891f667d4cfd9a0f82a004749f8b3d95495ac2b66f95cbf0ad"}
+#EXTINF:-1 tvg-id="5589545117" tvg-name="Global e-Cricket Premier League 2026: Day 4 HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/48/1785823160048-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785843508~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=24.05.23.5-ut=paid-ttl=1800-type=paid-raf=1785842308-~hmac=0f0c6fcc1d8b22566213f70dbc3389cc6f2b24c3305994a0acca8adbc76a5bca"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live14p.hotstar.com/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842654~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=26.01.21.8-ut=paid-ttl=1800-type=paid-raf=1785841454-~hmac=1a9e59fae8c9eb891f667d4cfd9a0f82a004749f8b3d95495ac2b66f95cbf0ad
+https://live14p.hotstar.com/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap.m3u8?a=ns&hdnea=exp=1785843508~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=24.05.23.5-ut=paid-ttl=1800-type=paid-raf=1785842308-~hmac=0f0c6fcc1d8b22566213f70dbc3389cc6f2b24c3305994a0acca8adbc76a5bca
 
-#EXTINF:-1 tvg-id="8685902623" tvg-name="New Delhi Tigers vs Outer Delhi Warriors HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2689/1785754962689-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842655~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.04.20.0-ut=paid-ttl=1800-type=paid-raf=1785841455-~hmac=885fe82149e3f91d0cb4b74452816c1a531c36475d34a032546647248274a1c7"}
+#EXTINF:-1 tvg-id="2270666510" tvg-name="New Delhi Tigers vs Outer Delhi Warriors HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2689/1785754962689-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785843486~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=25.12.17.7-ut=paid-ttl=1800-type=paid-raf=1785842286-~hmac=7589477267b4b436bc7d7e6db2cc52873916087108003ad5ce4e981368f4fa79"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live14p.hotstar.com/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842655~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.04.20.0-ut=paid-ttl=1800-type=paid-raf=1785841455-~hmac=885fe82149e3f91d0cb4b74452816c1a531c36475d34a032546647248274a1c7
+https://live14p.hotstar.com/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap.m3u8?a=ns&hdnea=exp=1785843486~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=Logr4uTYYFJfpZ2tHEod9fdtoVxIw3PN4c0IenpGpgZs-did=BOk3RQw9pLu6Tp41ZgB7SQQXa6TIWi6ggPzr42g4r20K-cc=in-de=7-pl=androidtv-ap=25.12.17.7-ut=paid-ttl=1800-type=paid-raf=1785842286-~hmac=7589477267b4b436bc7d7e6db2cc52873916087108003ad5ce4e981368f4fa79
 
-#EXTINF:-1 group-title="Bengali",===== Bengali (33) =====
-
+#===== Bengali (33 channels) =====
 #EXTINF:-1 tvg-id="573" tvg-name="Discovery Bengali" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" group-title="Bengali",Discovery Bengali
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -581,8 +574,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeebanglacinema&
 #KODIPROP:inputstream.adaptive.license_key=01f7b9f7bf7e425f86d6dfd478390e3f:5fde68100a7856d055038236ffc7c84a
 https://livestream7.sunnxt.com/bf76ee92dd01473bb2eb57d137294484/SunBanglaB_IN_index.mpd
 
-#EXTINF:-1 group-title="Bhojpuri",===== Bhojpuri (4) =====
-
+#===== Bhojpuri (4 channels) =====
 #EXTINF:-1 tvg-id="741" tvg-name="Sangeet Bhojpuri" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sangeet_Bhojpuri.png" group-title="Bhojpuri",Sangeet Bhojpuri
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -607,8 +599,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bhojpuri_Junction_MOB/WDVLive/index.mpd|U
 #KODIPROP:inputstream.adaptive.license_key=cff5580392c052a78302a940e350b02b:c4983c9e5cb98a14973664d0791a15bb
 https://jiotvmblive.cdn.jio.com/bpk-tv/Filamchi_Bhojpuri_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Business",===== Business (3) =====
-
+#===== Business (3 channels) =====
 #EXTINF:-1 tvg-id="3154" tvg-name="Bloomberg Originals" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Business",Bloomberg Originals
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -624,8 +615,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bloomberg_TV_MOB/WDVLive/index.mpd|User-A
 #EXTINF:-1 tvg-id="3346" tvg-name="Yahoo Finance" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Yahoo_Finance.png" group-title="Business",Yahoo Finance
 https://jiotvmblive.cdn.jio.com/bpk-tv/Yahoo_Finance/HLSPartner/index.m3u8|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Cartoon",===== Cartoon (19) =====
-
+#===== Cartoon (19 channels) =====
 #EXTINF:-1 tvg-id="143" tvg-name="CNBC TV18 Prime" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNBCTV18Prime.png" group-title="Cartoon",CNBC TV18 Prime
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -722,8 +712,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/zbcatun/HLSPartner/index.m3u8|User-Agent=
 #KODIPROP:inputstream.adaptive.license_key=6d03062a210e5ca5bebe18295a7ed53f:2d5145403548d142cbe2a5f1e25b0d1f
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDHindi_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Colors",===== Colors (11) =====
-
+#===== Colors (11 channels) =====
 #EXTINF:-1 tvg-id="144" tvg-name="Colors HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsHD.png" group-title="Colors",Colors HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -788,8 +777,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsCineplexHD_MOB/WDVLive/index.mpd|Us
 #KODIPROP:inputstream.adaptive.license_key=ad4dfcf1265153978f8d62e9bc6f8482:9f711591ae7d1a5e3e93f27e509a47f5
 https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsCineplexBollywood_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Devotional",===== Devotional (9) =====
-
+#===== Devotional (9 channels) =====
 #EXTINF:-1 tvg-id="776" tvg-name="Bhakti TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Bhakti_TV.png" group-title="Devotional",Bhakti TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -841,8 +829,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Godlywood_Studios_MOB/WDVLive/index.mpd|U
 #KODIPROP:inputstream.adaptive.license_key=627f38802a855645be61c238d9b57eb8:4c1b56a5ae6f92281f5fbf8b2306e7dc
 https://jiotvmblive.cdn.jio.com/bpk-tv/ManasBhakti_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Discovery",===== Discovery (6) =====
-
+#===== Discovery (6 channels) =====
 #EXTINF:-1 tvg-id="527" tvg-name="Investigation Discovery Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/IDHindi.png" group-title="Discovery",Investigation Discovery Hindi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -879,8 +866,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/IDHDHindi_MOB/WDVLive/index.mpd|User-Agen
 #KODIPROP:inputstream.adaptive.license_key=cec7a51dedca5c10b6de7502d7bf0322:808231afe4b919a46e0fed39c8d95f63
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDHin_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="English",===== English (24) =====
-
+#===== English (24 channels) =====
 #EXTINF:-1 tvg-id="242" tvg-name="Discovery English" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Eng.png" group-title="English",Discovery English
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -1015,8 +1001,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryScienceHin_MOB/WDVLive/index.mpd
 #EXTINF:-1 tvg-id="3467" tvg-name="Green Gold TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/greengold.png" group-title="English",Green Gold TV
 https://jiotvmblive.cdn.jio.com/bpk-tv/greengold/HLSPartner/index.m3u8|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Entertainment",===== Entertainment (193) =====
-
+#===== Entertainment (193 channels) =====
 #EXTINF:-1 tvg-id="146" tvg-name="History TV18 HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/History_HD.png" group-title="Entertainment",History TV18 HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2063,16 +2048,14 @@ https://livestream.sunnxt.com/3ed29d5b01b546eaa05d184cd87535f1/ChuttiTVB_IN_inde
 #KODIPROP:inputstream.adaptive.license_key=19d8a5cc002f411b89b33925acdc33e0:2a9aa7a3f69834c4f348430cc3f658bb
 https://livestream.sunnxt.com/ed4c67ad957644b69361651d9101107e/ChintuTVB_IN_index.mpd
 
-#EXTINF:-1 group-title="French",===== French (1) =====
-
+#===== French (1 channels) =====
 #EXTINF:-1 tvg-id="838" tvg-name="France 24" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/France_24.png" group-title="French",France 24
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c342f2b40d245cad8db85452db6def95:9e36dd126480fd860bd5637c2876e920
 https://jiotvmblive.cdn.jio.com/bpk-tv/France_24_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Gujarati",===== Gujarati (34) =====
-
+#===== Gujarati (34 channels) =====
 #EXTINF:-1 tvg-id="196" tvg-name="Colors Gujarati" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsGujarati.png" group-title="Gujarati",Colors Gujarati
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2264,21 +2247,18 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/BHP_News_Gujarat_MOB/WDVLive/index.mpd|Us
 https://aasthaott.akamaized.net/110923/smil:aasthagujrati.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 group-title="Haryanvi",===== Haryanvi (1) =====
-
+#===== Haryanvi (1 channels) =====
 #EXTINF:-1 tvg-id="2751" tvg-name="Saga Music Haryanvi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music_Haryanvi.png" group-title="Haryanvi",Saga Music Haryanvi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=42ecabde93eb533b9a58f9eeeccb8c59:fe53fe064de89581cdcf8b65800f2ab6
 https://jiotvmblive.cdn.jio.com/bpk-tv/Saga_Music_Haryanvi_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Infotainment",===== Infotainment (1) =====
-
+#===== Infotainment (1 channels) =====
 #EXTINF:-1 tvg-id="2124" tvg-name="History HD NW18" tvg-logo="" group-title="Infotainment",History HD NW18
 https://nw18live.cdn.jio.com/bpk-tv/History_HD_NW18_MOB/output01/index.m3u8|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Kannada",===== Kannada (34) =====
-
+#===== Kannada (34 channels) =====
 #EXTINF:-1 tvg-id="651" tvg-name="Raj News Kannada" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Kannada.png" group-title="Kannada",Raj News Kannada
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2466,8 +2446,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeekannada&u=Str
 https://aasthaott.akamaized.net/110923/smil:aasthakannada.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 group-title="Malayalam",===== Malayalam (13) =====
-
+#===== Malayalam (13 channels) =====
 #EXTINF:-1 tvg-id="650" tvg-name="Raj News Malayalam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Malayalam.png" group-title="Malayalam",Raj News Malayalam
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://jiotvmblive.cdn.jio.com/bpk-tv/Raj_News_Malayalam_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
@@ -2544,8 +2523,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsMal_MOB/WDVLive/index.mpd|Us
 #KODIPROP:inputstream.adaptive.license_key=5fd3f72fce025c14baa7be29e6fac996:ce23a4907a071c4296b4f89e5c7bfc22
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMalayalam_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Marathi",===== Marathi (28) =====
-
+#===== Marathi (28 channels) =====
 #EXTINF:-1 tvg-id="232" tvg-name="News18 Marathi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News18Lokmat.png" group-title="Marathi",News18 Marathi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2697,8 +2675,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=marathi&u=Stream-sta
 #KODIPROP:inputstream.adaptive.license_key=5ea90a1f3b1e4a0a9b72c8e0f4a9bf31:30899fda5ca4dfb5a4535ce10c4d7341
 https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_index.mpd
 
-#EXTINF:-1 group-title="Nat Geo",===== Nat Geo (2) =====
-
+#===== Nat Geo (2 channels) =====
 #EXTINF:-1 tvg-id="1332" tvg-name="Nat Geo Wild HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png" group-title="Nat Geo",Nat Geo Wild HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -2711,8 +2688,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|Use
 #KODIPROP:inputstream.adaptive.license_key=4b006dd7965e5777a7fa33dd636c2e5d:179f796bdf11b750bebd469a3aeae1d0
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785822046~exp=1785843646~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=86b71c2aa032b1829d2745676aba7c8de879dffecc00be7c3bddcc68ae54fa90
 
-#EXTINF:-1 group-title="News",===== News (159) =====
-
+#===== News (159 channels) =====
 #EXTINF:-1 tvg-id="177" tvg-name="ABP News India" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png" group-title="News",ABP News India
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3537,8 +3513,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-255&u=Stream-sta
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-261&u=Stream-star
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 group-title="Odia",===== Odia (3) =====
-
+#===== Odia (3 channels) =====
 #EXTINF:-1 tvg-id="696" tvg-name="News18 Odia" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News18odia.png" group-title="Odia",News18 Odia
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3554,8 +3529,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd|User-Agent
 #EXTINF:-1 tvg-id="1510" tvg-name="News18 Odia." tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News18_Odia_NW18.png" group-title="Odia",News18 Odia.
 https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Other",===== Other (385) =====
-
+#===== Other (385 channels) =====
 #EXTINF:-1 tvg-id="164" tvg-name="Travelxp HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="Other",Travelxp HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5646,8 +5620,7 @@ https://livestream.sunnxt.com/a4b4f71a8b4344f3a280e906657a517a/GeminiLifeB_IN_in
 #KODIPROP:inputstream.adaptive.license_key=7354fb333b0c4159bc6c433c4db13d0f:fbf8b4a11febf7d2eed2283006979176
 https://livestream.sunnxt.com/1893b9ab790747cb80a584873a608dcb/KochuTVB_IN_index.mpd
 
-#EXTINF:-1 group-title="Punjabi",===== Punjabi (24) =====
-
+#===== Punjabi (24 channels) =====
 #EXTINF:-1 tvg-id="474" tvg-name="Sony Pal" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPAL.png" group-title="Punjabi",Sony Pal
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPAL_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
@@ -5778,8 +5751,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-215&u=Stream-sta
 https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=pal&u=Stream-star
 #EXTVLCOPT:http-user-agent=Sayan10
 
-#EXTINF:-1 group-title="Sony",===== Sony (27) =====
-
+#===== Sony (27 channels) =====
 #EXTINF:-1 tvg-id="291" tvg-name="SET HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Sony",SET HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_HD_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
@@ -5917,8 +5889,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=pixhd&u=Stream-star
 #EXTINF:-1 tvg-id="sony-aath" group-title="Sony" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png",Sony Aath
 https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=aath&u=Stream-star
 
-#EXTINF:-1 group-title="Sun",===== Sun (21) =====
-
+#===== Sun (21 channels) =====
 #EXTINF:-1 tvg-id="676" tvg-name="Sun News" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_News.png" group-title="Sun",Sun News
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -6033,8 +6004,7 @@ https://livestream.sunnxt.com/8c2352ff54954e7b9a4188045dcf3b27/SuryaMusicB_IN_in
 #KODIPROP:inputstream.adaptive.license_key=11563b00a46b43f2a0f80ecf42a4fb77:9bad28ad6f23dbb917c63ee680f66a1f
 https://livestream.sunnxt.com/6505e922bf164423ad122f404747356a/SuryaComedyB_IN_index.mpd
 
-#EXTINF:-1 group-title="Tamil",===== Tamil (141) =====
-
+#===== Tamil (141 channels) =====
 #EXTINF:-1 tvg-id="153" tvg-name="Zee Talkies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeTalkies.png" group-title="Tamil",Zee Talkies
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -6819,8 +6789,7 @@ https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
 https://t.me/streamstartv
 #EXTVLCOPT:http-user-agent=Sayan10
 
-#EXTINF:-1 group-title="Telugu",===== Telugu (66) =====
-
+#===== Telugu (66 channels) =====
 #EXTINF:-1 tvg-id="166" tvg-name="Cartoon Network Telugu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNTelugu.png" group-title="Telugu",Cartoon Network Telugu
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7162,8 +7131,7 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten5&u=Stream-star
 https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten5hd&u=Stream-star
 #EXTVLCOPT:http-user-agent=Sayan10
 
-#EXTINF:-1 group-title="Urdu",===== Urdu (3) =====
-
+#===== Urdu (3 channels) =====
 #EXTINF:-1 tvg-id="712" tvg-name="DD urdu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_urdu.png" group-title="Urdu",DD urdu
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7179,8 +7147,7 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Urdu_NW18_MOB/output01/index.m3u8|Use
 #KODIPROP:inputstream.adaptive.license_key=d890594d12db5c1bbf07f414030d83af:8941f4621ee53e267d953cf524414b14
 https://jiotvmblive.cdn.jio.com/bpk-tv/Voice_TV_Urdu_MOB/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785823242~exp=1785844842~acl=/*~hmac=6884743ce5da6c2c2febed664ef538aca01a47827d105c08f10b494ddef5a2c2
 
-#EXTINF:-1 group-title="Zee",===== Zee (57) =====
-
+#===== Zee (57 channels) =====
 #EXTINF:-1 tvg-id="165" tvg-name="Zee Cinema HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinemaHD.png" group-title="Zee",Zee Cinema HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
