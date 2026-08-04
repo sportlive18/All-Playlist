@@ -17,7 +17,7 @@ PLAYLISTS = [
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
     {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},
-    {"name": "Sports Special", "icon": "🏟️", "url": "https://pasteking.u0k.workers.dev/kfyak.m3u8"},  # NEW
+    {"name": "Sports Special", "icon": "🏟️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sports.m3u"},  # NEW
 ]
 
 OUTPUT_FILE = "combined.m3u"
