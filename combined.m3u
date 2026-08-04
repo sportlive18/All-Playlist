@@ -228,7 +228,7 @@ https:///jiotvpllive.cdn.jio.com/bpk-tv/Star_Jalsha_BTS/WDVLive/index.mpd|User-A
 #KODIPROP:inputstream.adaptive.license_key=e860f0d6577258b2b264d4bb2ecbfd4a:fd55bcc08db185b0a573a93e24fab8f6
 https:///jiotvmblive.cdn.jio.com/bpk-tv/Jalsha_Movies_MOB/WDVLive/index.mpd|User-Agent=Sayan10&Cookie=__hdnea__=st=1785864914~exp=1785886514~acl=/*~hmac=0a26f88b39705a8f215f2365451260401dd566d90fe0e186bba062116dccb6ea
 
-#===== Live Events (74 channels) =====
+#===== Live Events (72 channels) =====
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",West Indies vs Pakistan : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -276,12 +276,6 @@ https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18-HMEN/master.m3u8?hdnea
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sunrisers Leeds vs London Spirit : LOW SERVER
 http://193.47.62.190/hls/NNNNAAAA.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Al-Nassr vs Almeria : NetXplayer LIVE
-https://live2.streambylivepulse.com/live/channel20.m3u8|Referer=https://soco.livepingscorex.com
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Al-Nassr vs Almeria : LOW SERVER
-http://193.47.62.190/hls/IOOO.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Newport County vs AS Roma : LOW SERVER
 http://193.47.62.194/hls/NNNN.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
@@ -533,7 +527,7 @@ https://dai-fancode.pages.dev/mumbai/4248069_english_hls_1f03754f4d12088_1ta-di_
 
 #===== Willow (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:12:32 AM 05-08-2026
+#LAST_UPDATE:01:02 AM 05-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
@@ -544,18 +538,18 @@ https://dai-fancode.pages.dev/mumbai/4248069_english_hls_1f03754f4d12088_1ta-di_
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ae4d308848c3fa0e2f6e9e57cae1bffb:12fdaa10a7f4dd536e9c121dc08a72b3
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rppouzsbk7/out/v1/f51c2e9845e24c8c959e0725614aaf61/cenc.mpd
+https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/rppouzsbk7/out/v1/f51c2e9845e24c8c959e0725614aaf61/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H8N5898K" tvg-name="The Hundred Mens Competition 2026 - 20th Match - Sunrisers Leeds vs London Spirit" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.85fc5a74-c5ce-444e-8943-883b6b5ef27e/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",The Hundred Mens Competition 2026 - 20th Match - Sunrisers Leeds vs London Spirit
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0c9c4eb9d787e021bc477fc1108716c9:e74a9fd58f3950317920fe21fb823109
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pn1vflywrn/out/v1/98415fdfef234f7dbd877e4eae604121/cenc.mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/pn1vflywrn/out/v1/98415fdfef234f7dbd877e4eae604121/cenc.mpd
 
 #===== Prime Video (3 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:12:32 AM 05-08-2026
+#LAST_UPDATE:01:02 AM 05-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:3
@@ -566,58 +560,52 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/pn1vflywrn/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H9DLZ47Y" tvg-name="Canada-WTA: 2nd Round" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e4cbb47f-9f86-43b9-adef-f7528eef4c84/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Canada-WTA: 2nd Round
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
+https://abkyrm4aaaaaaaamfyfksth3wr44v.ta.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 
 #===== AXS (5 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 12:47:23 AM 05-08-2026
+#last update time: 1:17:25 AM 05-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/West%20Indies%20vs%20Pakistan.jpg" group-title="AXS", West Indies vs Pakistan - 2nd Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1785955644-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f8114bad0110c1474926eb2f68fd5d64
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1785957445-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-33197f93777bbdb0538b0245939b23ff
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Rogers%20Cup%201.jpg" group-title="AXS", Rogers Cup 1 - Rogers Cup
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147446/720p/chunks.m3u8?is_vip=false&token=1785955646-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4d2ba7b9a7d946012f6535a64c95c3c1
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147446/720p/chunks.m3u8?is_vip=false&token=1785957447-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4159d585fc6e2381660f8667031348eb
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Rogers%20Cup%202.jpg" group-title="AXS", Rogers Cup 2 - Rogers Cup
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/270371/720p/chunks.m3u8?is_vip=false&token=1785955647-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1db9847a62125137321005fbd663c57b
+https://livecdn-tc-iptv.rumsport10.live/live_abr/270371/720p/chunks.m3u8?is_vip=false&token=1785957449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-11e7870cad00ce3ad4d5277adeb8ba4f
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Leeds%20vs%20Spirit.jpg" group-title="AXS", Leeds vs Spirit - The Hundred
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/56524/720p/chunks.m3u8?is_vip=false&token=1785955649-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-245c9aaacda4bcde7f5a24368acb387f
+https://livecdn-tc-iptv.rumsport10.live/live_abr/56524/720p/chunks.m3u8?is_vip=false&token=1785957450-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bae74bd54ac880474635ee24f19d9420
 
-#===== Hotstar (3 channels) =====
+#===== Hotstar (2 channels) =====
 # Playlist generated by Hotstar Extractor
 # Playlist Created By @rtxcric
 # Mode: NORMAL FHD 30 MINUTES AUTO-UPDATE
-# Generated: 2026-08-05 12:19:44 AM
+# Generated: 2026-08-05 12:47:26 AM
 
-#EXTINF:-1 tvg-id="2624811491" tvg-name="SunRisers Leeds vs London Spirit ENGLISH By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2553/1785757452553-b" group-title="Hotstar", ENGLISH FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785871173~acl=/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=L2uYMH1SSUcqj7gh0BGiX4bd0O4su6bjRjohMlqBj32d-did=qMAjmTGVBuTSk0cpvqxH1LWI2wC5iQiJO5zhWXyalTNA-cc=in-de=2-pl=androidtv-ap=24.11.13.1-ut=paid-ttl=1800-type=paid-raf=1785869973-~hmac=24a1ed78fe4a0e032f6b7430ed4f51fcc3c9ea79a861b078e59c62cbc361f6e2"}
+#EXTINF:-1 tvg-id="3550079661" tvg-name="SunRisers Leeds vs London Spirit ENGLISH By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2553/1785757452553-b" group-title="Hotstar", ENGLISH FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785872846~acl=/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=7ygovR0EUCrBOddeoBz9G2R3xkQLMhekAvGhf1EQR6ig-did=VHqjSTGZmmSf8UGamAwUhxU1JsRRqMkzvIIAMVukLHkA-cc=in-de=7-pl=androidtv-ap=26.01.01.0-ut=paid-ttl=1800-type=paid-raf=1785871646-~hmac=31114afbe6c06ef051547c6fbf87816f314c151e89854b1f466242cf4d279999"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live13p.hotstar.com/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap.m3u8?a=ns&hdnea=exp=1785871173~acl=/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=L2uYMH1SSUcqj7gh0BGiX4bd0O4su6bjRjohMlqBj32d-did=qMAjmTGVBuTSk0cpvqxH1LWI2wC5iQiJO5zhWXyalTNA-cc=in-de=2-pl=androidtv-ap=24.11.13.1-ut=paid-ttl=1800-type=paid-raf=1785869973-~hmac=24a1ed78fe4a0e032f6b7430ed4f51fcc3c9ea79a861b078e59c62cbc361f6e2
-
-#EXTINF:-1 tvg-id="979631843" tvg-name="South Delhi Superstarz vs West Delhi Lions HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3747/1785756363747-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785871184~acl=/hls/live/2004219/inallow-dplt20-2026/hin/1540074654/15mindvrm0275efbffcabc74d6bb2a57a538cd1ce5904august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=L2uYMH1SSUcqj7gh0BGiX4bd0O4su6bjRjohMlqBj32d-did=qMAjmTGVBuTSk0cpvqxH1LWI2wC5iQiJO5zhWXyalTNA-cc=in-de=2-pl=androidtv-ap=26.11.19.9-ut=paid-ttl=1800-type=paid-raf=1785869984-~hmac=976d6b94bb0060d86ebb530f86475ee9edcca8946427cb1aa3fad3a9e588371d"}
-#EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
-#EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live15p.hotstar.com/hls/live/2004219/inallow-dplt20-2026/hin/1540074654/15mindvrm0275efbffcabc74d6bb2a57a538cd1ce5904august2026/master_ap.m3u8?a=ns&hdnea=exp=1785871184~acl=/hls/live/2004219/inallow-dplt20-2026/hin/1540074654/15mindvrm0275efbffcabc74d6bb2a57a538cd1ce5904august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=L2uYMH1SSUcqj7gh0BGiX4bd0O4su6bjRjohMlqBj32d-did=qMAjmTGVBuTSk0cpvqxH1LWI2wC5iQiJO5zhWXyalTNA-cc=in-de=2-pl=androidtv-ap=26.11.19.9-ut=paid-ttl=1800-type=paid-raf=1785869984-~hmac=976d6b94bb0060d86ebb530f86475ee9edcca8946427cb1aa3fad3a9e588371d
+https://live13p.hotstar.com/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap.m3u8?a=ns&hdnea=exp=1785872846~acl=/hls/live/2027134/inallow-hundredmen-2026/eng/1540074966/15mindvrm011230a26d31c8445b8af74d2dfefcbb9204august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=7ygovR0EUCrBOddeoBz9G2R3xkQLMhekAvGhf1EQR6ig-did=VHqjSTGZmmSf8UGamAwUhxU1JsRRqMkzvIIAMVukLHkA-cc=in-de=7-pl=androidtv-ap=26.01.01.0-ut=paid-ttl=1800-type=paid-raf=1785871646-~hmac=31114afbe6c06ef051547c6fbf87816f314c151e89854b1f466242cf4d279999
 
 #===== Bengali (33 channels) =====
 #EXTINF:-1 tvg-id="573" tvg-name="Discovery Bengali" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" group-title="Bengali",Discovery Bengali
@@ -1279,7 +1267,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Jaihind_tv_MOB/WDVLive/index.mpd|User-Age
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=88295124db295a6b9f5027dc6049e294:641c40230a95cb76d1949125f9552fda
-https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785845131~exp=1785866731~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=fc120a34294c3793938df901b1a6e53b3404f55109d6f25d9008bcae6ea046d8
+https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785867008~exp=1785888608~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=21f67f215b4a1245c748a70c56c10710c2e37d1759242a30e3937d835259f43e
 
 #EXTINF:-1 tvg-id="473" tvg-name="Anmol TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmol.png" group-title="Entertainment",Anmol TV
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -2902,13 +2890,13 @@ https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_i
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0
-https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785843987~exp=1785865587~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=3ae3bc0f2a011095c8a8a283a63ebb4ea53153a2b0109d9f51f5fe48c55898f0
+https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785865817~exp=1785887417~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=5cbac19b2dbe078d0320ce567a1dcd635efb6c16c22722fa1b5d5a71d71d522a
 
 #EXTINF:-1 tvg-id="1335" tvg-name="National Geographic HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png" group-title="Nat Geo",National Geographic HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b006dd7965e5777a7fa33dd636c2e5d:179f796bdf11b750bebd469a3aeae1d0
-https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785844001~exp=1785865601~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=50267ce1193fbc1ced60a59c7153cc79482ae9026781622bfdb80dd3b7337552
+https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785865819~exp=1785887419~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=8f6fa98c1bcd87dc2b6ae0f8e71135e20d933941a433f542dcddc9007cebc736
 
 #===== News (159 channels) =====
 #EXTINF:-1 tvg-id="177" tvg-name="ABP News India" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png" group-title="News",ABP News India
@@ -3987,7 +3975,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Food_Food_MOB/WDVLive/index.mpd|User-Agen
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39aa887ebbc35db6bd10217aba5e016b:a1862a47f6db0af137d0c69b3cb422bb
-https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785842412~exp=1785864012~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=249c7a3eafaa19a597b4ec4ec9e1c205a4b980038d30731f80f6800d0db4c21b
+https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785864013~exp=1785885613~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=526205a1499d7fbef25bd740b679119173a3562c6652180aa1ac15ad1bce3ae7
 
 #EXTINF:-1 tvg-id="566" tvg-name="Animal Planet Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/AnimalPlanetHin.png" group-title="Other",Animal Planet Hindi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -6018,7 +6006,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd|User-Agent=
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
-https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785843322~exp=1785864922~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=22f4eac61c095dda23b0db0e48257a221d13c6c46d000e6c2919d550dbcad85a
+https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd|User-Agent=Droovy&Cookie=__hdnea__=st=1785864925~exp=1785886525~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=489e5d93b3557cd4bb4cad97fb2d7f66de4ece668e09513bb466352fa1a6a09d
 
 #EXTINF:-1 tvg-id="872" tvg-name="Sony Yay Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png" group-title="Sony",Sony Yay Hindi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
