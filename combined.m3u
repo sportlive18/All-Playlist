@@ -1,6 +1,47 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz|https://avkb.short.gy/tsepg.xml.gz"
 
+#EXTINF:-1 group-title="Sports Special",===== Sports Special (12) =====
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/Kv465DkN/Star2Digital.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/StarSports2HD.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/Znn722BC/Willow.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/Willow1.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/G2wTZy4z/Willow2.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/Willow2.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/2SLsdh8N/SkyCricket.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/SkySportCricket.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/Vs42xjV3/TsportsHD.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TSport.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/rppp4vp7/TensportsHD.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TenSportsHD.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/J4QmfVbS/PtvSports.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/PtvSportsHD.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/wjQkvRhN/AsportsHD.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/ASport.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/t4gfYn75/TntSports1.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TntSport1.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/CK7VWpZ7/TntSports2.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TntSport2.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/65Mn5yDP/TntSports3.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TntSport3.m3u8
+
+#EXTINF:-tvg-logo="https://i.postimg.cc/7L3LhR53/TntSports4.png" group-title="Sports Special",
+https://shotner.u0k.workers.dev/TntSport4.m3u8
+
 #EXTINF:-1 group-title="Live Events",===== Live Events (73) =====
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Myanmar vs Laos : LOW SERVER
+http://193.47.62.190/hls/IOOO.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",West Indies vs Pakistan : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -72,9 +113,6 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh :
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Myanmar vs Laos :
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Jeju SK vs FC Bayern Munchen :
@@ -275,25 +313,39 @@ https://dai-fancode.pages.dev/mumbai/4247970_english_hls_96c0e7798b23998_1ta-di_
 #EXTINF:-1 group-title="SonyLIV",===== SonyLIV (1) =====
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021747/1785705117549385_DC26_Jamshedpur_FC_vs_SC_DELHI_landscape_thumb.jpg" group-title="SonyLIV", Jamshedpur FC vs SC Delhi - 4 Aug 2026 [ENG] - IndianOil Durand Cup 2026
-https://sonydaimenew.akamaized.net/hls/live/20000292/Jamshedp0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785880533~acl=/*~id=45877847863501043465161613006289~hmac=b8bdc9dbbccdde2bb4b534a2cbaa3f65b3ee6d711d2678265497fdf72b2438d7
+https://sonydaimenew.akamaized.net/hls/live/20000292/Jamshedp0408/ENG/std_lrh-800300010.m3u8?hdnea=exp=1785883567~acl=/*~id=65570978422970618127879426019684~hmac=54c3da25f3b8ccb3abe31a4e49fec660957e6a459f5b44521f6d1e08d3f085c6
 
-#EXTINF:-1 group-title="Willow",===== Willow (1) =====
+#EXTINF:-1 group-title="Willow",===== Willow (2) =====
 
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:03:32 PM 04-08-2026
+#LAST_UPDATE:04:32 PM 04-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:20
+#LIVE_COUNT:1
+#UPCOMING_COUNT:19
 
-#EXTINF:-1 group-title="Prime Video",===== Prime Video (3) =====
+#EXTINF:-1 tvg-id="B0H8MT29DZ" tvg-name="Global e-Cricket Premier League 2026 - 22nd Match - Chennai Falcons vs Mumbai Grizzlies" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c3f2ad8b-ff85-432a-8833-7ecd5bad98e6/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Global e-Cricket Premier League 2026 - 22nd Match - Chennai Falcons vs Mumbai Grizzlies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=42a061037f88f2da0fa2b19a1dc20f09:1266d343d125eeed4d099b33f8233dc6
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/upo1nkr2nj/out/v1/fb387702540a42a1865d9934c72e6f2b/cenc.mpd
+
+#EXTINF:-1 group-title="Prime Video",===== Prime Video (4) =====
 
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:03:32 PM 04-08-2026
+#LAST_UPDATE:04:32 PM 04-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:3
+#LIVE_COUNT:4
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0H9ZCSKX8" tvg-name="Chennai Falcons vs. Mumbai Grizzlies" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ac1ab59b-62df-4128-9eeb-38e00cc8ca72/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Chennai Falcons vs. Mumbai Grizzlies
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H87D16H1" tvg-name="2026 Predator Pro Billiard Series: Rome" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.9c47ee75-3c56-4b0f-b08b-61c2e4d673a5/20/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",2026 Predator Pro Billiard Series: Rome
 #KODIPROP:inputstream=inputstream.adaptive
@@ -307,43 +359,49 @@ https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
 
 #EXTINF:-1 group-title="AXS",===== AXS (3) =====
 
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 3:47:24 PM 04-08-2026
+#last update time: 4:47:25 PM 04-08-2026
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wangmu%20Youth%20vs%20Lan%20Yue.jpg" group-title="AXS", Wangmu Youth vs Lan Yue - Guizhou Wufeng Cup
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Myanmar%20vs%20Laos.jpg" group-title="AXS", Myanmar vs Laos - ASEAN Championship
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6cdbb637ef0c148eabd19a/chunks.m3u8?is_vip=false&token=1785923245-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5708fa4ae61d490d10030162541c1d6f
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a51101bf59507a97ae22197/chunks.m3u8?is_vip=false&token=1785926846-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-306d628147a74a2a7e59eba0677f026b
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ES2%2C%20Tour%20of%20Poland%2C%20Stage%202.jpg" group-title="AXS", ES2, Tour of Poland, Stage 2 - UCI World Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1785923247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a2434bca10fd52a6dcc5a6701f938cfd
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1785926848-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ae441447548330a81113fa54a16f00b5
 
-#EXTINF:-1 group-title="Hotstar",===== Hotstar (3) =====
+#EXTINF:-1 group-title="Hotstar",===== Hotstar (4) =====
 
 # Playlist generated by Hotstar Extractor
 # Playlist Created By @rtxcric
 # Mode: NORMAL FHD 30 MINUTES AUTO-UPDATE
-# Generated: 2026-08-04 03:27:50 PM
+# Generated: 2026-08-04 04:24:17 PM
 
-#EXTINF:-1 tvg-id="9513435153" tvg-name="New Delhi Tigers vs Outer Delhi Warriors HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2689/1785754962689-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785839270~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=SqGwMbewlLeLYnD5xBWZ3m97JVBLMQQZCh3HB2acKBzN-did=qB3LfDMMqXcy4Pz2VHq7oSGZzzzVsf2hnhPycvbfddqx-cc=in-de=6-pl=androidtv-ap=25.09.20.6-ut=paid-ttl=1800-type=paid-raf=1785838070-~hmac=663c3432f72bbb2858317765f5f421fdfe11dfef7f90b7133b73759be05660d1"}
+#EXTINF:-1 tvg-id="946851058" tvg-name="Barak Legends vs Guwahati Royals HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3619/1785755403619-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842657~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.06.19.3-ut=paid-ttl=1800-type=paid-raf=1785841457-~hmac=337f4058b5839365ff73c7a669f49af8ebb5f2a5b07406b2b7c5ac7fb74379d6"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live14p.hotstar.com/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap.m3u8?a=ns&hdnea=exp=1785839270~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=SqGwMbewlLeLYnD5xBWZ3m97JVBLMQQZCh3HB2acKBzN-did=qB3LfDMMqXcy4Pz2VHq7oSGZzzzVsf2hnhPycvbfddqx-cc=in-de=6-pl=androidtv-ap=25.09.20.6-ut=paid-ttl=1800-type=paid-raf=1785838070-~hmac=663c3432f72bbb2858317765f5f421fdfe11dfef7f90b7133b73759be05660d1
+https://live14p.hotstar.com/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842657~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.06.19.3-ut=paid-ttl=1800-type=paid-raf=1785841457-~hmac=337f4058b5839365ff73c7a669f49af8ebb5f2a5b07406b2b7c5ac7fb74379d6
 
-#EXTINF:-1 tvg-id="6884850386" tvg-name="Barak Legends vs Guwahati Royals HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/3619/1785755403619-b" group-title="Hotstar", HINDI FHD @rtxcric
-#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785839258~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=SqGwMbewlLeLYnD5xBWZ3m97JVBLMQQZCh3HB2acKBzN-did=qB3LfDMMqXcy4Pz2VHq7oSGZzzzVsf2hnhPycvbfddqx-cc=in-de=6-pl=androidtv-ap=25.08.11.6-ut=paid-ttl=1800-type=paid-raf=1785838058-~hmac=27e6c933183bbe3ec538f4214557a4867b0675b5db475e692159794802e4fcac"}
+#EXTINF:-1 tvg-id="8833527478" tvg-name="Global e-Cricket Premier League 2026: Day 4 HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/48/1785823160048-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842654~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=26.01.21.8-ut=paid-ttl=1800-type=paid-raf=1785841454-~hmac=1a9e59fae8c9eb891f667d4cfd9a0f82a004749f8b3d95495ac2b66f95cbf0ad"}
 #EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
 #EXTVLCOPT:http-referrer=https://www.hotstar.com/
-https://live14p.hotstar.com/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap.m3u8?a=ns&hdnea=exp=1785839258~acl=/hls/live/2003906/inallow-assampl-2026/hin/1540075136/15mindvrm01321c0ff5df4f4e4d8d665c8c91acc9ed04august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=SqGwMbewlLeLYnD5xBWZ3m97JVBLMQQZCh3HB2acKBzN-did=qB3LfDMMqXcy4Pz2VHq7oSGZzzzVsf2hnhPycvbfddqx-cc=in-de=6-pl=androidtv-ap=25.08.11.6-ut=paid-ttl=1800-type=paid-raf=1785838058-~hmac=27e6c933183bbe3ec538f4214557a4867b0675b5db475e692159794802e4fcac
+https://live14p.hotstar.com/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842654~acl=/hls/live/2123147/inallow-gpl-2026/hin/1540075072/15mindvrm015329c43145ed42958f53e2c07adba1d604august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=26.01.21.8-ut=paid-ttl=1800-type=paid-raf=1785841454-~hmac=1a9e59fae8c9eb891f667d4cfd9a0f82a004749f8b3d95495ac2b66f95cbf0ad
+
+#EXTINF:-1 tvg-id="8685902623" tvg-name="New Delhi Tigers vs Outer Delhi Warriors HINDI By @rtxcric" tvg-logo="https://img10.hotstar.com/image/upload/f_auto/sources/r1/cms/prod/2689/1785754962689-b" group-title="Hotstar", HINDI FHD @rtxcric
+#EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","Cookie":"hdntl=exp=1785842655~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.04.20.0-ut=paid-ttl=1800-type=paid-raf=1785841455-~hmac=885fe82149e3f91d0cb4b74452816c1a531c36475d34a032546647248274a1c7"}
+#EXTVLCOPT:http-extra-headers=Origin: https://www.hotstar.com
+#EXTVLCOPT:http-referrer=https://www.hotstar.com/
+https://live14p.hotstar.com/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap.m3u8?a=ns&hdnea=exp=1785842655~acl=/hls/live/2003898/inallow-dplt20-2026/hin/1540074651/15mindvrm01918c725d84cd40668af7e1f3148823e504august2026/master_ap*~data=ip=Zt26r0bIrlZrAEgJsnoSNT-userid=8qKXyzu9WBkeAxiLAF9LlhEu8ODBxL9WLnhYvt9Aq4JV-did=PXT0I91LmtVAUH4yKNK9SBz4euLr2iIWwa2j0EO5pNCp-cc=in-de=7-pl=androidtv-ap=24.04.20.0-ut=paid-ttl=1800-type=paid-raf=1785841455-~hmac=885fe82149e3f91d0cb4b74452816c1a531c36475d34a032546647248274a1c7
 
 #EXTINF:-1 group-title="Bengali",===== Bengali (33) =====
 
