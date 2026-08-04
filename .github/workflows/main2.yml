@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]        # adjust if your default branch is different
   schedule:
-    - cron: '*/5 * * * *'   # every 5 minutes (best-effort, GitHub does not guarantee exact timing)
+    - cron: '*/30 * * * *'   # every 30 minutes 
   workflow_dispatch:
 
 concurrency:
