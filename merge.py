@@ -17,7 +17,6 @@ PLAYLISTS = [
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
     {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},
-    {"name": "Sports Special", "icon": "🏟️", "url": "https://sportlink-fifa-live.pages.dev/star.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://jhs-channels.rtxcric.workers.dev/playlist.m3u"},  # NEW: Jio Hotstar
 ]
 
