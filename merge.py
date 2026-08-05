@@ -1,4 +1,4 @@
- #!/usr/bin/env python3
+#!/usr/bin/env python3
 import requests
 import re
 import os
@@ -18,6 +18,7 @@ PLAYLISTS = [
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
     {"name": "HOTSTAR", "icon": "⭐", "url": "https://jhsevetns-fhd.rtxcric.workers.dev/playlist.m3u"},
     {"name": "Sports Special", "icon": "🏟️", "url": "https://sportlink-fifa-live.pages.dev/star.m3u"},
+    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://jhs-channels.rtxcric.workers.dev/playlist.m3u"},  # NEW: Jio Hotstar
 ]
 
 OUTPUT_FILE = "combined.m3u"
@@ -33,6 +34,7 @@ SOURCE_CATEGORY_OVERRIDE = {
     "AXSPORTS":    "AXS",
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
+    "Jio Hotstar": "Jio Hotstar",  # NEW: Category override for Jio Hotstar
 }
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
@@ -83,6 +85,7 @@ CATEGORY_ORDER = [
     "Prime Video",
     "AXS",
     "Hotstar",
+    "Jio Hotstar",  # NEW: Added to category order
 ]
 
 # ------------------ HELPER FUNCTIONS (defined before main) ------------------
