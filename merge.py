@@ -27,12 +27,13 @@ SOURCE_CATEGORY_OVERRIDE = {
     "Live Events": "Live Events",
     "FANCODE":     "Fancode",
     "SONYLIV":     "SonyLIV",
+    "Jio Hotstar": "Jio Hotstar",
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
     "AXSPORTS":    "AXS",
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
-    "Jio Hotstar": "Jio Hotstar",  # NEW: Category override for Jio Hotstar
+      # NEW: Category override for Jio Hotstar
 }
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
