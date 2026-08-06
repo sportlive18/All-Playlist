@@ -216,13 +216,10 @@ https://r.e.blueonline.tv/l/tvsmart/live/eds/Eleven_Sport_1/DHD/Manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=2e2636daa74141b68cc14882ea3ff82b:0961f48287324adbb4b7ff3c9d82b3c9
 https://dice-live-oc.akamaized.net/hdntl=exp=1784350679~acl=*dash%2flive%2f2093757%2f219028-322691%2f*!*dash%2flive%2f2093757-b%2f219028-322691-b%2f*!%2fv1%2fdashsegment%2f*~id=4ff44426-fabf-4f41-ba17-eda2146d0977~data=hdntl,dWlkPWY3RVJaWnwxNjg2YzEwNC04MTc3LTQ1OGItOWEyYi00YjA2MTE1MmI0MDEmc3JjPWRnZSZpcD04NS4yOC41NC4yMzUmZXhwPTE3ODQzNTA3MDcmZWlkPTIxOTAyOCZjaWQ9ZGNlLnNreW56Jm9pZD0zMTgmdHlwZT1MSVZF~hmac=ed93423a4fb6b9fe39117bce7ae6b26e1aeb13d6d609b4b47b15516119e52f16/dash/live/2093757/219028-322691/manifest-d.mpd|User-Agent=Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Mobile Safari/537.36 OPR/97.0.0.0
 
-#===== Fancode (5 channels) =====
+#===== Fancode (4 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Thursday, 6 August 2026 at 6:49:14 pm
-
-#EXTINF:-1 tvg-id="4247975" tvg-name="Outer Delhi Warriors Vs South Delhi Superstarz" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247975_53005_SDS_ODW_fc-Web.png" tvg-language="English" group-title="Fancode",ENG | Outer Delhi Warriors Vs South Delhi Superstarz
-https://dai-fancode.pages.dev/mumbai/4247975_english_hls_75a4fe130f92250_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+#DATE:- Thursday, 6 August 2026 at 7:56:12 pm
 
 #EXTINF:-1 tvg-id="4247979" tvg-name="New Delhi Tigers Vs Purani Dilli 6" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247979_53005_NDT_PD_fc-Web.png" tvg-language="English" group-title="Fancode",ENG | New Delhi Tigers Vs Purani Dilli 6
 https://dai-fancode.pages.dev/mumbai/4247979_english_hls_38da7ee4c398391_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -235,44 +232,58 @@ https://dai-fancode.pages.dev/mumbai/4248208_english_hls_3e8cea0d0374479_1ta-di_
 
 #===== SonyLIV (1 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021747/1785707491192385_DC26_Nongkseh_SSCC_vs_Langsning_FC_landscape_thumb.jpg" group-title="SonyLIV", Nongkseh SS&CC vs Langsning FC - 6 Aug 2026 [ENG] - IndianOil Durand Cup 2026
-https://sonydaimenew.akamaized.net/hls/live/20000292/football0608/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786069140~acl=/*~id=77552395989930188911676571084526~hmac=45df68fd91b8538a8c127c616181d454432d3add8ec3f9c36331b132f65afe3d
+https://sonydaimenew.akamaized.net/hls/live/20000292/football0608/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786069747~acl=/*~id=21564230907441001664002286345533~hmac=1f374f650067f6ebc67c63eabe0fe180c263b44aa0bc6e9b543c4b6d9a5ef957
 
-#===== Willow (4 channels) =====
+#===== Willow (5 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:08:02 PM 06-08-2026
+#LAST_UPDATE:08:32 PM 06-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:3
-#UPCOMING_COUNT:17
+#LIVE_COUNT:4
+#UPCOMING_COUNT:16
 
 #EXTINF:-1 tvg-id="B0H78R6P83" tvg-name="Pakistan tour of West Indies 2026 - 2nd Test - West Indies vs Pakistan" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.14b0d3fe-a2ae-4fa9-a6b3-caeec734927f/13/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Pakistan tour of West Indies 2026 - 2nd Test - West Indies vs Pakistan
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4ffca0119f9d20fbd9376b7067cdd0c8:09e4be9177a261c0d0ad70a656d3e673
-https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/lrbanfu1qn/out/v1/359449e458ef4374abfc658ed8d69986/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lrbanfu1qn/out/v1/359449e458ef4374abfc658ed8d69986/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H86HBMY1" tvg-name="The Hundred Womens Competition 2026 - 23rd Match - London Spirit Women vs Mi London Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f745a6d4-efdd-4af9-a70e-6dc64a0ffe4a/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",The Hundred Womens Competition 2026 - 23rd Match - London Spirit Women vs Mi London Women
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6818868b06409ee7869850f878c30665:4766f05f2c1de3cd0896ccd99f662fd1
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/ckf6fg9kkq/out/v1/9ca7805c1e1f43fd816c16887f56bd6c/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/ckf6fg9kkq/out/v1/9ca7805c1e1f43fd816c16887f56bd6c/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HC6NVM8H" tvg-name="Global e-Cricket Premier League 2026 - 39th Match - Mumbai Grizzlies vs Delhi Sharks" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f16e807d-e5bf-462c-9ae1-c157301de6e6/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Global e-Cricket Premier League 2026 - 39th Match - Mumbai Grizzlies vs Delhi Sharks
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=cacb7c9fe01b112a194ac25320fd1f4b:278e476aedc2943d6d3518a0a21991d4
-https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/w0drm1pqxd/out/v1/64d6e3e9fbb541b4a37f05113e1b94a5/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/w0drm1pqxd/out/v1/64d6e3e9fbb541b4a37f05113e1b94a5/cenc.mpd
 
-#===== Prime Video (4 channels) =====
+#EXTINF:-1 tvg-id="B0HC476PJY" tvg-name="Global e-Cricket Premier League 2026 - 40th Match - Kolkata Hawks vs Hyderabad Rhinos" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d31a5425-826e-4892-98d9-30d5aa4bc167/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Global e-Cricket Premier League 2026 - 40th Match - Kolkata Hawks vs Hyderabad Rhinos
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7e3c463311754b48a95a3eb2e5b35914:ca6441a5bfd668a164f558037e3cf722
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/ff3c2s1qp9/out/v1/cde60df1c37e4109a2664e2fe24d04a1/cenc.mpd
+
+#===== Prime Video (3 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:08:02 PM 06-08-2026
+#LAST_UPDATE:08:32 PM 06-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:4
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0HBPRZXT1" tvg-name="London Spirit vs. MI London" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b40acc9a-796a-4611-9790-ac0e1a07803f/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",London Spirit vs. MI London
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HBQPJ66V" tvg-name="Phygital Football, Round of 16" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2f77d698-e7cb-4950-837c-a08fc420b60b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Phygital Football, Round of 16
 #KODIPROP:inputstream=inputstream.adaptive
@@ -281,50 +292,36 @@ https://ss-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/w0drm1pqxd
 #KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
 https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/igtio3ifkx/out/v1/3e305fd8d7eb4c489e80a71513206a7d/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0H3WBRTNW" tvg-name="Mumbai Grizzlies vs. Delhi Sharks" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.3804c264-d407-4f29-b1ae-6424e65b6492/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Mumbai Grizzlies vs. Delhi Sharks
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HBPRZXT1" tvg-name="London Spirit vs. MI London" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b40acc9a-796a-4611-9790-ac0e1a07803f/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",London Spirit vs. MI London
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
-
 #===== AXS (6 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 8:17:27 PM 06-08-2026
+#last update time: 8:32:35 PM 06-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/ES2%2C%20Tour%20of%20Poland%2C%20Stage%204.jpg" group-title="AXS", ES2, Tour of Poland, Stage 4 - UCI World Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1409/720p/chunks.m3u8?is_vip=false&token=1786112248-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c5809d17baf68846ce996842cfea4292
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1409/720p/chunks.m3u8?is_vip=false&token=1786113157-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-18f1e642a99b8505d526132ef3be360d
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wyndham%20Championship.jpg" group-title="AXS", Wyndham Championship - PGA Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/411/720p/chunks.m3u8?is_vip=false&token=1786112250-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-642b89d4513791801a77cb9caaaedb7f
+https://livecdn-tc-iptv.rumsport10.live/live_abr/411/720p/chunks.m3u8?is_vip=false&token=1786113159-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7b174e2440777833e0968585285a0327
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tour%20de%20France%20Femmes%20-%20Stage%206.jpg" group-title="AXS", Tour de France Femmes - Stage 6 - UCI Women's World Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1786112251-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b50f276d4fe574af4ab6089af577946
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1786113160-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-872f430cbeb0c9f32de969b1129c2d0f
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/West%20Indies%20vs%20Pakistan.jpg" group-title="AXS", West Indies vs Pakistan - 2nd Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786112253-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bc768ee4a104f5ff98d2c5f0e610153f
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786113162-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b6023e7ef05e36c0ba50d45fd0918a11
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Spirit%20vs%20MI%20London.jpg" group-title="AXS", Spirit vs MI London - The Hundred Women
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/56524/720p/chunks.m3u8?is_vip=false&token=1786112254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9f9005dda75081acbad7e9006f3a6b98
+https://livecdn-tc-iptv.rumsport10.live/live_abr/56524/720p/chunks.m3u8?is_vip=false&token=1786113164-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e5d203ebe097f534345ea9bab12c25b4
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-05 18:17:18
