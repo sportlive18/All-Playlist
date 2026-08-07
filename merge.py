@@ -14,7 +14,7 @@ PLAYLISTS = [
     {"name": "AXSPORTS", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u"},
     {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtv2.m3u"},
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
-    {"name": "SONY", "icon": "📺", "url": "https://sayan-jiotv.spal75084.workers.deva/sony.m3u"},
+    {"name": "SONY", "icon": "📺", "url": "https://sayan-jiotv.spal75084.workers.dev/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://jhs-channels.rtxcric.workers.dev/playlist.m3u"},  # NEW: Jio Hotstar
 ]
