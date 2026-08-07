@@ -184,7 +184,7 @@ https://dice-live-oc.akamaized.net/hdntl=exp=1784350679~acl=*dash%2flive%2f20937
 
 #===== SonyLIV (1 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021882/1786078899750452_SLvsIND_warmup_match1_day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - SLC XI vs IND - Warm-Up Match - 7 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000298/criclive0708/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786123078~acl=/*~id=89933667131558260839238076750248~hmac=d9fd30e9c211a36e77e8e7265ac2935009cf9946fc0469f1bbd050eb45ca1cfa
+https://sonydaimenew.akamaized.net/hls/live/20000298/criclive0708/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786123685~acl=/*~id=06715452683139887470293096695244~hmac=528c2b73d71c2dde5621b9af04fdc49b2beb709485b455fd179d6a79d0342b6b
 
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
@@ -3612,7 +3612,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsMal_MOB/WDVLive/index.mpd?__
 #KODIPROP:inputstream.adaptive.license_key=https://keys.cply.dpdns.org/key?id=3456
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMalayalam_MOB/WDVLive/index.mpd?__hdnea__=st=1786065309~exp=1786086909~acl=/*~hmac=38b870075dde20390e751023d2d3ac61de7a7936f13474166412782d058f4783
 
-#===== Marathi (27 channels) =====
+#===== Marathi (28 channels) =====
 #EXTINF:-1 tvg-id="232" tvg-name="News18 Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News18Lokmat.png" group-title="Marathi",News18 Marathi
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -3762,6 +3762,10 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-9z5383486&u=Stre
 #EXTINF:-1 tvg-id="0-9-zeemarathi" group-title="Marathi" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeemarathi/list/1920x1080list41e48666669042d2a7b9725cb6bcbbc4.png",Zee Marathi HD
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeemarathi&u=Stream-star
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="sony-marathi" group-title="Marathi" tvg-logo="https://i.postimg.cc/ZqvcSG5j/SONY-MARATHI.png",Sony Marathii
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=marathi&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
 
 #EXTINF:-1 group-title="Marathi" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194387" tvg-language="Marathi" tvg-logo="https://sund-images.sunnxt.com/194387/640x360_SunMarathi_194387_441db2e2-0fa1-48ca-be59-7f5dd70f66cb.jpg",Sun Marathi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -4751,7 +4755,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd?__hdnea__=
 #KODIPROP:inputstream.adaptive.license_key=https://keys.cply.dpdns.org/key?id=1510
 https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8?__hdnea__=st=1786065309~exp=1786086909~acl=/*~hmac=38b870075dde20390e751023d2d3ac61de7a7936f13474166412782d058f4783
 
-#===== Other (385 channels) =====
+#===== Other (386 channels) =====
 # Generated: 2026-08-07 04:46:35 UTC
 # Source: https://m3u-86e.pages.dev/jtv-mb.json
 # Source-Hash: 501841cad25d427e333eab837e97f19d
@@ -6971,6 +6975,8 @@ https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="0-9-channel_2105335046" group-title="Other" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_2105335046/list/1920x1080list88f79d7c74df4d998da1bbd448f465ff.png",&flix HD
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-channel_2105335046&u=Stream-star
 
+#EXTVLCOPT:http-user-agent=Sayan10
+
 #EXTINF:-1 group-title="Other" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194399" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194399/640x360_UdayaTVHD_194399_728eed6e-6e9e-469c-8ad4-b9d1ef48ca8c.jpg",Udaya HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=91b5f2d0205c4527b7aa3e41f35e1e7f:66ddb1a017753f966e20442ab2f91f18
@@ -7021,7 +7027,7 @@ https://livestream.sunnxt.com/a4b4f71a8b4344f3a280e906657a517a/GeminiLifeB_IN_in
 #KODIPROP:inputstream.adaptive.license_key=7354fb333b0c4159bc6c433c4db13d0f:fbf8b4a11febf7d2eed2283006979176
 https://livestream.sunnxt.com/1893b9ab790747cb80a584873a608dcb/KochuTVB_IN_index.mpd
 
-#===== Punjabi (23 channels) =====
+#===== Punjabi (24 channels) =====
 #EXTINF:-1 tvg-id="474" tvg-name="Sony Pal" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/SonyPAL.png" group-title="Punjabi",Sony Pal
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7158,7 +7164,11 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/RashtriyaPahal_MOB/WDVLive/index.mpd?__hd
 https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-215&u=Stream-star
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#===== Sony (17 channels) =====
+#EXTINF:-1 tvg-id="Sony Pal.in" group-title="Punjabi" tvg-logo="https://i.postimg.cc/hjYyDb13/sonypal.webp",Sony Pal
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=pal&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#===== Sony (27 channels) =====
 #EXTINF:-1 tvg-id="291" tvg-name="SET HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Sony",SET HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -7260,6 +7270,45 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd?__
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://keys.cply.dpdns.org/key?id=3418
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyMAX1_MOB/WDVLive/index.mpd?__hdnea__=st=1786065309~exp=1786086909~acl=/*~hmac=38b870075dde20390e751023d2d3ac61de7a7936f13474166412782d058f4783
+
+#EXTINF:-1 tvg-id="SONY SAB HD.in" group-title="Sony" tvg-logo="https://i.postimg.cc/LhKxf97t/sonysabhd.webp",Sony Sab HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=sabhd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SET HD.in" group-title="Sony" tvg-logo="https://i.postimg.cc/zXgMfMMw/sethd.webp",SET HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=sethd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="Sony Wah.in" group-title="Sony" tvg-logo="https://i.postimg.cc/HxJG9LSR/sonywah.webp",Sony Wah
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=wah&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY MAX.in" group-title="Sony" tvg-logo="https://i.postimg.cc/43JFB33w/sonymax.webp",Sony Max
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=max&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY MAX HD.in" group-title="Sony" tvg-logo="https://i.postimg.cc/RFhpxbKH/sonymaxhd.webp",Sony Max HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=maxhd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY MAX 2.in" group-title="Sony" tvg-logo="https://i.postimg.cc/vm32jdgy/sonymax2.webp",Sony Max 2
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=max2&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY YAY!.in" group-title="Sony" tvg-logo="https://i.postimg.cc/FRwMWQ8R/sonyyay.webp",Sony Yay
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=yay&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY BBC Earth HD.in" group-title="Sony" tvg-logo="https://i.postimg.cc/sgPNYW3v/sonybbcearthhd.webp",Sony BBC Earth HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=bbcearthhd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="sony-pix-hd" group-title="Sony" tvg-logo="https://i.postimg.cc/hGYnSKpg/SONY-PIX-HD.png",Sony PIX HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=pixhd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="sony-aath" group-title="Sony" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png",Sony Aath
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=aath&u=Stream-star
 
 #===== Sun (21 channels) =====
 #EXTINF:-1 tvg-id="676" tvg-name="Sun News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sun_News.png" group-title="Sun",Sun News
@@ -7376,7 +7425,7 @@ https://livestream.sunnxt.com/8c2352ff54954e7b9a4188045dcf3b27/SuryaMusicB_IN_in
 #KODIPROP:inputstream.adaptive.license_key=11563b00a46b43f2a0f80ecf42a4fb77:9bad28ad6f23dbb917c63ee680f66a1f
 https://livestream.sunnxt.com/6505e922bf164423ad122f404747356a/SuryaComedyB_IN_index.mpd
 
-#===== Tamil (120 channels) =====
+#===== Tamil (121 channels) =====
 #EXTINF:-1 tvg-id="153" tvg-name="Zee Talkies" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ZeeTalkies.png" group-title="Tamil",Zee Talkies
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -8077,7 +8126,11 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeetamil&u=Strea
 https://aasthaott.akamaized.net/110923/smil:aasthatamil.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#===== Telugu (56 channels) =====
+#EXTINF:-1 tvg-id="sf-top" group-title="Tamil" tvg-logo="https://i.ibb.co/p67zjNDb/Install-Now-Net-X-Player.gif",Install NetX Player
+https://t.me/streamstartv
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#===== Telugu (66 channels) =====
 #EXTINF:-1 tvg-id="166" tvg-name="Cartoon Network Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/CNTelugu.png" group-title="Telugu",Cartoon Network Telugu
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -8405,6 +8458,46 @@ https://vortexsu.azmodz.in/vortextv/serve/proxy/zee5.php?id=0-9-zeetelugu&u=Stre
 #EXTINF:-1 tvg-id="0-9-9z5398768" group-title="Telugu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha_Telugu.png",Aastha Telugu
 https://aasthaott.akamaized.net/110923/smil:aasthatelugu.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 1.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/k5y9R4vH/sony-ten-1.webp",Sony TEN 1 SD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten1&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 1 HD.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/h4knM9Rr/sonysportsten1hd.webp",Sony TEN 1 HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten1hd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 2.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/027s4b8q/sonysportsten2.webp",Sony TEN 2 SD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten2&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 2 HD.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/zG5rY8BH/sonysportsten2hd.webp",Sony TEN 2 HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten2hd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 3.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/XY80VmGH/sonysportsten3.webp",Sony TEN 3 SD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten3&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 3 HD.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/xd1Vq5L0/sonysportsten3hd.webp",Sony TEN 3 HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten3hd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 4.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/526M3sRj/Sony_Ten_4_HD.png",Sony TEN 4 SD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten4&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 4 HD.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/526M3sRj/Sony_Ten_4_HD.png",Sony TEN 4 HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten4hd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 5.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/Mpjks892/sony-sports-ten-5.png",Sony TEN 5 SD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten5&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
+
+#EXTINF:-1 tvg-id="SONY SPORTS TEN 5 HD.in" group-title="Telugu" tvg-logo="https://i.postimg.cc/CKrT884b/sonysportsten5hd.webp",Sony TEN 5 HD
+https://vortexsu.azmodz.in/vortextv/serve/proxy/sony.php?id=ten5hd&u=Stream-star
+#EXTVLCOPT:http-user-agent=Sayan10
 
 #===== Urdu (3 channels) =====
 #EXTINF:-1 tvg-id="712" tvg-name="DD urdu" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/DD_urdu.png" group-title="Urdu",DD urdu
