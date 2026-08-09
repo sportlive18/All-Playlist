@@ -244,23 +244,37 @@ https://dai-fancode.pages.dev/mumbai/139962_english_hls_ca15573da914817_1ta-di_h
 
 #===== SonyLIV (1 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021915/1786127931146710_SLvsIND_warm_up_match_day3_landscape_thumb.jpg" group-title="SonyLIV", Day 3 - SLC XI vs IND - Warm-Up Match - 9 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000291/criclive0908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786305770~acl=/*~id=28459601927999312660277552616859~hmac=091d2baca89c92f7c9c654cf3d9e59fdc93a90ae6d37375e656e8429bca2edb2
+https://sonydaimenew.akamaized.net/hls/live/20000291/criclive0908/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786310031~acl=/*~id=25657535904378098983063767758644~hmac=bdf78e1047fea7da836f6fa1cba989703d7c408e70a2e7d662ea489d5268ee14
 
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:02:02 PM 09-08-2026
+#LAST_UPDATE:03:02 PM 09-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:20
 
-#===== Prime Video (2 channels) =====
+#===== Prime Video (4 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:02:02 PM 09-08-2026
+#LAST_UPDATE:03:02 PM 09-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
+#LIVE_COUNT:3
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0HC6WZZZ7" tvg-name="Qatar Airways Grand Prix of Great Britain" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0230590a-7115-496c-a16b-9c1d16a0133c/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Qatar Airways Grand Prix of Great Britain
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de
+https://live-emt-pv-ta.amazon.fastly-edge.com/$T$2D3RhEOhAQWhBFgkOWE2NWFkMDQtYzk4NS00OTZhLWE4NzQtYTkwMzY2M2FiNzFlWJCnAWpwcmltZXZpZGVvBBpqjAGnBhpqeDsnA2ZmYXN0bHkCeClzc2lkOjVlOTdmYzI5LTYzYzktNGIwYi04Y2JiLWJkZDA1ZWM0OWRhNRkBOKEFoQJ4My9wb2tvZ2dyeWNyL291dC92MS8zMGYzYWQ5YmEyYzM0MDczOWVhMjk0M2YyOWQ0NGIzMhkBPIFiVVNYIIn1PUwDM331bKJ3YQmWbX5vuqRMZdyWEx1gWZY-5kGG/PDX/709b3c4313a9405ab5e8634864c7cc3b/v1/dash/590183725645/imdb_amagi_amzn1_dv_live_csid_5357cf2a-51c8-4fa5-b996-cd307e0b7edc_us-west-2_pdx_dash_h264/startover/clients/dash/manipulated-manifest-pdx-prod/enc/pokoggrycr/out/v1/30f3ad9ba2c340739ea2943f29d44b32/b49a5189-3c12-499c-961c-052084631669-cenc.mpd?aws.sessionId=8181d21a-e889-4382-a8e1-2c0561124e76
+
+#EXTINF:-1 tvg-id="B0HCCYMX5X" tvg-name="PPA Tour: Asia Ho Chi Minh-Gold" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d33835e9-a2d9-40e3-bae3-d792f7ba3f00/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",PPA Tour: Asia Ho Chi Minh-Gold
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H9NLJW6M" tvg-name="Canada, ATP/WTA Round of 16 & Doubles 2nd Round" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.19136369-0cfd-4d40-943d-cbf177383e24/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Canada, ATP/WTA Round of 16 & Doubles 2nd Round
 #KODIPROP:inputstream=inputstream.adaptive
@@ -269,51 +283,36 @@ https://sonydaimenew.akamaized.net/hls/live/20000291/criclive0908/ENG/std_lrh-80
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
 
-#===== AXS (9 channels) =====
+#===== AXS (6 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 2:02:31 PM 09-08-2026
+#last update time: 3:17:25 PM 09-08-2026
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Collingwood%20Magpies%20vs%20West%20Coast%20Eagles.jpg" group-title="AXS", Collingwood Magpies vs West Coast Eagles - AFL Premiership
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tokyo%20Verdy%20vs%20Kawasaki%20Frontale.jpg" group-title="AXS", Tokyo Verdy vs Kawasaki Frontale - J1 League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1786348952-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-76c8f0e41b97795a028c7451ee1441c3
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a7/chunks.m3u8?is_vip=false&token=1786353449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-afb2c85ac040b9644f440422ee0debff
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Caboolture%20FC%20vs%20Holland%20Park%20Hawks%20FC.jpg" group-title="AXS", Caboolture FC vs Holland Park Hawks FC - AUS QLD League 1
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Fukushima%20United%20vs%20Kamatamare%20Sanuki.jpg" group-title="AXS", Fukushima United vs Kamatamare Sanuki - J3 League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b7879d/chunks.m3u8?is_vip=false&token=1786348954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-61592147e90bd16fedd0f4353a9d9374
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a9/chunks.m3u8?is_vip=false&token=1786353451-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bb4b5bfb901cad2454d3a3c4fa9b284a
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Samford%20Rangers%20vs%20Grange%20Thistle%20SC.jpg" group-title="AXS", Samford Rangers vs Grange Thistle SC - QLD D2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Iwaki%20vs%20Imabari.jpg" group-title="AXS", Iwaki vs Imabari - J2 League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a2/chunks.m3u8?is_vip=false&token=1786348956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6c7d4eacae47f691884426004fbe7685
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a8/chunks.m3u8?is_vip=false&token=1786353452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d5bae873f006817d8b98a2ef386a5e21
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Caloundra%20vs%20Virginia%20United.jpg" group-title="AXS", Caloundra vs Virginia United - QLD D2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Carlton%20vs%20St.%20Kilda%20Saints.jpg" group-title="AXS", Carlton vs St. Kilda Saints - AFL Premiership
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a5/chunks.m3u8?is_vip=false&token=1786348957-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0ae7b6a2f5c693171e56ea1c37f37fb3
+https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1786353453-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-56b948d8af8327ef617ab5faee7607f2
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Moreton%20Bay%20United%20Reserves%20vs%20Mitchelton%20FC.jpg" group-title="AXS", Moreton Bay United Reserves vs Mitchelton FC - QLD D2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Bukovyna%20Chernivtsi%20U21%20vs%20Obolon%20Kiev%20U21.jpg" group-title="AXS", FC Bukovyna Chernivtsi U21 vs Obolon Kiev U21 - UKR Youth
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a4/chunks.m3u8?is_vip=false&token=1786348959-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c82b5e27c39d1053303c2140c44d3909
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Pine%20Hills%20vs%20Brisbane%20Knights.jpg" group-title="AXS", Pine Hills vs Brisbane Knights - QLD D2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a3/chunks.m3u8?is_vip=false&token=1786348960-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-152dabd2b23de7766cad4d509b1c169d
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Southside%20Eagles%20vs%20SWQ%20Thunder.jpg" group-title="AXS", Southside Eagles vs SWQ Thunder - QLD D2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a57a7e015d865a011b787a0/chunks.m3u8?is_vip=false&token=1786348962-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9c3d72bc9b8bba72e263fc6eeab2702e
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Brisbane%20Roar%20vs%20Sydney.jpg" group-title="AXS", Brisbane Roar vs Sydney - Australia Cup
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6d13f0a24edae8ffddd9a4/chunks.m3u8?is_vip=false&token=1786348963-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8bc1255be23f61e6152de65823901d38
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a722ffcaf3edc4d30826a33/chunks.m3u8?is_vip=false&token=1786353460-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cbbc938988b395bbf1554fa5cb685a01
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-08 18:16:41
@@ -4836,7 +4835,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd
 https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8
 
 #===== Other (386 channels) =====
-# Generated: 2026-08-09 07:45:22 UTC
+# Generated: 2026-08-09 08:29:23 UTC
 
 #EXTINF:-1 tvg-id="164" tvg-name="Travelxp HD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="Other",Travelxp HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
