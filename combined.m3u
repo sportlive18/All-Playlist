@@ -288,10 +288,10 @@ https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?|Referer=https://streamscenter.o
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Motogp : LOW SERVER
 http://193.47.62.194/hls/AVVVV.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
-#===== Fancode (5 channels) =====
+#===== Fancode (7 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Thursday, 13 August 2026 at 5:49:18 pm
+#DATE:- Thursday, 13 August 2026 at 6:56:26 pm
 
 #EXTINF:-1 tvg-id="4247984" tvg-name="West Delhi Lions Vs Outer Delhi Warriors" tvg-logo="https://images.fancode.com/aig/match/v1786609269341/4247984_CASACARDS_SPORTY_APP.png" tvg-language="English" group-title="Fancode",ENG | West Delhi Lions Vs Outer Delhi Warriors
 https://dai-fancode.pages.dev/mumbai/4247984_english_hls_3801d000b820898_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -299,18 +299,28 @@ https://dai-fancode.pages.dev/mumbai/4247984_english_hls_3801d000b820898_1ta-di_
 #EXTINF:-1 tvg-id="4248217" tvg-name="Scotland Vs Canada" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248217_53013_SCO_CAN_fc-Web.png" tvg-language="English" group-title="Fancode",ENG | Scotland Vs Canada
 https://dai-fancode.pages.dev/mumbai/4248217_english_hls_a21a987da925068_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
+#EXTINF:-1 tvg-id="4247983" tvg-name="North Delhi Strikers Vs Purani Dilli 6" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247983_53005_NDS_PD_fc-Web.png" tvg-language="English" group-title="Fancode",ENG | North Delhi Strikers Vs Purani Dilli 6
+https://dai-fancode.pages.dev/mumbai/4247983_english_hls_49bf68dc8467548_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
 #EXTINF:-1 tvg-id="4248364" tvg-name="Oman Vs Goa" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Goa-Ranji-Team-tour-of-Oman-2026-ODI-old.png" tvg-language="English" group-title="Fancode",ENG | Oman Vs Goa
 https://dai-fancode.pages.dev/mumbai/4248364_english_hls_19faf5eb5e88392_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4248406" tvg-name="Main Feed   Day 1" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/FedEx-St.-Jude-Championship-2026_Web_1080_x_810.jpg" tvg-language="English" group-title="Fancode",ENG | Main Feed   Day 1
 https://dai-fancode.pages.dev/mumbai/4248406_english_hls_a6335d58d554820_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#===== SonyLIV (1 channels) =====
-{"error":"Failed to fetch data from source.","status":0}
+#EXTINF:-1 tvg-id="4248320" tvg-name="Day 1" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/VP-Bank-Swiss-Ladies-Open-old.png" tvg-language="English" group-title="Fancode",ENG | Day 1
+https://dai-fancode.pages.dev/mumbai/4248320_english_hls_bf3f7162e534240_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#===== SonyLIV (2 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021747/1785709689118385_DC26_Shillong_Lajong_FC_vs_Langsning_FC_landscape_thumb.jpg" group-title="SonyLIV", Shillong Lajong FC vs Langsning FC - 13 Aug 2026 [ENG] - IndianOil Durand Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/20000295/Football1308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786671157~acl=/*~id=56863216177901105826065498287504~hmac=36567b0c25b6a0a721a9289f90d4ca9132e9acd860d9c2fe21e966c888d3e47c
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703344075390_DP_World_Tour_Danish_Golf_Championship_day1_landscape_thumb.jpg" group-title="SonyLIV", Danish Golf Championship - Day 1 - 13 Aug 2026 [ENG] - DP World Tour
+https://sonydaimenew.akamaized.net/hls/live/20000293/Golf_DP_1308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786671157~acl=/*~id=56863216177901105826065498287504~hmac=36567b0c25b6a0a721a9289f90d4ca9132e9acd860d9c2fe21e966c888d3e47c
 
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:06:02 PM 13-08-2026
+#LAST_UPDATE:07:32 PM 13-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -318,29 +328,34 @@ https://dai-fancode.pages.dev/mumbai/4248406_english_hls_a6335d58d554820_1ta-di_
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:06:02 PM 13-08-2026
+#LAST_UPDATE:07:32 PM 13-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
 #UPCOMING_COUNT:0
 
-#EXTINF:-1 tvg-id="B0H9YMJC8N" tvg-name="Lions vs. Panthers" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.0b9722c9-34d1-4b57-b3e3-89b20f944e51/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Lions vs. Panthers
+#EXTINF:-1 tvg-id="B0HBWSJ59Y" tvg-name="Tigers vs. Leopards" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.177bf073-5c44-4da5-b972-fef8192390cd/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Tigers vs. Leopards
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
-#===== AXS (2 channels) =====
+#===== AXS (3 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 6:17:22 PM 13-08-2026
+#last update time: 7:32:27 PM 13-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Birmingham%20Sessione%20mattutina.jpg" group-title="AXS", Birmingham: Sessione mattutina - Sessione mattutina
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1786709843-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bb0aa34808621317f1344c8ca32f28ac
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1410/720p/chunks.m3u8?is_vip=false&token=1786714349-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2fbca71ef9c1ac5abb82fbc9526fc689
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tour%20of%20Czech%20Republic%20%26%20Arctic%20Tour%2C%20Stage%201.jpg" group-title="AXS", Tour of Czech Republic & Arctic Tour, Stage 1 - UCI Pro Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1409/720p/chunks.m3u8?is_vip=false&token=1786714351-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-35aeb8da637621b95174edb43c65fc06
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-13 13:32:03
