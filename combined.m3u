@@ -1,28 +1,49 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Live Events (67 channels) =====
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : WILLOW - AQ
+#===== Live Events (77 channels) =====
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=97a5513689d3b2f6a4e31bfedb2ea2d6:19ba11eba39303ebd05986d92d974a02
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/vsbkktsjpw/out/v1/a73da2deccb14219939a675c0b3d99cf/cenc.mpd
 
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : TAPMAD - AQ
-https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : WILLOW - ALT
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : TNT SPORTS - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e
-https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : SKY SPORTS NZ
-https://latestmovies.net/api/live/playlist/592?.m3u8
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : WILLOW - ALT
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=97a5513689d3b2f6a4e31bfedb2ea2d6:19ba11eba39303ebd05986d92d974a02
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vsbkktsjpw/out/v1/a73da2deccb14219939a675c0b3d99cf/cenc.mpd
 
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : FOX CRICKET HD
-https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : TAPMAD - AQ
+https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8|referer=https://tapmad.com/
 
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Australia vs Bangladesh : LOW SERVER
-http://193.47.62.192/hls/NNNND.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : WILLOW HD
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : SonyLiv - English
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000379/cricodi1508/ENG/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fd4b8b299abf4db769ebd79276e816d2-1786763403896
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : SonyLiv - Hindi
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000300/cricodi1508/HIN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fd4b8b299abf4db769ebd79276e816d2-1786763403896
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : SonyLiv - Tamil
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000377/cricodi1508/TAM/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fd4b8b299abf4db769ebd79276e816d2-1786763403896
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : SonyLiv - Telugu
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000383/cricodi1508/TEL/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fd4b8b299abf4db769ebd79276e816d2-1786763403896
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : SonyLiv - Kannada
+https://sonymtmnew-akamaized.pages.dev/hls/live/20000380/cricodi1508/KAN/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:153.0) Gecko/20100101 Firefox/153.0&Referer=https://www.sonyliv.com/&Origin=https://www.sonyliv.com&x-playback-session-id=fd4b8b299abf4db769ebd79276e816d2-1786763403896
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Sri Lanka vs India : LOW SERVER
+http://193.47.62.190/hls/KKKK.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Ireland vs Afghanistan : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -68,6 +89,30 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tll6uwepxa/out/v1
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",CPL Caribbean Premier League : FANCODE - IN
 https://dai-fancode.pages.dev/mumbai/4248288_english_hls_f302461a2f66250_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : WILLOW - AQ
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : TAPMAD - AQ
+https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8|referer=https://tapmad.com
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : WILLOW - ALT
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e
+https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ze0xmkhfw8/out/v1/a36a54f3b43149f7885048f3465ea115/cenc.mpd
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : SKY SPORTS NZ
+https://latestmovies.net/api/live/playlist/592?.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : FOX CRICKET HD
+https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Australia vs Bangladesh : LOW SERVER
+http://193.47.62.192/hls/NNNND.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",The Hundred Women : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -225,13 +270,19 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Al-Ittihad vs Al-Kholood :
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Al-Nassr vs Al-Fateh :
-https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
-
-#===== Fancode (6 channels) =====
+#===== Fancode (8 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Saturday, 15 August 2026 at 1:21:15 pm
+#DATE:- Saturday, 15 August 2026 at 3:00:19 pm
+
+#EXTINF:-1 tvg-id="4248335" tvg-name="Kanpur Superstars Vs Noida Kings" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248335_53029_NOI_KAN_FC-Web_1786702851443.png" tvg-language="Hindi" group-title="Fancode",HIN | Kanpur Superstars Vs Noida Kings
+https://dai-fancode.pages.dev/mumbai/4248335_hindi_hls_725bccd7ad50493_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4248335" tvg-name="Kanpur Superstars Vs Noida Kings" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248335_53029_NOI_KAN_FC-Web_1786702851443.png" tvg-language="Bhojpuri" group-title="Fancode",BHO | Kanpur Superstars Vs Noida Kings
+https://dai-fancode.pages.dev/mumbai/4248335_bhojpuri_hls_f5e8e701b546876_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4248051" tvg-name="Ireland Vs Afghanistan" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/33_1785532572236.png" tvg-language="English" group-title="Fancode",ENG | Ireland Vs Afghanistan
+https://dai-fancode.pages.dev/mumbai/4248051_english_hls_4a1fa82f9512172_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #EXTINF:-1 tvg-id="4248259" tvg-name="Singapore Vs Uganda" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png" tvg-language="English" group-title="Fancode",ENG | Singapore Vs Uganda
 https://dai-fancode.pages.dev/mumbai/4248259_english_hls_4c4e1623d073953_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -245,28 +296,28 @@ https://dai-fancode.pages.dev/mumbai/4248368_english_hls_f8b49ef5d138245_1ta-di_
 #EXTINF:-1 tvg-id="4248370" tvg-name="Greece Vs Czechia" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248370_53031_CZE_GRE_fc-web.jpg" tvg-language="English" group-title="Fancode",ENG | Greece Vs Czechia
 https://dai-fancode.pages.dev/mumbai/4248370_english_hls_e9af9e61b166670_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
-#EXTINF:-1 tvg-id="143814" tvg-name="Qualifying 1" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/DTM2.png" tvg-language="English" group-title="Fancode",ENG | Qualifying 1
-https://dai-fancode.pages.dev/mumbai/143814_english_hls_637a538c8752006_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#===== SonyLIV (5 channels) =====
+#===== SonyLIV (6 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022210/1786721377288986_SL_vs_IND_1stTest_Day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - 1st Test - 15 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786825490~acl=/*~id=87850993686949513832764062991275~hmac=7d46884879a505660ceeac726e6131684c1d1ec27e70969f83b3b86383399c68
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022210/1786721377288986_SL_vs_IND_1stTest_Day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - 1st Test - 15 Aug 2026 [HIN] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1508/HIN/std_lrh-800300010.m3u8?hdnea=exp=1786825490~acl=/*~id=87850993686949513832764062991275~hmac=7d46884879a505660ceeac726e6131684c1d1ec27e70969f83b3b86383399c68
+https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1508/HIN/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022210/1786721377288986_SL_vs_IND_1stTest_Day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - 1st Test - 15 Aug 2026 [TAM] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1508/TAM/std_lrh-800300010.m3u8?hdnea=exp=1786825490~acl=/*~id=87850993686949513832764062991275~hmac=7d46884879a505660ceeac726e6131684c1d1ec27e70969f83b3b86383399c68
+https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1508/TAM/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022210/1786721377288986_SL_vs_IND_1stTest_Day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - 1st Test - 15 Aug 2026 [TEL] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1508/TEL/std_lrh-800300010.m3u8?hdnea=exp=1786825490~acl=/*~id=87850993686949513832764062991275~hmac=7d46884879a505660ceeac726e6131684c1d1ec27e70969f83b3b86383399c68
+https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1508/TEL/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022210/1786721377288986_SL_vs_IND_1stTest_Day1_landscape_thumb.jpg" group-title="SonyLIV", Day 1 - 1st Test - 15 Aug 2026 [KAN] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1508/KAN/std_lrh-800300010.m3u8?hdnea=exp=1786825490~acl=/*~id=87850993686949513832764062991275~hmac=7d46884879a505660ceeac726e6131684c1d1ec27e70969f83b3b86383399c68
+https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1508/KAN/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021745/1785704546330524_ABB_FIA_FormulaE_WC26_R16_Hankook_London_EPrix_Qualifying_Race_landscape_thumb.jpg" group-title="SonyLIV", R16 - Hankook London E-Prix - Qualifying Race - 15 Aug 2026 [ENG] - ABB FIA Formula E World Championship
+https://sonydaimenew.akamaized.net/hls/live/20000301/FormulaE1508/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786829129~acl=/*~id=97306635375483048433074414580932~hmac=2e6e6d5c3b18bba1ca66f385414b73656e631e665a04372f90058bcd0eaa9f79
 
 #===== Willow (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:02:32 PM 15-08-2026
+#LAST_UPDATE:03:02 PM 15-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
@@ -277,7 +328,7 @@ https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1508/KAN/std_lrh-800
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f0150a56b1be7ec9071169fd5bffc237:3f949ad399e6a732e57d9100cc79317e
-https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/135uesxk1s/out/v1/b83d0874f8ca458fa41a41df9c869753/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/135uesxk1s/out/v1/b83d0874f8ca458fa41a41df9c869753/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HCX5GP83" tvg-name="India tour of Sri Lanka 2026 - 1st Test - Sri Lanka vs India" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.c42ea47f-6199-4d54-bcf4-8cda823b0e00/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",India tour of Sri Lanka 2026 - 1st Test - Sri Lanka vs India
 #KODIPROP:inputstream=inputstream.adaptive
@@ -288,7 +339,7 @@ https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/71rr
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:02:32 PM 15-08-2026
+#LAST_UPDATE:03:02 PM 15-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:3
@@ -299,38 +350,43 @@ https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/71rr
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/0bftapixow/out/v1/a435ed7a00f947deb4369b46d8f2fb70/cenc.mpd
 
-#===== AXS (6 channels) =====
+#===== AXS (7 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 2:32:22 PM 15-08-2026
+#last update time: 3:17:22 PM 15-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sri%20Lanka%20vs%20India.jpg" group-title="AXS", Sri Lanka vs India - 1st Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786869144-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8443645a9d0632c6c846e9cb3b8356ad
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786871842-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-50abc41545b00391f5a2792457efb07a
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Day%202.jpg" group-title="AXS", Day 2 - World Series of Darts - NZ Darts Masters
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1786869145-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ddbc133185b98cd472dda2c178560954
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Manawat%C5%AB%20vs%20Otago.jpg" group-title="AXS", Manawatū vs Otago - NPC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143072/720p/chunks.m3u8?is_vip=false&token=1786869147-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-667ec5f3c0e715001ce39a2403e624ab
+https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1786871845-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5d693c4fd1e443b3164e2b481e3bee45
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sunshine%20Georgies%20vs%20Avondale.jpg" group-title="AXS", Sunshine Georgies vs Avondale - Victoria NPL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-bp-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d7011/chunks.m3u8?is_vip=false&token=edcb381b402a9d3b83c369dc063ab6747063ec51&x-sign=703c22cfc5ef8e4f284e56dd51269195&x-time=1786782720
+https://livecdn-bp-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d7011/chunks.m3u8?is_vip=false&token=edcb381b402a9d3b83c369dc063ab6747063ec51&x-sign=98f257e937b65a79e0f1fed9fe3bce39&x-time=1786784520
 
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Qualifying%201%20London.jpg" group-title="AXS", Qualifying 1: London - Formula E
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kashima%20vs%20Nagoya%20Grampus.jpg" group-title="AXS", Kashima vs Nagoya Grampus - J1 League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1786869149-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f5f329bc894075d951f918717eb00980
+https://livecdn-bp-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d7015/chunks.m3u8?is_vip=false&token=edcb381b402a9d3b83c369dc063ab6747063ec51&x-sign=4ddd98a0b6e35df8b8bce57e3358e0b3&x-time=1786785420
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Collingwood%20Magpies%20vs%20Hawthorn.jpg" group-title="AXS", Collingwood Magpies vs Hawthorn - AFL Premiership
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1786871852-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-28f339d274f0dd93a8852ff60a7877c0
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Mito%20Hollyhock%20vs%20Gamba%20Osaka.jpg" group-title="AXS", Mito Hollyhock vs Gamba Osaka - J1 League
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-bp-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d7014/chunks.m3u8?is_vip=false&token=edcb381b402a9d3b83c369dc063ab6747063ec51&x-sign=b0c7ed67a087f0f57ad2846446683e9a&x-time=1786785420
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-15 11:19:09
