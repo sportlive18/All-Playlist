@@ -231,17 +231,30 @@ https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tear
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Toronto Blue Jays vs New York Yankees :
 https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
 
-#===== Fancode (2 channels) =====
+#===== Fancode (4 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Sunday, 16 August 2026 at 2:00:31 pm
+#DATE:- Sunday, 16 August 2026 at 2:50:09 pm
 
 #EXTINF:-1 tvg-id="4247990" tvg-name="North Delhi Strikers Vs Central Delhi Kings" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247990_53005_NDS_CDK_fc-Web.png" tvg-language="English" group-title="Fancode",ENG | North Delhi Strikers Vs Central Delhi Kings
 https://dai-fancode.pages.dev/mumbai/4247990_english_hls_f21a8ad85389293_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
+#EXTINF:-1 tvg-id="4248340" tvg-name="Kanpur Superstars Vs Kashi Rudras" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248340_53029_KAS_KAN_FC-Web_1786702852064.png" tvg-language="Hindi" group-title="Fancode",HIN | Kanpur Superstars Vs Kashi Rudras
+https://dai-fancode.pages.dev/mumbai/4248340_hindi_hls_9102373cf934876_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#EXTINF:-1 tvg-id="4248340" tvg-name="Kanpur Superstars Vs Kashi Rudras" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248340_53029_KAS_KAN_FC-Web_1786702852064.png" tvg-language="Bhojpuri" group-title="Fancode",BHO | Kanpur Superstars Vs Kashi Rudras
+https://dai-fancode.pages.dev/mumbai/4248340_bhojpuri_hls_be7902fc1224776_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.7.0 (Linux;Android 10) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
+
+#===== SonyLIV (2 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021745/1785704728475524_ABB_FIA_FormulaE_WC26_R17_London_EPrix_Qualifying_Race_landscape_thumb.jpg" group-title="SonyLIV", R17 - London E-Prix - Qualifying Race - 16 Aug 2026 [ENG] - ABB FIA Formula E World Championship
+https://sonydaimenew.akamaized.net/hls/live/20000291/FormulaE1608/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786915322~acl=/*~id=54006746402933551880227794695754~hmac=d81cec5f04d48be56f3d6dc33eb1795e4ccc07ab0d13fd6ee1a4e18f90f8adc4
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703743999390_DP_World_Tour_Nexo_Championship_day4_landscape_thumb.jpg" group-title="SonyLIV", Danish Golf Championship - Day 4 - 16 Aug 2026 [ENG] - DP World Tour
+https://sonydaimenew.akamaized.net/hls/live/20000389/Danish_G1608/ENG/std_lrh-800300010.m3u8?hdnea=exp=1786915322~acl=/*~id=54006746402933551880227794695754~hmac=d81cec5f04d48be56f3d6dc33eb1795e4ccc07ab0d13fd6ee1a4e18f90f8adc4
+
 #===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:02:32 PM 16-08-2026
+#LAST_UPDATE:03:02 PM 16-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -252,31 +265,51 @@ https://dai-fancode.pages.dev/mumbai/4247990_english_hls_f21a8ad85389293_1ta-di_
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=11dfe3433baa9cf3c01a222ad8b701b9:e65e7dd65b8e398e568280011e1d8141
-https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wiswvvvoi0/out/v1/e7cd65cdf64d4f08a731ed991db484d2/cenc.mpd
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/wiswvvvoi0/out/v1/e7cd65cdf64d4f08a731ed991db484d2/cenc.mpd
 
 #===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:02:32 PM 16-08-2026
+#LAST_UPDATE:03:02 PM 16-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
 #UPCOMING_COUNT:0
 
-#===== AXS (3 channels) =====
+#===== AXS (7 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 2:32:23 PM 16-08-2026
+#last update time: 3:17:25 PM 16-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sri%20Lanka%20vs%20India.jpg" group-title="AXS", Sri Lanka vs India - 1st Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786955544-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4e735a4992045665dbc3f2f4e147d8d5
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1786958246-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d0b2b26039a9479ba49cb9774be4aaa9
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sydney%20Swans%20vs%20Essendon.jpg" group-title="AXS", Sydney Swans vs Essendon - AFL Premiership
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1786955546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-16c560ba2e25c48cd250d40eb6ca18bb
+https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1786958247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b3797d7953ef7be19e399f803f998fd1
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/GKS%20Katowice%20W%20vs%20Czarni%20Sosnowiec%20W.jpg" group-title="AXS", GKS Katowice W vs Czarni Sosnowiec W - Ekstraliga Women [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d710f-backup/chunks.m3u8?is_vip=false&token=1786958255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6fbd965347d60f59734ff9e661d7ac9c
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/GKS%20Katowice%20W%20vs%20Czarni%20Sosnowiec%20W.jpg" group-title="AXS", GKS Katowice W vs Czarni Sosnowiec W - Ekstraliga Women [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a5f9148945e9dbcc70d710f/chunks.m3u8?is_vip=false&token=1786958256-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-dbff759f35d37aca6b9ab2b70745b513
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/N%C3%BCrburgring%20-%20Race%202.jpg" group-title="AXS", Nürburgring - Race 2 - Porsche Carrera Cup Germany
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/68904/720p/chunks.m3u8?is_vip=false&token=1786958260-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-68b5670ecbe09e048767bd6559af8b59
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Qualifying%202%20London.jpg" group-title="AXS", Qualifying 2: London - Formula E
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1786958262-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ecd83d3fd7aab337822c9beb9f15f80d
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-15 22:10:57
