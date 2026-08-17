@@ -213,9 +213,16 @@ https://chatgpt.hereisman.net/playlist/53741/load-playlist?|Referer=https://gooz
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Smack Down : SD SERVER
 http://193.47.62.190/hls/FOOOAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
+#===== Fancode (2 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png" group-title="Fancode", Hong Kong, China vs Italy (ICC CWC Challenge League B 2026)
+https://in-mc-flive.fancode.com/mumbai/4248261_english_hls_02a9585e1762944_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787032168~_GO=Generated~acl=/mumbai/4248261_english_hls_02a9585e1762944_1ta-di_h264/*~Signature=AVMBkTUv-DM5Ls0XXaQcWtNzth3MSZiuiDWKDYjCDQlTE_GbCusPEM75lT7afrGc5LQydy1YaosvOoELrJ877akmpXgN
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Card_1785824451782.png" group-title="Fancode", Singapore vs Tanzania (ICC CWC Challenge League B 2026)
+https://in-mc-flive.fancode.com/mumbai/4248263_english_hls_9529910fe160775_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787032169~_GO=Generated~acl=/mumbai/4248263_english_hls_9529910fe160775_1ta-di_h264/*~Signature=AVMBkTXwBZXOad4j3V-hMon6ncQt5NyR4Rn6pbujUkBhVJs21zcGyzqYJabixk-LrLULWs1rhir5E8FMocoHJ4Qb3VUG
+
 #===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:11:32 AM 17-08-2026
+#LAST_UPDATE:01:02 PM 17-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -226,14 +233,14 @@ http://193.47.62.190/hls/FOOOAAAAA.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0;
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26d1e7d0ed8205fd964f87d793ce4681:837e3f6e328319333f8d8cf9ca3ab9ec
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/r22z8gwvp7/out/v1/8bbf4f57a4d640f698554e0eb4d20d64/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/live/clients/dash/enc/r22z8gwvp7/out/v1/8bbf4f57a4d640f698554e0eb4d20d64/cenc.mpd
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:11:32 AM 17-08-2026
+#LAST_UPDATE:01:02 PM 17-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:4
+#LIVE_COUNT:3
 #UPCOMING_COUNT:0
 
 #EXTINF:-1 tvg-id="B0HCKWG149" tvg-name="ATP/WTA: 2nd Round" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.61a8636c-ff22-4185-a6ee-ecdd915b5b7a/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",ATP/WTA: 2nd Round
@@ -247,12 +254,12 @@ https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 11:47:22 AM 17-08-2026
+#last update time: 1:32:27 PM 17-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sri%20Lanka%20vs%20India.jpg" group-title="AXS", Sri Lanka vs India - 1st Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787032043-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-459b8653e6105ecb44d84f1849ea7c59
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787038348-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-02611475b61a05d5eb6052efae23297a
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-17 09:28:12
