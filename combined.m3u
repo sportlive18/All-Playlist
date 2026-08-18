@@ -1,9 +1,6 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Live Events (77 channels) =====
+#===== Live Events (76 channels) =====
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Thailand vs Singapore : NetXplayer LIVE
-https://livecdn-tc-dara.maypn.stream/sla/1-6a78ff6f3326a2baec414faa/chunks.m3u8?is_vip=true&token=1787144765-Kv4cPTAAP5YTi-0-30f64bffd06896fcd35dda4b09a1cb9f|Referer=https://iframe.rumsport7.live/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Thailand vs Singapore : HD SERVER
 https://hls.streamhub.media/hls/thesport-api-c0de1af0c23912657b15/master.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Thailand vs Singapore : LOW SERVER
@@ -288,7 +285,7 @@ https://in-mc-flive.fancode.com/mumbai/4248382_english_hls_2bd01a9bab57683_1ta-d
 
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:07:32 PM 18-08-2026
+#LAST_UPDATE:08:32 PM 18-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -296,27 +293,47 @@ https://in-mc-flive.fancode.com/mumbai/4248382_english_hls_2bd01a9bab57683_1ta-d
 
 #===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:07:32 PM 18-08-2026
+#LAST_UPDATE:08:32 PM 18-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:3
 #UPCOMING_COUNT:0
 
-#===== AXS (3 channels) =====
+#===== AXS (7 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 7:47:25 PM 18-08-2026
+#last update time: 8:32:30 PM 18-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Thailand%20vs%20Singapore.jpg" group-title="AXS", Thailand vs Singapore - ASEAN Championship [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a78ff6f3326a2baec414faa-backup/chunks.m3u8?is_vip=false&token=1787147246-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-906cce49acd4f0c8d4ec97e62b0c58d3
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a78ff6f3326a2baec414faa-backup/chunks.m3u8?is_vip=false&token=1787149951-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2a54583a2dad7151b4b7d988fdc27d7b
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Thailand%20vs%20Singapore.jpg" group-title="AXS", Thailand vs Singapore - ASEAN Championship [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a78ff6f3326a2baec414faa/chunks.m3u8?is_vip=false&token=1787147247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-11b7c4834fb7c5b314f7db38919c9020
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a78ff6f3326a2baec414faa/chunks.m3u8?is_vip=false&token=1787149953-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c732d39929c8e8ffab66ecc883a92bc3
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Regar-TadAZ%20vs%20Parvoz.jpg" group-title="AXS", Regar-TadAZ vs Parvoz - Vysshaya Liga
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a60e24015d865a011317881-backup/chunks.m3u8?is_vip=false&token=1787149954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8aa6fd5222b767b233be1b66bb8e2a3e
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cincinnati%20open.jpg" group-title="AXS", Cincinnati open - Cincinnati open
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147446/720p/chunks.m3u8?is_vip=false&token=1787149956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0703fe23ac58dcfef172ec6d882032f4
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Andrey%20Rublev%20vs%20Nuno%20Borges.jpg" group-title="AXS", Andrey Rublev vs Nuno Borges - ATP Cincinnati
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/68892/720p/chunks.m3u8?is_vip=false&token=1787149956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-df0b5efd14faa85779c6d3184fd99b35
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Katerina%20Siniakova%20vs%20Madison%20Keys.jpg" group-title="AXS", Katerina Siniakova vs Madison Keys - Cincinnati open
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147446/720p/chunks.m3u8?is_vip=false&token=1787149956-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0703fe23ac58dcfef172ec6d882032f4
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-18 16:12:35
