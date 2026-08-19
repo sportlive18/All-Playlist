@@ -249,25 +249,29 @@ https://edgestream2.pro/hls/zeuryuegn48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",WWE Raw : SD SERVER
 http://193.47.62.44/hls/UIIII.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
+#===== Fancode (1 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247997_53005_NDS_SDS_fc-Web.png" group-title="Fancode", North Delhi Strikers vs South Delhi Superstarz (Delhi Premier League, 2026)
+https://in-mc-flive.fancode.com/mumbai/4247997_english_hls_7b2d59539698113_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787211742~_GO=Generated~acl=/mumbai/4247997_english_hls_7b2d59539698113_1ta-di_h264/*~Signature=ARceAWP8gUcT6bDPkYBzbIt9jGaM68DBz47FtS67CToXj2BsoGZ054F7mZhdFWt11QQg6uj8HhyjLIJBRcwq2z-i06kN
+
 #===== SonyLIV (5 channels) =====
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787123524196_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [English] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787166871~acl=/*~id=56332073448604767011957738971736~hmac=53eaff7df3d06140b2e9eacfbb26867f0cba862330f4c4c17409d4c995a73694
+#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/17/30/c99e220e2dad5b9699dd2a42959cd0ed_1787128221063_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [English] - India Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/20000383/cricodi1908/ENG/master.m3u8?hdnea=exp=1787172349~acl=/*~id=75110137056912076252891177051372~hmac=925d98d68b899682f4798866bd335b9c44b59e42adde7c8a0d6e5922724ae9cf
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787123524269_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Telugu] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787166871~acl=/*~id=56332073448604767011957738971736~hmac=53eaff7df3d06140b2e9eacfbb26867f0cba862330f4c4c17409d4c995a73694
+#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/57/29/5af84c1b01b654c4a2d44f17fc44c610_1787128220996_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Telugu] - India Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/20000377/cricodi1908/TEL/master.m3u8?hdnea=exp=1787172349~acl=/*~id=75110137056912076252891177051372~hmac=925d98d68b899682f4798866bd335b9c44b59e42adde7c8a0d6e5922724ae9cf
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787123524245_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Tamil] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787166871~acl=/*~id=56332073448604767011957738971736~hmac=53eaff7df3d06140b2e9eacfbb26867f0cba862330f4c4c17409d4c995a73694
+#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787128221041_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Hindi] - India Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787172349~acl=/*~id=75110137056912076252891177051372~hmac=925d98d68b899682f4798866bd335b9c44b59e42adde7c8a0d6e5922724ae9cf
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/37/77/05f60773a033594593a350ad4d4ed5bf_1787123524257_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Hindi] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000300/cricodi1908/HIN/master.m3u8?hdnea=exp=1787166871~acl=/*~id=56332073448604767011957738971736~hmac=53eaff7df3d06140b2e9eacfbb26867f0cba862330f4c4c17409d4c995a73694
+#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/54/5/0667249aeb315c3ca189f5a4bbada909_1787128221024_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Tamil] - India Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/20000380/cricodi1908/TAM/master.m3u8?hdnea=exp=1787172349~acl=/*~id=75110137056912076252891177051372~hmac=925d98d68b899682f4798866bd335b9c44b59e42adde7c8a0d6e5922724ae9cf
 
-#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787123524228_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Kannada] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787166871~acl=/*~id=56332073448604767011957738971736~hmac=53eaff7df3d06140b2e9eacfbb26867f0cba862330f4c4c17409d4c995a73694
+#EXTINF:-1 tvg-logo="https://img.media.jio.com/tvpimages/88/4/0c82a1f8a9f0574fab8af0495c14040f_1787128221053_l_medium.jpg" group-title="SonyLIV", Day 5 - 1st Test - 19 Aug 2026 [Kannada] - India Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8?hdnea=exp=1787172349~acl=/*~id=75110137056912076252891177051372~hmac=925d98d68b899682f4798866bd335b9c44b59e42adde7c8a0d6e5922724ae9cf
 
 #===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:01:32 PM 19-08-2026
+#LAST_UPDATE:02:32 PM 19-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -278,11 +282,11 @@ https://sonydaimenew.akamaized.net/hls/live/20000379/cricodi1908/KAN/master.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=00b68aef8a09b82e87e42bd5876ca5ec:15c0ccd0e9cf51a0f35dcac34d033b66
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duujom9bx6/out/v1/ac9cbe66d447429e897e4f8bcb846166/cenc.mpd
+https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/duujom9bx6/out/v1/ac9cbe66d447429e897e4f8bcb846166/cenc.mpd
 
 #===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:01:32 PM 19-08-2026
+#LAST_UPDATE:02:32 PM 19-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -292,7 +296,7 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/duujom9bx6/
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 1:47:25 PM 19-08-2026
+#last update time: 2:32:25 PM 19-08-2026
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-18 22:12:43
