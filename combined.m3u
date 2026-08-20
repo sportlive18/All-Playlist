@@ -237,26 +237,38 @@ https://edgestream2.pro/hls/zeuryuegn48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",WWE Raw : SD SERVER
 http://193.47.62.44/hls/UIIII.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
-#===== Fancode (3 channels) =====
+#===== Fancode (6 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248331_53029_GOR_NOI_FC-Web_1786702851279.png" group-title="Fancode", Gaur Gorakhpur Lions vs Noida Kings (Uttar Pradesh T20 League, 2026)
 https://in-mc-flive.fancode.com/mumbai/4248331_hindi_hls_28c466b13794280_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787303471~_GO=Generated~acl=/mumbai/4248331_hindi_hls_28c466b13794280_1ta-di_h264/*~Signature=ARceAWMP33Xkjw1UO4ddNFmdIzjqEMGD82pAAYypU4-Bq1_54hONs26ZNDD0IBu9dX6NLUPw1-h17n2qoP-S8RFrmJoF
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248339_53029_KAN_KAS_FC-Web_1786702851312.png" group-title="Fancode", Kanpur Superstars vs Kashi Rudras (Uttar Pradesh T20 League, 2026)
+https://in-mc-flive.fancode.com/mumbai/4248339_hindi_hls_7d48be994982529_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787319877~_GO=Generated~acl=/mumbai/4248339_hindi_hls_7d48be994982529_1ta-di_h264/*~Signature=ARceAWPBBFddA7bpCkxoPntFsrqHE5hizklWHqyuhrkO0TrJcfCaNDOF-27Y-VT8ia6DRM9_ilohEcLIF3q4unbZAywF
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248373_53031_FIN_IOM_fc-web.jpg" group-title="Fancode", Finland vs Isle of Man (ICC Men's T20 WC Europe Sub Regional Qualifier C, 2026)
 https://in-mc-flive.fancode.com/mumbai/4248373_english_hls_440981428b71144_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787316228~_GO=Generated~acl=/mumbai/4248373_english_hls_440981428b71144_1ta-di_h264/*~Signature=ARceAWPjgLZ94H5qPTSDQU7cgYG4ZY1JbS3K9du33z41HjPXklMrWUGHOk0oFua6ENRmiOq2jb_QXXGWgik_EIw0BCMG
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248388_53031_GRE_ISR_fc-web.jpg" group-title="Fancode", Greece vs Israel (ICC Men's T20 WC Europe Sub Regional Qualifier C, 2026)
+https://in-mc-flive.fancode.com/mumbai/4248388_english_hls_216ff220e879037_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787316839~_GO=Generated~acl=/mumbai/4248388_english_hls_216ff220e879037_1ta-di_h264/*~Signature=ARceAWNu4WQ6cm-AYx0eOecn4xr_HOT9RlD2GzBuyCUkpLWpMcy8gXhvRJe_b_6wtrpS8hgiGJ4IkAie3ukfFvYzfvAG
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247559_53003_SDS-W_CDQ_FC-Web_1787120909809.png" group-title="Fancode", South Delhi Superstarz Women vs Central Delhi Queens (Women's Delhi Premier League, 2026)
 https://in-mc-flive.fancode.com/mumbai/4247559_english_hls_b53a50e47760943_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787315618~_GO=Generated~acl=/mumbai/4247559_english_hls_b53a50e47760943_1ta-di_h264/*~Signature=ARceAWNRJ0SR4V11tgGYdbHDIEQpqL_D8A8o4jQe0egNPE5o1tnNYVzl75PoqM6iXE9DL6YElcANcVCmLqUnETGqUQoP
 
-#===== SonyLIV (2 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/BMW-Championship-2026-old-.png" group-title="Fancode", Main Feed - Day 1 vs Bellerive Country Club - St. Louis, Missouri (BMW Championship 2026)
+https://in-mc-flive.fancode.com/mumbai/4248414_english_hls_2d2575e67562810_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787321095~_GO=Generated~acl=/mumbai/4248414_english_hls_2d2575e67562810_1ta-di_h264/*~Signature=ARceAWMC2bUtfcuSH_3rKagJFLJgXugXCszGGyoJSu9d3WovKGbBK-uVNbL_tXWccNPEUTo9maw8kNEAI0O0I8CToqQC
+
+#===== SonyLIV (3 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022424/178704685129153_Durand_cup_S-F_Mohun-Bagan-Super-Giants-vs-Northeast-United-FC_live_landscape_thumb.jpg" group-title="SonyLIV", Mohun Bagan SG vs NorthEast United FC - Semi-Final - 20 Aug 2026 [ENG] - IndianOil Durand Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/20000292/DC_Mohun2008/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787276270~acl=/*~id=52594297410274586473915938750559~hmac=3cdf3ffb5acc256a5a54e4194f105d2a5728e8d37d548c94e298e4fe398a4173
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022536/178714229833818_eng_vs_pak_live_1Test_day2_live_landscape_thumb.jpg" group-title="SonyLIV", Day 2 - 1st Test - 20 Aug 2026 [ENG] - Pakistan Tour of England 2026
-https://sonydaimenew.akamaized.net/hls/live/20000291/England_2008/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787273835~acl=/*~id=27705402289855562995067314427204~hmac=9b2fb67e2014552b0ab17e9f2cac0f3f6b4a3bce4a4ddb00709b8eac5a477337
+https://sonydaimenew.akamaized.net/hls/live/20000291/England_2008/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787276270~acl=/*~id=52594297410274586473915938750559~hmac=3cdf3ffb5acc256a5a54e4194f105d2a5728e8d37d548c94e298e4fe398a4173
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000021743/1785703763082390_DP_World_Tour_Nexo_Championship_day1_landscape_thumb.jpg" group-title="SonyLIV", Nexo Championship - Day 1 - 20 Aug 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/out/v1/mpchgp431f/mpchc77b/dp_world2008-eng-ts-hls/master.m3u8?hdnea=exp=1787273835~acl=/*~id=27705402289855562995067314427204~hmac=9b2fb67e2014552b0ab17e9f2cac0f3f6b4a3bce4a4ddb00709b8eac5a477337
+https://sonydaimenew.akamaized.net/hls/live/mpchgp431f/mpchea26/dp_world2008-eng-ts-hls/master.m3u8?hdnea=exp=1787276270~acl=/*~id=52594297410274586473915938750559~hmac=3cdf3ffb5acc256a5a54e4194f105d2a5728e8d37d548c94e298e4fe398a4173
 
 #===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:06:32 PM 20-08-2026
+#LAST_UPDATE:08:02 PM 20-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -267,14 +279,14 @@ https://sonydaimenew.akamaized.net/out/v1/mpchgp431f/mpchc77b/dp_world2008-eng-t
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5d99fdaca6d45a2a1e882cf6d9e6d874:fb7579beeb6e29d1bec76bcd1dc68c5d
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/koc8anrj2t/out/v1/6333afb5e11340338ab382a3891ffcd9/cenc.mpd
+https://a96aivottlinear-a.akamaihd.net/OTTB/pdx-nitro/live/clients/dash/enc/koc8anrj2t/out/v1/6333afb5e11340338ab382a3891ffcd9/cenc.mpd
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:06:32 PM 20-08-2026
+#LAST_UPDATE:08:02 PM 20-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:2
+#LIVE_COUNT:3
 #UPCOMING_COUNT:0
 
 #EXTINF:-1 tvg-id="B0HFBSVT69" tvg-name="2026 Predator EuroTour Longoni Open" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.60d302c9-5c17-4ecb-8696-04b1e1e2bd3f/12/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",2026 Predator EuroTour Longoni Open
@@ -282,39 +294,34 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/koc8anrj2t/
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
 
-#===== AXS (6 channels) =====
+#===== AXS (5 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 6:47:29 PM 20-08-2026
+#last update time: 8:02:24 PM 20-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/England%20vs%20Pakistan.jpg" group-title="AXS", England vs Pakistan - 1st Test
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787316450-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-860ee3d90fc8d2da3dc7de09e1003e81
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Al%20Nassr%20W%20vs%20Bam%20Khatoon%20W.jpg" group-title="AXS", Al Nassr W vs Bam Khatoon W - AFC Women's Champions League
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a66280cebc5c3ef2c542aef-backup/chunks.m3u8?is_vip=false&token=1787316452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-52265055ef1fa861cbe7438688017ad2
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kharaatsai%20W%20vs%20BGC%20Asian%20Scholars%20W.jpg" group-title="AXS", Kharaatsai W vs BGC Asian Scholars W - AFC Women's Champions League
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a66280cebc5c3ef2c542af0-backup/chunks.m3u8?is_vip=false&token=1787316454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a4848576162daa244c1e9033ff8dea77
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Master%20W%20vs%20Banaat%20W.jpg" group-title="AXS", Master W vs Banaat W - AFC Women's Champions League
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a69f24f62561902dcfb1bd2-backup/chunks.m3u8?is_vip=false&token=1787316455-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0a46d582bf475ad75718cb8a6e697f68
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787320945-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-da8ecf6c92eac6aa6a3062cb6089e352
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Jurong%20W%20vs%20Hang%20Yuan%20W.jpg" group-title="AXS", Jurong W vs Hang Yuan W - AFC Women's Champions League
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a69f24f62561902dcfb1bce-backup/chunks.m3u8?is_vip=false&token=1787316456-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-62e31f6247240d5990187f960ac411de
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a69f24f62561902dcfb1bce-backup/chunks.m3u8?is_vip=false&token=1787320947-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9bc1f29079482502288db86e7ccbd608
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Renewi%20Tour%2C%20Stage%202.jpg" group-title="AXS", Renewi Tour, Stage 2 - UCI World Tour
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1787320950-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-38892cabab681424da1d4e78bf5651dc
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Brazil%20U17%20vs%20Venezuela%20U17.jpg" group-title="AXS", Brazil U17 vs Venezuela U17 - Friendlies
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8674c06c5a23a8c2f8769e/chunks.m3u8?is_vip=false&token=1787320954-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-23245f5038f35a5823d404c302a7b875
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-20 14:12:49
