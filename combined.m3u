@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Live Events (69 channels) =====
+#===== Live Events (65 channels) =====
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",CPL Caribbean Premier League : WILLOW - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -9,8 +9,11 @@ https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/jw8rzcb3wx/out/v1
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",CPL Caribbean Premier League : TNT SPORTS - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=cc91508324ce9dcaf425a43d58f1d9d4:643e5474d9edd87c7d9091c8c97994ca
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dev1hjwzh9/out/v1/a5f0ee7ad7b24906b14f43bebbbe4678/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",CPL Caribbean Premier League : TAPMAD - AQ
+https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8?|referer=https://tapmad.com
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",CPL Caribbean Premier League : WILLOW HD
 http://tvsen5.aynascope.net/willowhd/index.m3u8
@@ -20,54 +23,6 @@ https://tmaxapp.site/8wirwjs76erftg/skysport1nz15866.m3u8
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",CPL Caribbean Premier League : FOX CRICKET HD
 https://raw.githubusercontent.com/IPTVFlixBD/OopsTv/refs/heads/main/nwp/809389.m3u8
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Philadelphia Union vs Inter Miami CF : NetXplayer LIVE
-https://chatgpt.hereisman.net/playlist/54878/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Philadelphia Union vs Inter Miami CF : APPLE TV
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8dfcbc2f71d1f5f509391115fad72926:f433b39284188d6e7defb076ec8037e0
-https://abgrq4vaaaaaaaampsyx3sspvxzan.ta.bia-cf.live.pv-cdn.net/iad-nitro/startover/clients/dash/manipulated-manifest-iad-prod/enc/auq2ercnt0/out/v1/7ee50ab92ef94ab98a855d948be207b3/5a495046-7ef3-4f47-946c-4a3af3107708-cenc.mpd?amznDtid=AOAGZA014O5RE&amznPN=xp&amznPV=ATVWebPlayerSDK-1.0.242020.0&encoding=segmentBase
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Montevideo City Torque vs Tigre : D SPORTS - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Montevideo City Torque vs Tigre : PARAMOUNT+ HD
-https://rdcstream.life/live/montevideo-city-torque-x-tigre/index.m3u8?|Referer=https://bolodechocolate.fit/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Independiente Santa Fe vs River Plate : ESPN SPORTS HD
-https://rdcstream.life/live/independiente-santa-fe-x-river-plate/index.m3u8?|Referer=https://bolodechocolate.fit/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Independiente Santa Fe vs River Plate : SPORT TV HD
-https://rdcstream.life/live/sport-tv-2-pt/index.m3u8?|Referer=https://bolodechocolate.fit/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Independiente Santa Fe vs River Plate : ARABIC HD
-https://spxt.hamrimullahchy.workers.dev/1201182/index.json?&e=.m3u8
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Flamengo vs Cruzeiro : beiN ENGLISH - AQ
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Flamengo vs Cruzeiro : PARAMOUNT+ HD
-https://rdcstream.life/live/flamengo-x-cruzeiro/index.m3u8?|Referer=https://bolodechocolate.fit/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Flamengo vs Cruzeiro : SPORT TV HD
-https://rdcstream.life/live/sport-tv-1-pt/index.m3u8?|Referer=https://bolodechocolate.fit/
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Flamengo vs Cruzeiro : ARABIC HD
-https://spxt.hamrimullahchy.workers.dev/1201183/index.json?&e=.m3u8
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Milwaukee Brewers vs Seattle Mariners : HD QUALITY
-https://edgestream2.pro/hls/dzjhkfazbka26.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center
-
-#EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Kansas City Royals vs Athletics : HD QUALITY
-https://edgestream2.pro/hls/kjhfzua25.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center
 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/live-icon.png",Texas Rangers vs Washington Nationals : HD QUALITY
 https://edgestream2.pro/hls/jzabfazkbf27.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0&Referer=https://streame.center&Origin=https://streame.center
@@ -183,6 +138,30 @@ https://sonymtmnew-akamaized.pages.dev/hls/live/20000379/cricodi1908/KAN/master.
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Sri Lanka vs India : LOW SERVER
 http://193.47.62.40/hls/ORRR.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Al-Fayha vs Al-Hilal :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Rayo Vallecano vs Deportivo Alaves :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Sheffield Wednesday vs Bradford City :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Macara vs Santos :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Olimpia vs Vasco da Gama :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",LDU vs Mirassol :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Botafogo vs Cienciano :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
+#EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Corinthians vs Rosario Central :
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",Formula 1 : Sky via Apple TV - AQ
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -267,19 +246,16 @@ https://edgestream2.pro/hls/zeuryuegn48.m3u8|User-Agent=Mozilla/5.0 (Windows NT 
 #EXTINF:-1 group-title="Live Events" tvg-logo="https://i0.wp.com/www.estidia.eu/wp-content/uploads/2018/04/free-png-upcoming-events-clipart-icons-for-calendar-of-events-800.png?fit=800%2C700&ssl=1",WWE Raw : SD SERVER
 http://193.47.62.44/hls/UIIII.m3u8?|Referer=http://www.fawanews.sc/&Origin=http://www.fawanews.sc/
 
-#===== Fancode (3 channels) =====
+#===== Fancode (2 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png" group-title="Fancode", World Feed vs Cincinnati, United States (ATP Masters Cincinnati Open 2026)
 https://in-mc-flive.fancode.com/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787266454~_GO=Generated~acl=/mumbai/4248131_english_hls_ae7799b57683754_1ta-di_h264/*~Signature=ARceAWOfnATTBahSjUatSNLWJs65Co8JKKpWE4BGPP3_YhVTVVw56rthE0ChRQ7OEl_V0Ck6lXJzh9NPF7fmYo4oX9UH
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cincinnati-Open-ATP-Masters-old.png" group-title="Fancode", Tony Trabert Stadium 3 vs Cincinnati, United States (ATP Masters Cincinnati Open 2026)
-https://in-mc-flive.fancode.com/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787266455~_GO=Generated~acl=/mumbai/4248132_english_hls_fbc85bf3b732693_1ta-di_h264/*~Signature=ARceAWPkiSqD651Ln-UgLE3lYgZnMtgT-MvGV5I7u-yPFg_ekTGowGwqgKtUAuBGtvfq0R8-CIG41grI9e_1HKAiSYkP
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248285_53026_SLK_GUY_FC-Web.png" group-title="Fancode", Saint Lucia Kings vs Guyana Amazon Warriors (Caribbean Premier League, 2026)
 https://in-mc-flive.fancode.com/mumbai/4248285_english_hls_03fcc79ad119511_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787265846~_GO=Generated~acl=/mumbai/4248285_english_hls_03fcc79ad119511_1ta-di_h264/*~Signature=ARceAWN8SW5qKNtAg3AUxSjkKNpD6ekyMlzvji9YpOumdgtv32kJFR94WzoUhua-mYi4lzyICpiHAicv3insfmafr5MC
 
 #===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:07:32 AM 20-08-2026
+#LAST_UPDATE:08:32 AM 20-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
@@ -290,22 +266,36 @@ https://in-mc-flive.fancode.com/mumbai/4248285_english_hls_03fcc79ad119511_1ta-d
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1979511a83b985c6620b404aa518c95a:da8a2b019766c416ebdf2cd9f09cd95e
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/07ajrbhy12/out/v1/86ff14d1abb34732aeb4fa7f6a133b50/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/07ajrbhy12/out/v1/86ff14d1abb34732aeb4fa7f6a133b50/cenc.mpd
 
 #===== Prime Video (6 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:07:32 AM 20-08-2026
+#LAST_UPDATE:08:32 AM 20-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:6
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0HFFRWLMS" tvg-name="Marathón vs. Alianza FC" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d2cf3010-ed9a-470a-9117-6fcc00c0adf6/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Marathón vs. Alianza FC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+
+#EXTINF:-1 tvg-id="B0HCKR4B7J" tvg-name="Lincoln Saltdogs at Kansas City Monarchs" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ddff6c15-f3b8-43b2-a48f-09f0b6105ea0/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Lincoln Saltdogs at Kansas City Monarchs
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0H4W4QL5Y" tvg-name="FloRacing Night in America at Mason City Motor Speedway" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.e669841d-2386-4463-852e-b3b7013894e4/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",FloRacing Night in America at Mason City Motor Speedway
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2bead1627019ccc863e138410a8893ad:9fcd23f01aaef2bcf9c5cb2907f86aca
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd
+https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/out/v1/0139d2336b32481b956ff21357e97f0d/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HFD3KH7V" tvg-name="ATP/WTA: Round of 16, Doubles 2nd Round" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.aaff4881-b69a-4aee-82dc-55df8c9bbc91/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",ATP/WTA: Round of 16, Doubles 2nd Round
 #KODIPROP:inputstream=inputstream.adaptive
@@ -314,32 +304,18 @@ https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/d4bm3wili0/
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bfigtl960n/out/v1/5ba5484550e84681bff2e8ca994266c1/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HCKR4B7J" tvg-name="Lincoln Saltdogs at Kansas City Monarchs" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ddff6c15-f3b8-43b2-a48f-09f0b6105ea0/3/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Lincoln Saltdogs at Kansas City Monarchs
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=5d6c647cd1b56550bd34349b68ec8c82:09f952780ba5b30bc222439aaa3ac09b
-https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/3e2jwzlivy/out/v1/8093f930120e4a9ca62422f5b18ded4f/cenc.mpd
-
 #EXTINF:-1 tvg-id="B0HF8N98F9" tvg-name="Western Wolfpack at Metropolitan Mojo" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f35c73a5-7577-4e87-9bb1-d6dc7e700f88/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Western Wolfpack at Metropolitan Mojo
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HFFRWLMS" tvg-name="Marathón vs. Alianza FC" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.d2cf3010-ed9a-470a-9117-6fcc00c0adf6/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Marathón vs. Alianza FC
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/ed2ez0prtb/out/v1/811d58e2ba00485eb2a4d5724a2ba196/cenc.mpd
 
 #===== AXS (1 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
-#last update time: 7:32:31 AM 20-08-2026
+#last update time: 9:02:26 AM 20-08-2026
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-08-19 20:21:17
