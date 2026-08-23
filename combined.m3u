@@ -1,27 +1,36 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode (1 channels) =====
+#===== Fancode (4 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248510_53041_TT_BNR_FC-Web.jpg" group-title="Fancode", Taknor Tigers vs Baukh Night Riders (Uttarkashi T20 League 2026)
+https://in-mc-flive.fancode.com/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787557529~_GO=Generated~acl=/mumbai/4248510_english_hls_c23e4ca6cf17701_1ta-di_h264/*~Signature=ARceAWOVxdHS32QrSt1qyr3ZJIpihGO3ienuzpB-5xeMNLOAuQJG2Dnlb2GDh4VZefWPapKiJKkTj91cPQbeituqoAsF
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248436_53036_BAN-HP_HHA_fc-web_1787393618606.jpg" group-title="Fancode", Hobart Hurricanes Academy vs Bangladesh HP-XI (Top End T20 Series, 2026)
 https://in-mc-flive.fancode.com/mumbai/4248436_english_hls_1065cb636a12298_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787555709~_GO=Generated~acl=/mumbai/4248436_english_hls_1065cb636a12298_1ta-di_h264/*~Signature=ARceAWP134GuJpJAtV0XiDu9v14pMibHa-XMhlGzmP05OVD3nyVsbSNwkqZ6A8z6Xl8pqXu2wCZmbFf7q7zpqjxRY7IH
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247552_53003_CDQ_EDR-W_FC-Web_1787120909822.png" group-title="Fancode", Central Delhi Queens vs East Delhi Riders Women (Women's Delhi Premier League, 2026)
+https://in-mc-flive.fancode.com/mumbai/4247552_english_hls_07557ba66997405_1ta-di_h264/1080p.m3u8?hdntl=Expires=1787557531~_GO=Generated~acl=/mumbai/4247552_english_hls_07557ba66997405_1ta-di_h264/*~Signature=ARceAWNlqbjRizxtg1viGk5o2coARIXgboDMP3CjLQFXQKfCCXSr0u4Hfht5VtKyVnTLNeYmFCtiNLiB35n8vDciTbsK
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/F1_Academy_Dutch_web.jpg" group-title="Fancode", Feature Race vs Zandvoort (F1 ACADEMY NETHERLANDS 2026)
+https://in-mc-flive.fancode.com/mumbai/139695_english_hls_d5350728c336803_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1787560565~_GO=Generated~acl=/mumbai/139695_english_hls_d5350728c336803_1ta-di_h264/*~Signature=ARceAWP0DYw-leIHlqKMJy_FzXWC5OX18C6hz8ihhg40ySZUoFvSU7o_Vsczh9xxGS8iu6WelCiJLaLdDOBSfkhWSR0D
+
 #===== SonyLIV (5 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022671/1787325684640960_SL_vs_IND_2nd_Test_Day1_landscape_thumb.jpg" group-title="SonyLIV", 2nd Test - Day 1 - 23 Aug 2026 [ENG] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi2308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787513150~acl=/*~id=52262736239728911088727758390346~hmac=ae12be045390998e0a49748189d9356601c50a6f2580e56298d537beb746ca07
+https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi2308/ENG/std_lrh-800300010.m3u8?hdnea=exp=1787517397~acl=/*~id=27431976625173289300154115236986~hmac=0518d008dc16744786137a6e16257574a5efc856abafdfeb676d37b5ef84d954
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022671/1787325684640960_SL_vs_IND_2nd_Test_Day1_landscape_thumb.jpg" group-title="SonyLIV", 2nd Test - Day 1 - 23 Aug 2026 [HIN] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi2308/HIN/std_lrh-800300010.m3u8?hdnea=exp=1787513150~acl=/*~id=52262736239728911088727758390346~hmac=ae12be045390998e0a49748189d9356601c50a6f2580e56298d537beb746ca07
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi2308/HIN/std_lrh-800300010.m3u8?hdnea=exp=1787517397~acl=/*~id=27431976625173289300154115236986~hmac=0518d008dc16744786137a6e16257574a5efc856abafdfeb676d37b5ef84d954
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022671/1787325684640960_SL_vs_IND_2nd_Test_Day1_landscape_thumb.jpg" group-title="SonyLIV", 2nd Test - Day 1 - 23 Aug 2026 [TAM] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi2308/TAM/std_lrh-800300010.m3u8?hdnea=exp=1787513150~acl=/*~id=52262736239728911088727758390346~hmac=ae12be045390998e0a49748189d9356601c50a6f2580e56298d537beb746ca07
+https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi2308/TAM/std_lrh-800300010.m3u8?hdnea=exp=1787517397~acl=/*~id=27431976625173289300154115236986~hmac=0518d008dc16744786137a6e16257574a5efc856abafdfeb676d37b5ef84d954
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022671/1787325684640960_SL_vs_IND_2nd_Test_Day1_landscape_thumb.jpg" group-title="SonyLIV", 2nd Test - Day 1 - 23 Aug 2026 [TEL] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi2308/TEL/std_lrh-800300010.m3u8?hdnea=exp=1787513150~acl=/*~id=52262736239728911088727758390346~hmac=ae12be045390998e0a49748189d9356601c50a6f2580e56298d537beb746ca07
+https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi2308/TEL/std_lrh-800300010.m3u8?hdnea=exp=1787517397~acl=/*~id=27431976625173289300154115236986~hmac=0518d008dc16744786137a6e16257574a5efc856abafdfeb676d37b5ef84d954
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000022671/1787325684640960_SL_vs_IND_2nd_Test_Day1_landscape_thumb.jpg" group-title="SonyLIV", 2nd Test - Day 1 - 23 Aug 2026 [KAN] - India Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2308/KAN/std_lrh-800300010.m3u8?hdnea=exp=1787513150~acl=/*~id=52262736239728911088727758390346~hmac=ae12be045390998e0a49748189d9356601c50a6f2580e56298d537beb746ca07
+https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2308/KAN/std_lrh-800300010.m3u8?hdnea=exp=1787517397~acl=/*~id=27431976625173289300154115236986~hmac=0518d008dc16744786137a6e16257574a5efc856abafdfeb676d37b5ef84d954
 
 #===== Willow (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:01:32 PM 23-08-2026
+#LAST_UPDATE:02:32 PM 23-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:2
@@ -32,21 +41,21 @@ https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi2308/KAN/std_lrh-8003
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b18ee1fa4688bbfc61b3203a803c90d:d1559280fce999fc6f4f17301e62045d
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wfoftkmuzq/out/v1/70cec870847f415bbb508ac012959b5f/cenc.mpd
+https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/wfoftkmuzq/out/v1/70cec870847f415bbb508ac012959b5f/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HFQZ6FD5" tvg-name="Top End T20 Series 2026 - 9th Match - Hobart Hurricanes vs Bangladesh HP" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.b9bea838-2bb8-4e59-878d-71c8c8e32223/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Top End T20 Series 2026 - 9th Match - Hobart Hurricanes vs Bangladesh HP
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=fc5a85ca10054503c67e27a40f44e3b1:5703934488656b40f3beaf12fc964585
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rtfmzwubqz/out/v1/96db69b89e7c41a5ad6767652065d799/cenc.mpd
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rtfmzwubqz/out/v1/96db69b89e7c41a5ad6767652065d799/cenc.mpd
 
-#===== Prime Video (4 channels) =====
+#===== Prime Video (5 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:01:32 PM 23-08-2026
+#LAST_UPDATE:02:32 PM 23-08-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:4
+#LIVE_COUNT:5
 #UPCOMING_COUNT:0
 
 #EXTINF:-1 tvg-id="B0H85J96JP" tvg-name="Sri Lanka vs. India" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.fb328646-4c6d-49ba-9565-f5f831c52f8b/7/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Sri Lanka vs. India
@@ -56,41 +65,63 @@ https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/rtfmzwubqz/
 #KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
 https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
-#EXTINF:-1 tvg-id="B0HFH5HG5W" tvg-name="Otago v Wellington Lions" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.818cbd17-67b7-47d1-9551-7c68f4346f96/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Otago v Wellington Lions
+#EXTINF:-1 tvg-id="B0HFBSVT69" tvg-name="2026 Predator EuroTour Longoni Open" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.60d302c9-5c17-4ecb-8696-04b1e1e2bd3f/16/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",2026 Predator EuroTour Longoni Open
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=63a084a354d126bcd099c9eabf0cbb93:bd2b00bce574c33af46d0538937b3ac3
-https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/z1mmauev4g/out/v1/40b826b7f7d449559a5e4e3c2ac3fca2/cenc.mpd
+#KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
+https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/2idyuu2ecl/out/v1/8b521304de804ce5a5ac4ff27eb85eb3/cenc.mpd
 
 #EXTINF:-1 tvg-id="B0HFDBCQK1" tvg-name="PPA Tour Asia: Shenzhen Open-Gold" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.4ba05926-def5-4b18-84e2-468cfd69891b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",PPA Tour Asia: Shenzhen Open-Gold
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
-https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
 
-#===== AXS (4 channels) =====
+#EXTINF:-1 tvg-id="B0H8PF8J56" tvg-name="Zandvoort, Race 1" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.1445b701-c4ee-495e-9bad-c78e14bc878a/6/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Zandvoort, Race 1
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=609d795905904705028ef54653019af7:2c791eb611e57a7d7f203022bc1b9ba3
+https://ABKZV6SAAAAAAAAMPCEQ5KKZGLSDM.ta.emt-cf.live.pv-cdn.net/$T$2D3RhEOhAQWhBFgkYzQ1OWU1YmItZDgxMS00NGM2LTgwYzQtNTNkZDc3NTIwODk5WJSnAWpwcmltZXZpZGVvBBpqnnaZBhpqirAZA2pjbG91ZGZyb250Angpc3NpZDpkYzA1ZTY3Mi1kNjMwLTQ4MzUtOWMzYy01MGY0MWFjYjE3YzQZATihBaECeDMvbWhnbGlrcnZ4dC9vdXQvdjEvMDk3NzMzM2M2ZjZiNDJhZWI4ZGYxOGRlMDhmNTU4NmYZATyBYlVTWCDWEuwLGAG9xLNWc-VdUbF0POouhCKxB0mAgSXl65w2ZQ/IAD/0f079559b0dd4beeaad6dcff84ba48fb/v1/dash/159325541587/imdb_amagi_amzn1_dv_live_csid_83a10cd1-8e37-4ec7-845f-bfa744c7c933_us-east-1_iad_dash_h264/startover/clients/dash/manipulated-manifest-iad-prod/enc/mhglikrvxt/out/v1/0977333c6f6b42aeb8df18de08f5586f/91966b32-d2ee-4630-a3f8-76d9a86cdfce-cenc.mpd?aws.sessionId=c76a4ffa-49c3-4199-8f8c-669b7a2b0d33
+
+#===== AXS (7 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 1:32:26 PM 23-08-2026
+#last update time: 2:32:22 PM 23-08-2026
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sri%20Lanka%20vs%20India.jpg" group-title="AXS", Sri Lanka vs India - India tour of Sri Lanka
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787556747-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d72236276a33463f0dcc29453f6bebd3
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Otago%20vs%20Wellington.jpg" group-title="AXS", Otago vs Wellington - NPC
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/143070/720p/chunks.m3u8?is_vip=false&token=1787556749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c13683a9c488fc758a8188413c548864
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1787560343-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5f4aa1ddfff0f12f9191511a0913e22e
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/North%20Melbourne%20vs%20Sydney%20Swans.jpg" group-title="AXS", North Melbourne vs Sydney Swans - AFL Premiership
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1787556750-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-1744df715610bb5db2d46349237b3d23
+https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1787560347-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ba63df526d4e68152f3dcb2b797781f7
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Rovers%20FC%20W%20vs%20Rajshahi%20W.jpg" group-title="AXS", Rovers FC W vs Rajshahi W - AFC Women's Champions League
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6a1cf87c78df962c22b573-backup/chunks.m3u8?is_vip=false&token=1787560349-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-276be82c25929e13b40b2af74f7556ce
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/F1%20Academy%2C%20Round%204%20Netherlands%2C%202026%20Race%202.jpg" group-title="AXS", F1 Academy, Round 4 Netherlands, 2026 Race 2 - F1 Academy Race
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/239/720p/chunks.m3u8?is_vip=false&token=1787560350-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cbfca64b939e454f9e095458b8f11a56
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Womens%20Series%2019%20%26%2020.jpg" group-title="AXS", Womens Series 19 & 20 - Womens Series
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/114414/720p/chunks.m3u8?is_vip=false&token=1787560356-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-97ecc78181c36df9ff5288d4fa6c15cd
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Hawthorn%20vs%20West%20Coast%20Eagles.jpg" group-title="AXS", Hawthorn vs West Coast Eagles - AFL Premiership
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/450/720p/chunks.m3u8?is_vip=false&token=1787560355-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e6643c45811729dd2e4e87eaa23748d0
 
 #===== Jio Hotstar (114 channels) =====
 # JHS Channels — Generated 2026-08-22 11:38:37
