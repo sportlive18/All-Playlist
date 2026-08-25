@@ -6,7 +6,6 @@ from datetime import datetime
 
 # ------------------ CONFIGURATION ------------------
 PLAYLISTS = [
-    
     {"name": "FANCODE", "icon": "🏏", "url": "https://raw.githubusercontent.com/drmlive/fancode-live-events/refs/heads/main/fancode.m3u"},
     {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
     {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
@@ -16,15 +15,14 @@ PLAYLISTS = [
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
-    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},  
+    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},
 ]
 
 OUTPUT_FILE = "combined.m3u"
-EPG_URL = "https://www.tsepg.cf/epg.xml.gz"   # single URL (no pipe)
+EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
 SOURCE_CATEGORY_OVERRIDE = {
-    
     "FANCODE":     "Fancode",
     "SONYLIV":     "SonyLIV",
     "Jio Hotstar": "Jio Hotstar",
@@ -33,7 +31,6 @@ SOURCE_CATEGORY_OVERRIDE = {
     "AXSPORTS":    "AXS",
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
-      # NEW: Category override for Jio Hotstar
 }
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
@@ -84,10 +81,10 @@ CATEGORY_ORDER = [
     "Prime Video",
     "AXS",
     "Hotstar",
-    "Jio Hotstar",  # NEW: Added to category order
+    "Jio Hotstar",
 ]
 
-# ------------------ HELPER FUNCTIONS (defined before main) ------------------
+# ------------------ HELPER FUNCTIONS ------------------
 def fetch_playlist(url):
     try:
         print(f"  📥 Fetching: {url}")
@@ -196,7 +193,6 @@ def main():
         blocks = groups[cat]
         count = len(blocks)
         total += count
-        # Use a plain comment for section header (not #EXTINF)
         out_lines.append(f'#===== {cat} ({count} channels) =====')
         for block in blocks:
             fixed = fix_channel_block(block, cat)
@@ -211,6 +207,7 @@ def main():
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(out_lines))
+            f.write('\n')  # final newline
         print("\n" + "=" * 50)
         print(f"✅ Successfully created {OUTPUT_FILE}")
         print(f"📊 Total channels: {total}")
