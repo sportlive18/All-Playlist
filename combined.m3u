@@ -2,43 +2,310 @@
 #===== SonyLIV (1 channels) =====
 {"error":"Failed to fetch data from source.","status":0}
 
-#===== Willow (1 channels) =====
+#===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:11:32 AM 02-09-2026
+#LAST_UPDATE:05:02 PM 02-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:20
+#LIVE_COUNT:1
+#UPCOMING_COUNT:19
+
+#EXTINF:-1 tvg-id="B0HFZRHJ9L" tvg-name="European T20 Premier League 2026 - 10th Match - Dublin Guardians vs Rotterdam Dockers" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8050f764-a5cf-464d-bb17-07f90e762462/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",European T20 Premier League 2026 - 10th Match - Dublin Guardians vs Rotterdam Dockers
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2d4fd63a677fb3fb2cec81aba6893bc3:86afdab67b583024b92f7f58b1295fc6
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/1ylx5xgker/out/v1/d2e04639c946424a931b32475bfd637a/cenc.mpd
 
 #===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:11:32 AM 02-09-2026
+#LAST_UPDATE:05:02 PM 02-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:1
 #UPCOMING_COUNT:0
 
-#===== AXS (4 channels) =====
+#===== AXS (56 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 11:32:24 AM 02-09-2026
+#last update time: 4:47:23 PM 02-09-2026
 
-#EXTINF:-1 tvg-id="60305" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/US%20Open.jpg" group-title="AXS", US Open - US Open
+#EXTINF:-1 tvg-id="55736" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Guardians%20vs%20Dockers.jpg" group-title="AXS", Guardians vs Dockers - ETPL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788413545-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7bceff083070a8dafa4bb2a42a304fe4
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788432444-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ffb9b98cba6de2ad6489477a5e833179
 
-#EXTINF:-1 tvg-id="60321" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Arthur%20Ashe%20Stadium.jpg" group-title="AXS", Arthur Ashe Stadium - US Open
+#EXTINF:-1 tvg-id="59673" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sutherland%20Sharks%20vs%20Manly%20United.jpg" group-title="AXS", Sutherland Sharks vs Manly United - New South Wales NPL [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788413546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3ac60b3ca4ad21a0797636187bb40272
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9646cc51b97c1e61976564-backup/chunks.m3u8?is_vip=false&token=1788432446-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8101aa025d3b364490222b77634be638
 
-#EXTINF:-1 tvg-id="52351" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/St.%20Louis%20Cardinals%20vs%20Los%20Angeles%20Dodgers.jpg" group-title="AXS", St. Louis Cardinals vs Los Angeles Dodgers - MLB
+#EXTINF:-1 tvg-id="59673" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sutherland%20Sharks%20vs%20Manly%20United.jpg" group-title="AXS", Sutherland Sharks vs Manly United - New South Wales NPL [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55849/720p/chunks.m3u8?is_vip=false&token=1788413547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-78bade3df999d6f655fdc8d5b4719a79
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9646cc51b97c1e61976564/chunks.m3u8?is_vip=false&token=1788432447-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0d4c096df0fc343c98f4b71394023715
+
+#EXTINF:-1 tvg-id="59672" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Marconi%20Stallions%20vs%20NWS%20Spirit.jpg" group-title="AXS", Marconi Stallions vs NWS Spirit - New South Wales NPL [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9646cc51b97c1e61976565-backup/chunks.m3u8?is_vip=false&token=1788432448-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-667f3a9a977865f54615d689f896f510
+
+#EXTINF:-1 tvg-id="59672" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Marconi%20Stallions%20vs%20NWS%20Spirit.jpg" group-title="AXS", Marconi Stallions vs NWS Spirit - New South Wales NPL [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a9646cc51b97c1e61976565/chunks.m3u8?is_vip=false&token=1788432449-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-95fcb24c5ad8a832c85dec829fb12989
+
+#EXTINF:-1 tvg-id="51684" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vanraure%20Hachinohe%20vs%20Tochigi%20City.jpg" group-title="AXS", Vanraure Hachinohe vs Tochigi City - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d68/chunks.m3u8?is_vip=false&token=1788432451-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3a7a98d9651a910467666af2b2629c75
+
+#EXTINF:-1 tvg-id="51683" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sagamihara%20vs%20Jubilo%20Iwata.jpg" group-title="AXS", Sagamihara vs Jubilo Iwata - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d69-backup/chunks.m3u8?is_vip=false&token=1788432452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c11b6a675ed7c1b946800bee9882df99
+
+#EXTINF:-1 tvg-id="51683" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sagamihara%20vs%20Jubilo%20Iwata.jpg" group-title="AXS", Sagamihara vs Jubilo Iwata - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d69/chunks.m3u8?is_vip=false&token=1788432452-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2accec8f73c7cdb8e8a2bf149e714422
+
+#EXTINF:-1 tvg-id="51701" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Gifu%20vs%20Tokushima%20Vortis.jpg" group-title="AXS", FC Gifu vs Tokushima Vortis - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7e-backup/chunks.m3u8?is_vip=false&token=1788432454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-40c20c1ecf5f7c065ce1eca395838ff2
+
+#EXTINF:-1 tvg-id="51701" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Gifu%20vs%20Tokushima%20Vortis.jpg" group-title="AXS", FC Gifu vs Tokushima Vortis - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7e/chunks.m3u8?is_vip=false&token=1788432454-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f269125b6eeaa6849669fa261183ca94
+
+#EXTINF:-1 tvg-id="51699" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Ehime%20FC%20vs%20Blaublitz%20Akita.jpg" group-title="AXS", Ehime FC vs Blaublitz Akita - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d80/chunks.m3u8?is_vip=false&token=1788432456-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-42063af23ff7a522927db3bdef85b9e8
+
+#EXTINF:-1 tvg-id="51702" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kitakyushu%20vs%20Iwaki.jpg" group-title="AXS", Kitakyushu vs Iwaki - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7d-backup/chunks.m3u8?is_vip=false&token=1788432457-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3846da53bbcc20f6f3d3de319f4ac938
+
+#EXTINF:-1 tvg-id="51702" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kitakyushu%20vs%20Iwaki.jpg" group-title="AXS", Kitakyushu vs Iwaki - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7d/chunks.m3u8?is_vip=false&token=1788432457-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-317d3f8fa63037fea1180d1c819bd54c
+
+#EXTINF:-1 tvg-id="51703" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kagoshima%20United%20vs%20Consadole%20Sapporo.jpg" group-title="AXS", Kagoshima United vs Consadole Sapporo - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7c-backup/chunks.m3u8?is_vip=false&token=1788432458-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-16a4f047d9b5ef86d236411797ebfb4a
+
+#EXTINF:-1 tvg-id="51703" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kagoshima%20United%20vs%20Consadole%20Sapporo.jpg" group-title="AXS", Kagoshima United vs Consadole Sapporo - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7c/chunks.m3u8?is_vip=false&token=1788432459-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-78ceb27ba3f4166f29ab1e141287316e
+
+#EXTINF:-1 tvg-id="51704" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Kanazawa%20vs%20Imabari.jpg" group-title="AXS", Kanazawa vs Imabari - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7b/chunks.m3u8?is_vip=false&token=1788432460-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ddb89216809c49170f88375b92429276
+
+#EXTINF:-1 tvg-id="51705" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Roasso%20Kumamoto%20vs%20Oita%20Trinita.jpg" group-title="AXS", Roasso Kumamoto vs Oita Trinita - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7a-backup/chunks.m3u8?is_vip=false&token=1788432462-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f4bffab67dad865eced9fa108869a7d5
+
+#EXTINF:-1 tvg-id="51705" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Roasso%20Kumamoto%20vs%20Oita%20Trinita.jpg" group-title="AXS", Roasso Kumamoto vs Oita Trinita - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7a/chunks.m3u8?is_vip=false&token=1788432462-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4350720e521ee7025131cd728f266b91
+
+#EXTINF:-1 tvg-id="51706" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Thespakusatsu%20Gunma%20vs%20Albirex%20Niigata.jpg" group-title="AXS", Thespakusatsu Gunma vs Albirex Niigata - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d79/chunks.m3u8?is_vip=false&token=1788432465-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d2145cfc7c84cc7151ecce826950812b
+
+#EXTINF:-1 tvg-id="51707" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nara%20Club%20vs%20Sagan%20Tosu.jpg" group-title="AXS", Nara Club vs Sagan Tosu - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d78-backup/chunks.m3u8?is_vip=false&token=1788432466-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-21df4e633d195bc1c77c9dc8e554e068
+
+#EXTINF:-1 tvg-id="51707" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Nara%20Club%20vs%20Sagan%20Tosu.jpg" group-title="AXS", Nara Club vs Sagan Tosu - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d78/chunks.m3u8?is_vip=false&token=1788432467-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5f7799e19df56360aa4d4a4481767e2c
+
+#EXTINF:-1 tvg-id="51708" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Osaka%20vs%20Ventforet%20Kofu.jpg" group-title="AXS", Osaka vs Ventforet Kofu - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d77/chunks.m3u8?is_vip=false&token=1788432468-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d7b003c812fe4588c43f980857cadac7
+
+#EXTINF:-1 tvg-id="51709" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Renofa%20Yamaguchi%20vs%20Fujieda%20MYFC.jpg" group-title="AXS", Renofa Yamaguchi vs Fujieda MYFC - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d76-backup/chunks.m3u8?is_vip=false&token=1788432469-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-de4154a45af082c4f42e17011034fa10
+
+#EXTINF:-1 tvg-id="51709" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Renofa%20Yamaguchi%20vs%20Fujieda%20MYFC.jpg" group-title="AXS", Renofa Yamaguchi vs Fujieda MYFC - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d76/chunks.m3u8?is_vip=false&token=1788432470-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4deef84d89bf34d9641f9841fa31d7a0
+
+#EXTINF:-1 tvg-id="51710" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Ryukyu%20vs%20Yokohama%20FC.jpg" group-title="AXS", FC Ryukyu vs Yokohama FC - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d75-backup/chunks.m3u8?is_vip=false&token=1788432471-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ce8db16a22b4e7f7af2d8da18fc56e9f
+
+#EXTINF:-1 tvg-id="51710" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/FC%20Ryukyu%20vs%20Yokohama%20FC.jpg" group-title="AXS", FC Ryukyu vs Yokohama FC - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d75/chunks.m3u8?is_vip=false&token=1788432472-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f3f93679d43037e67c165e7bfddc774f
+
+#EXTINF:-1 tvg-id="51711" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tegevajaro%20Miyazaki%20vs%20Kataller%20Toyama.jpg" group-title="AXS", Tegevajaro Miyazaki vs Kataller Toyama - J-League Cup
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d74/chunks.m3u8?is_vip=false&token=1788432473-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7713722dfe6bc18ffbe0146e46e5b697
+
+#EXTINF:-1 tvg-id="51700" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Gainare%20Tottori%20vs%20Omiya%20Ardija.jpg" group-title="AXS", Gainare Tottori vs Omiya Ardija - J-League Cup [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7f-backup/chunks.m3u8?is_vip=false&token=1788432474-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-59aa987068d220055864edb5927674ca
+
+#EXTINF:-1 tvg-id="51700" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Gainare%20Tottori%20vs%20Omiya%20Ardija.jpg" group-title="AXS", Gainare Tottori vs Omiya Ardija - J-League Cup [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d7f/chunks.m3u8?is_vip=false&token=1788432475-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-852ec2826ed28da261efd95e82ab6864
+
+#EXTINF:-1 tvg-id="51686" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Hwacheon%20KSPO%20W%20vs%20Suwon%20FMC%20W.jpg" group-title="AXS", Hwacheon KSPO W vs Suwon FMC W - WK-League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d84-backup/chunks.m3u8?is_vip=false&token=1788432476-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e33e0273b79841c9eba9e9f714992ab5
+
+#EXTINF:-1 tvg-id="51686" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Hwacheon%20KSPO%20W%20vs%20Suwon%20FMC%20W.jpg" group-title="AXS", Hwacheon KSPO W vs Suwon FMC W - WK-League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d84/chunks.m3u8?is_vip=false&token=1788432477-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-252400e75febe6f869b070a3c8099aaa
+
+#EXTINF:-1 tvg-id="51698" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Yokohama%20F.%20Marinos%20vs%20Kyoto%20Sanga.jpg" group-title="AXS", Yokohama F. Marinos vs Kyoto Sanga - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6f-backup/chunks.m3u8?is_vip=false&token=1788432478-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3e1a164c0f25bbd658501467ed213a53
+
+#EXTINF:-1 tvg-id="51698" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Yokohama%20F.%20Marinos%20vs%20Kyoto%20Sanga.jpg" group-title="AXS", Yokohama F. Marinos vs Kyoto Sanga - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6f/chunks.m3u8?is_vip=false&token=1788432478-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-463e467c096a54d714a008bdeaef19bc
+
+#EXTINF:-1 tvg-id="51697" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/V-varen%20Nagasaki%20vs%20Gamba%20Osaka.jpg" group-title="AXS", V-varen Nagasaki vs Gamba Osaka - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6a-backup/chunks.m3u8?is_vip=false&token=1788432480-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-604f23bdc227a433a6e1c2d288044e0b
+
+#EXTINF:-1 tvg-id="51697" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/V-varen%20Nagasaki%20vs%20Gamba%20Osaka.jpg" group-title="AXS", V-varen Nagasaki vs Gamba Osaka - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6a/chunks.m3u8?is_vip=false&token=1788432480-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f3307e36b461e2e2e39a9a9489f24e05
+
+#EXTINF:-1 tvg-id="51696" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tokyo%20Verdy%20vs%20Vissel%20Kobe.jpg" group-title="AXS", Tokyo Verdy vs Vissel Kobe - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6c-backup/chunks.m3u8?is_vip=false&token=1788432483-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4f0c925e07216d7bb0dfa72257482694
+
+#EXTINF:-1 tvg-id="51696" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tokyo%20Verdy%20vs%20Vissel%20Kobe.jpg" group-title="AXS", Tokyo Verdy vs Vissel Kobe - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6c/chunks.m3u8?is_vip=false&token=1788432483-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c3db1eddfed684fccb97011b524460f5
+
+#EXTINF:-1 tvg-id="51695" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Shimizu%20S-pulse%20vs%20FC%20Tokyo.jpg" group-title="AXS", Shimizu S-pulse vs FC Tokyo - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d72-backup/chunks.m3u8?is_vip=false&token=1788432485-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0edd829e7428d3b2ee5ee05cb50e4098
+
+#EXTINF:-1 tvg-id="51695" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Shimizu%20S-pulse%20vs%20FC%20Tokyo.jpg" group-title="AXS", Shimizu S-pulse vs FC Tokyo - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d72/chunks.m3u8?is_vip=false&token=1788432485-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-48c7b97d0fe211297734d81ec166879d
+
+#EXTINF:-1 tvg-id="51694" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sanfrecce%20Hiroshima%20vs%20Nagoya%20Grampus.jpg" group-title="AXS", Sanfrecce Hiroshima vs Nagoya Grampus - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6d-backup/chunks.m3u8?is_vip=false&token=1788432487-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-592d208b11f262c8b87a1dda4c59e70e
+
+#EXTINF:-1 tvg-id="51694" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sanfrecce%20Hiroshima%20vs%20Nagoya%20Grampus.jpg" group-title="AXS", Sanfrecce Hiroshima vs Nagoya Grampus - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6d/chunks.m3u8?is_vip=false&token=1788432487-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-344cf78e097e19ca22157e62fbd59d3a
+
+#EXTINF:-1 tvg-id="51693" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Mito%20Hollyhock%20vs%20Kashima.jpg" group-title="AXS", Mito Hollyhock vs Kashima - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6e-backup/chunks.m3u8?is_vip=false&token=1788432488-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3b92e738fa03f77054b2c6138afe232b
+
+#EXTINF:-1 tvg-id="51693" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Mito%20Hollyhock%20vs%20Kashima.jpg" group-title="AXS", Mito Hollyhock vs Kashima - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6e/chunks.m3u8?is_vip=false&token=1788432489-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ca2132ef58b429d032ea1f3994b3c9b0
+
+#EXTINF:-1 tvg-id="51692" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Machida%20Zelvia%20vs%20Kawasaki%20Frontale.jpg" group-title="AXS", Machida Zelvia vs Kawasaki Frontale - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6b-backup/chunks.m3u8?is_vip=false&token=1788432490-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-bd8804ed49e32fd76f6996873831f404
+
+#EXTINF:-1 tvg-id="51692" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Machida%20Zelvia%20vs%20Kawasaki%20Frontale.jpg" group-title="AXS", Machida Zelvia vs Kawasaki Frontale - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d6b/chunks.m3u8?is_vip=false&token=1788432491-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ed020a85fb715c0e9c98d97564e14b6b
+
+#EXTINF:-1 tvg-id="51691" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/JEF%20United%20Chiba%20vs%20Fagiano%20Okayama.jpg" group-title="AXS", JEF United Chiba vs Fagiano Okayama - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d70-backup/chunks.m3u8?is_vip=false&token=1788432492-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b4bf37b4e1ece606cf053ae7c39ce73f
+
+#EXTINF:-1 tvg-id="51691" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/JEF%20United%20Chiba%20vs%20Fagiano%20Okayama.jpg" group-title="AXS", JEF United Chiba vs Fagiano Okayama - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d70/chunks.m3u8?is_vip=false&token=1788432493-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-511824a0fa116514e54f342d96143e03
+
+#EXTINF:-1 tvg-id="51690" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cerezo%20Osaka%20vs%20Kashiwa%20Reysol.jpg" group-title="AXS", Cerezo Osaka vs Kashiwa Reysol - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d73-backup/chunks.m3u8?is_vip=false&token=1788432494-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4b62bb280d72f71453d04d65e9d28445
+
+#EXTINF:-1 tvg-id="51690" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cerezo%20Osaka%20vs%20Kashiwa%20Reysol.jpg" group-title="AXS", Cerezo Osaka vs Kashiwa Reysol - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d73/chunks.m3u8?is_vip=false&token=1788432494-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e2040bd914a6353e736d2b8182b3d0b1
+
+#EXTINF:-1 tvg-id="51689" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Avispa%20Fukuoka%20vs%20Urawa.jpg" group-title="AXS", Avispa Fukuoka vs Urawa - J1 League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d71-backup/chunks.m3u8?is_vip=false&token=1788432495-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-45b815c46ab1390279032ede194fde46
+
+#EXTINF:-1 tvg-id="51689" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Avispa%20Fukuoka%20vs%20Urawa.jpg" group-title="AXS", Avispa Fukuoka vs Urawa - J1 League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d71/chunks.m3u8?is_vip=false&token=1788432496-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d24192ccfca5519b3ece01c1d872595a
+
+#EXTINF:-1 tvg-id="51688" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Seoul%20W%20vs%20Incheon%20Red%20Angels%20W.jpg" group-title="AXS", Seoul W vs Incheon Red Angels W - WK-League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d82-backup/chunks.m3u8?is_vip=false&token=1788432497-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-350123366f327b6c26cec34e4468f9c3
+
+#EXTINF:-1 tvg-id="51688" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Seoul%20W%20vs%20Incheon%20Red%20Angels%20W.jpg" group-title="AXS", Seoul W vs Incheon Red Angels W - WK-League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d82/chunks.m3u8?is_vip=false&token=1788432498-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4bca79e3d01fdb78785521e31b8c98ce
+
+#EXTINF:-1 tvg-id="51687" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Gumi%20Sportstoto%20W%20vs%20Gyeongju%20W.jpg" group-title="AXS", Gumi Sportstoto W vs Gyeongju W - WK-League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d83-backup/chunks.m3u8?is_vip=false&token=1788432499-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-dee237d06f26ef7c12d585ea292e89f6
+
+#EXTINF:-1 tvg-id="51687" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Gumi%20Sportstoto%20W%20vs%20Gyeongju%20W.jpg" group-title="AXS", Gumi Sportstoto W vs Gyeongju W - WK-League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d83/chunks.m3u8?is_vip=false&token=1788432500-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c9ef2e83924f11f28c9acd00081269f1
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-09-01 20:26:15 IST
