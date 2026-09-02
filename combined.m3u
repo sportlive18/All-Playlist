@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode (4 channels) =====
+#===== Fancode (5 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249118_53065_FAF_AMS_fc-web_1788345784081.jpg" group-title="Fancode", Sher-E-Punjab T20, 2026 [Hindi]
 https://in-mc-flive.fancode.com/mumbai/4249118_hindi_hls_9d1d73f8a332252_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788440752~_GO=Generated~acl=/mumbai/4249118_hindi_hls_9d1d73f8a332252_1ta-di_h264/*~Signature=AfPHOv1Ib0x7Q9p9m3DPeLuJKVoD-6c-8Zomu7uYLMCXaQXKUnFqq4qV2GQxJeq7WtG5eqJoVRDxbnpXLRQdGyK0S-oA
 
@@ -9,26 +9,44 @@ https://in-mc-flive.fancode.com/mumbai/4249118_punjabi_hls_f027b96d4d19253_1ta-d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248669_53052_MAT_ROS_fc-Web.jpg" group-title="Fancode", Oman D50 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4248669_english_hls_d3f513cab78873_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788435896~_GO=Generated~acl=/mumbai/4248669_english_hls_d3f513cab78873_1ta-di_h264/*~Signature=AfPHOv3pBiPYFVFnnvFxg0wLFP7frhJssTqj5mLDjnS_GJEFyBFKyI4MjXGxshLoH1KAwzp6cSeYP4-61puywbKArUUB
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249063_53058_RD_HKR_fc-Web_fc-webtvbg.jpg" group-title="Fancode", Dehradun T20 League 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4249063_english_hls_8a490b07a618287_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788443186~_GO=Generated~acl=/mumbai/4249063_english_hls_8a490b07a618287_1ta-di_h264/*~Signature=AfPHOv3caXsyzsABr-mDKiY2K52dO8Q0DUgL6CZ11yhX8nvhZ8GokY1LkKxTzthF-fdGBo05CPs3WVdRh3cUGq7O-s4E
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4247563_53003_NDS-W_SDS-W_FC-Web.png" group-title="Fancode", Women's Delhi Premier League, 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4247563_english_hls_706b7f52a243486_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788441362~_GO=Generated~acl=/mumbai/4247563_english_hls_706b7f52a243486_1ta-di_h264/*~Signature=AfPHOv3Bk5JouFPCB4VYtOI5KJ-S1XPM4LaApOU5SR8xKRisAbVvrUWyv5j9Q_K9XdT9DXERY4c_h10fMiK7uOI7EKIL
 
-#===== SonyLIV (3 channels) =====
+#===== SonyLIV (8 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023315/1788262585103414_ACW26_SL_vs_Indo_live_landscape_thumb.jpg" group-title="SonyLIV", Sri Lanka Women vs Indonesia Women - 2 Sep 2026 [ENG] - DP World Women's Asia Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2105080/cricodi0209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023315/1788262585103414_ACW26_SL_vs_Indo_live_landscape_thumb.jpg" group-title="SonyLIV", Sri Lanka Women vs Indonesia Women - 2 Sep 2026 [HIN] - DP World Women's Asia Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2037143/cricodi0209/HIN/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023315/1788262585103414_ACW26_SL_vs_Indo_live_landscape_thumb.jpg" group-title="SonyLIV", Sri Lanka Women vs Indonesia Women - 2 Sep 2026 [TAM] - DP World Women's Asia Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2094590/cricodi0209/TAM/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023315/1788262585103414_ACW26_SL_vs_Indo_live_landscape_thumb.jpg" group-title="SonyLIV", Sri Lanka Women vs Indonesia Women - 2 Sep 2026 [TEL] - DP World Women's Asia Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2043696/cricodi0209/TEL/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023315/1788262585103414_ACW26_SL_vs_Indo_live_landscape_thumb.jpg" group-title="SonyLIV", Sri Lanka Women vs Indonesia Women - 2 Sep 2026 [KAN] - DP World Women's Asia Cup 2026
+https://sonydaimenew.akamaized.net/hls/live/2105079/cricodi0209/KAN/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023363/1788338226315960_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_live_landscape_thumb.jpg" group-title="SonyLIV", Fazilka Falcons vs Amritsar Soormas - 2 Sep 2026 [HIN] - Sher-E-Punjab T20 League
-https://sonydaimenew.akamaized.net/hls/live/2022318/Criclive0209/HIN/std_lrh-800300010.m3u8?hdnea=exp=1788398936~acl=/*~id=85737825894581955744444262626927~hmac=683e1018af5707c711fb75de3b728990b0d3e57d732e8a7c39752bbf79ec219c
+https://sonydaimenew.akamaized.net/hls/live/2022318/Criclive0209/HIN/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023363/1788338226315960_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_live_landscape_thumb.jpg" group-title="SonyLIV", Fazilka Falcons vs Amritsar Soormas - 2 Sep 2026 [PAN] - Sher-E-Punjab T20 League
-https://sonydaimenew.akamaized.net/hls/live/2022318/Criclive0209/PAN/std_lrh-800300010.m3u8?hdnea=exp=1788398936~acl=/*~id=85737825894581955744444262626927~hmac=683e1018af5707c711fb75de3b728990b0d3e57d732e8a7c39752bbf79ec219c
+https://sonydaimenew.akamaized.net/hls/live/2022318/Criclive0209/PAN/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023305/1788253435543955_JPL_26_Mumbai-Kings-vs-Pune-Peshwas_live_landscape_thumb.jpg" group-title="SonyLIV", Mumbai Kings vs Pune Peshwas - 2 Sep 2026 [ENG] - JITO Premier League 2026
-https://sonydaimenew.akamaized.net/hls/live/2094589/Criclive0209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1788398936~acl=/*~id=85737825894581955744444262626927~hmac=683e1018af5707c711fb75de3b728990b0d3e57d732e8a7c39752bbf79ec219c
+https://sonydaimenew.akamaized.net/hls/live/2094589/Criclive0209/ENG/std_lrh-800300010.m3u8?hdnea=exp=1788401981~acl=/*~id=53698718704821280345518160339622~hmac=b398eebd6eeb4b3cb706a1f6800e3c5d6e77d9e7abbce4f8c491f8b4d6f54d33
 
-#===== Willow (2 channels) =====
+#===== Willow (3 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:07:32 PM 02-09-2026
+#LAST_UPDATE:08:02 PM 02-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
-#UPCOMING_COUNT:19
+#LIVE_COUNT:2
+#UPCOMING_COUNT:18
 
 #EXTINF:-1 tvg-id="B0HG5V474X" tvg-name="European T20 Premier League 2026 - 11th Match - Belfast Wolves vs Edinburgh Castle Rockers" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.06426c01-7246-467f-9280-c5c134c1b041/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",European T20 Premier League 2026 - 11th Match - Belfast Wolves vs Edinburgh Castle Rockers
 #KODIPROP:inputstream=inputstream.adaptive
@@ -37,75 +55,74 @@ https://sonydaimenew.akamaized.net/hls/live/2094589/Criclive0209/ENG/std_lrh-800
 #KODIPROP:inputstream.adaptive.license_key=6adfff4ab1f59be0effdbfc85e490b2c:2c7bcb9831fa6dc53cb66d980d245108
 https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/r4rb5ltcoq/out/v1/6f6bdd27406a480ea84a367721f74b1c/cenc.mpd
 
-#===== Prime Video (1 channels) =====
+#EXTINF:-1 tvg-id="B0HG9G57B5" tvg-name="Womens Asia Cup 2026 - 6th Match - Sri Lanka Women vs Indonesia Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.415160ff-bfe3-4bca-bfbb-fa2fe8075725/2/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Womens Asia Cup 2026 - 6th Match - Sri Lanka Women vs Indonesia Women
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=c2742087a88dea969b5ece23a12ebd3d:ecf606a690163ef1f4a59bfc8ffacff3
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/m0evluvofa/out/v1/697a13ef406c4a7fab262506f1d9b3e1/cenc.mpd
+
+#===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:07:32 PM 02-09-2026
+#LAST_UPDATE:08:02 PM 02-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:2
+#LIVE_COUNT:3
 #UPCOMING_COUNT:0
 
-#===== AXS (12 channels) =====
+#EXTINF:-1 tvg-id="B0HGRGFNFN" tvg-name="PPA Tour: Cary-Round of 32" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cd092a6c-ded7-4c87-adc9-c77a0356fccc/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",PPA Tour: Cary-Round of 32
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
+https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/bg4402bdnz/out/v1/466e19ef15204befaa3ee4eda7d6cd24/cenc.mpd
+
+#===== AXS (9 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 7:32:25 PM 02-09-2026
-
-#EXTINF:-1 tvg-id="51712" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Yunnan%20Yukun%20vs%20Chongqing%20Tongliang%20Long.jpg" group-title="AXS", Yunnan Yukun vs Chongqing Tongliang Long - FA Cup [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d8b-backup/chunks.m3u8?is_vip=false&token=1788442346-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-271cc80ad7f76de7753d1bfb79f7505b
-
-#EXTINF:-1 tvg-id="51712" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Yunnan%20Yukun%20vs%20Chongqing%20Tongliang%20Long.jpg" group-title="AXS", Yunnan Yukun vs Chongqing Tongliang Long - FA Cup [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d8b-cnhd/chunks.m3u8?is_vip=false&token=1788442347-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b8e14f385d1663fd09e07080ad6782a5
-
-#EXTINF:-1 tvg-id="51712" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Yunnan%20Yukun%20vs%20Chongqing%20Tongliang%20Long.jpg" group-title="AXS", Yunnan Yukun vs Chongqing Tongliang Long - FA Cup [Server 3]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a774b93fa4b2c2f02123d8b/chunks.m3u8?is_vip=false&token=1788442348-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-45484ce5d5198de3c8e1db22db4e0076
+#last update time: 8:17:22 PM 02-09-2026
 
 #EXTINF:-1 tvg-id="60323" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/British%20Open%20Secondo%20turno.jpg" group-title="AXS", British Open: Secondo turno - World Snooker Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1788442350-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-51be659864fdd417c98e55182a2c7fa3
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1788445042-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-7c0d0848b101f27d6afd8131ba54bbb4
 
 #EXTINF:-1 tvg-id="51713" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Luzino%20vs%20Wisla%20Plock.jpg" group-title="AXS", Luzino vs Wisla Plock - Cup [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7eee5170a52b8b4e55bc98-backup/chunks.m3u8?is_vip=false&token=1788442355-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9238a9584ecb199fff588df89249f4b7
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7eee5170a52b8b4e55bc98-backup/chunks.m3u8?is_vip=false&token=1788445044-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-afb03d84abb75073e18822bef35419a6
 
 #EXTINF:-1 tvg-id="51713" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Luzino%20vs%20Wisla%20Plock.jpg" group-title="AXS", Luzino vs Wisla Plock - Cup [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7eee5170a52b8b4e55bc98/chunks.m3u8?is_vip=false&token=1788442356-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-66594babba2b1323c314df5c9ecf1eb5
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7eee5170a52b8b4e55bc98/chunks.m3u8?is_vip=false&token=1788445045-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-13f9b07a5e66d559da5e4f27f06058ab
 
 #EXTINF:-1 tvg-id="52369" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vuelta%20a%20Espa%C3%B1a%2C%20Stage%2011.jpg" group-title="AXS", Vuelta a España, Stage 11 - La Vuelta
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1788442357-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3b3d8f30ea18f0ed8201744596c85693
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1419/720p/chunks.m3u8?is_vip=false&token=1788445046-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-85a4926e448f45bdea313ad499690e0e
 
 #EXTINF:-1 tvg-id="51746" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sassuolo%20vs%20Frosinone.jpg" group-title="AXS", Sassuolo vs Frosinone - Coppa Italia [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15-hd/chunks.m3u8?is_vip=false&token=1788442359-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-645cfcb49278f707e5ac2a572d1aa75b
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15-hd/chunks.m3u8?is_vip=false&token=1788445049-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f3e0f24328d18409594562ebaf2912ed
 
 #EXTINF:-1 tvg-id="51746" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sassuolo%20vs%20Frosinone.jpg" group-title="AXS", Sassuolo vs Frosinone - Coppa Italia [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15-backup/chunks.m3u8?is_vip=false&token=1788442360-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e910fcac9ac19156ea4fe25938724071
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15-backup/chunks.m3u8?is_vip=false&token=1788445049-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6180cc95c271ccedb7b13c371b4bc733
 
 #EXTINF:-1 tvg-id="51746" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Sassuolo%20vs%20Frosinone.jpg" group-title="AXS", Sassuolo vs Frosinone - Coppa Italia [Server 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15/chunks.m3u8?is_vip=false&token=1788442361-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4fd0d47cb0977d9de001f8349b29a924
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a853f66018287f1cee2af15/chunks.m3u8?is_vip=false&token=1788445050-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4718afbfa45af778abfaa81bed3852f6
 
 #EXTINF:-1 tvg-id="55737" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Wolves%20vs%20Castle%20Rockers.jpg" group-title="AXS", Wolves vs Castle Rockers - ETPL
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788442362-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-95ab17b3a1c7bfd7a6be8a5e0a79ea67
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1788445051-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ea0d941d4ae42f22f4a67789ef676783
 
 #===== Jio Hotstar (113 channels) =====
 # JHS Channels — Generated 2026-09-02 16:27:16 IST
