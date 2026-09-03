@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode (4 channels) =====
+#===== Fancode (3 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248617_53050_KUW_UAE_FC-Web.png" group-title="Fancode", ACC Men’s Premier Cup 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4248617_english_hls_93d68b8e0e36640_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788484524~_GO=Generated~acl=/mumbai/4248617_english_hls_93d68b8e0e36640_1ta-di_h264/*~Signature=AfPHOv1BnT87g7rlavFM7g4ifb5zEPLTmBnPPahUpUikuXXM3Tfr6iFt8KYGkGKmeyleX6cpXzHHtfE4Ze0pZmgV9qsI
 
@@ -9,16 +9,19 @@ https://in-mc-flive.fancode.com/mumbai/4248618_english_hls_3ab0bf6c4b17853_1ta-d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249064_53058_DK_VD_fc-Web_fc-webtvbg.jpg" group-title="Fancode", Dehradun T20 League 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4249064_english_hls_c01392522990714_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788491807~_GO=Generated~acl=/mumbai/4249064_english_hls_c01392522990714_1ta-di_h264/*~Signature=AfPHOv0sLGb8WTR6Jn6vrAT-LHbfh4l_7z1Zj2cAIbXI_HPoG3dhWPeKhCuIN4uXqhzuT3Ry6uLzSIWs8p7PQkLfQT4I
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248305_53026_TKR_ABF_FC-Web.png" group-title="Fancode", Caribbean Premier League, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4248305_english_hls_ca1b089f4377531_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788474806~_GO=Generated~acl=/mumbai/4248305_english_hls_ca1b089f4377531_1ta-di_h264/*~Signature=AfPHOv1zWrB84PqoSXxpGpsRKd5BCcrq1AHW6aPZ3y3R0brYexQnU_OSkvWC8cYA7wN4GjQh25Wz1hECUY_mltyrAT8E
+#===== SonyLIV (3 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023377/1788350606714870_PT20_Bathinda-Royals-vs-Jalandhar-Warriors_live_landscape_thumb.jpg" group-title="SonyLIV", Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026 [HIN] - Sher-E-Punjab T20 League
+https://sonydaimenew.akamaized.net/hls/live/2094588/criclive0309/HIN/std_lrh-800300010.m3u8?hdnea=exp=1788460226~acl=/*~id=15919899134843383291466670756519~hmac=b665c37c889a6e4ae4fc3997b304f54838f05edd7eab2ad0ba4408fe7d2b3da1
 
-#===== SonyLIV (1 channels) =====
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023377/1788350606714870_PT20_Bathinda-Royals-vs-Jalandhar-Warriors_live_landscape_thumb.jpg" group-title="SonyLIV", Bathinda Royals vs Jalandhar Warriors - 3 Sep 2026 [PAN] - Sher-E-Punjab T20 League
+https://sonydaimenew.akamaized.net/hls/live/2094588/criclive0309/PAN/std_lrh-800300010.m3u8?hdnea=exp=1788460226~acl=/*~id=15919899134843383291466670756519~hmac=b665c37c889a6e4ae4fc3997b304f54838f05edd7eab2ad0ba4408fe7d2b3da1
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023311/1788256517874994_JPL_26_Bangalore-Blasters-vs-Rajasthan-Rajvansh_live_landscape_thumb.jpg" group-title="SonyLIV", Bangalore Blasters vs Rajasthan Rajvansh - 3 Sep 2026 [ENG] - JITO Premier League 2026
-https://sonydaimenew.akamaized.net/hls/live/2005444/criclive0309/ENG/std_lrh-800300010.m3u8?hdnea=exp=1788451723~acl=/*~id=09259972406910149648834110007127~hmac=6a94763a5f1bcab73b03374fb426871a010bd888f3d5433adb2651b6b9839962
+https://sonydaimenew.akamaized.net/hls/live/2005444/criclive0309/ENG/std_lrh-800300010.m3u8?hdnea=exp=1788460226~acl=/*~id=15919899134843383291466670756519~hmac=b665c37c889a6e4ae4fc3997b304f54838f05edd7eab2ad0ba4408fe7d2b3da1
 
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:10:02 AM 03-09-2026
+#LAST_UPDATE:12:32 PM 03-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
@@ -26,43 +29,23 @@ https://sonydaimenew.akamaized.net/hls/live/2005444/criclive0309/ENG/std_lrh-800
 
 #===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:10:02 AM 03-09-2026
+#LAST_UPDATE:12:32 PM 03-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
+#LIVE_COUNT:2
 #UPCOMING_COUNT:0
 
-#===== AXS (6 channels) =====
+#===== AXS (2 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 10:02:25 AM 03-09-2026
+#last update time: 12:17:21 PM 03-09-2026
 
-#EXTINF:-1 tvg-id="52309" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vancouver%20Whitecaps%20vs%20CF%20Montreal.jpg" group-title="AXS", Vancouver Whitecaps vs CF Montreal - Canadian Championship [Server 1]
+#EXTINF:-1 tvg-id="60205" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Guam%20U20%20vs%20Northern%20Mariana%20Islands%20U20.jpg" group-title="AXS", Guam U20 vs Northern Mariana Islands U20 - AFC U20 Asian Cup
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a909e60eee29798bad58642-backup/chunks.m3u8?is_vip=false&token=1788494546-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-31284277622fb5236fa085b343cd6283
-
-#EXTINF:-1 tvg-id="52309" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vancouver%20Whitecaps%20vs%20CF%20Montreal.jpg" group-title="AXS", Vancouver Whitecaps vs CF Montreal - Canadian Championship [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a909e60eee29798bad58642/chunks.m3u8?is_vip=false&token=1788494547-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-432e1effe6c57eaaea0f0f30f6ae598c
-
-#EXTINF:-1 tvg-id="57623" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Club%20America%20vs%20Monterrey.jpg" group-title="AXS", Club America vs Monterrey - Leagues Cup [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90905ee4f896100fc85432-hd/chunks.m3u8?is_vip=false&token=1788494548-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ce98cc4a1636fc78ec5daac8e5266c8c
-
-#EXTINF:-1 tvg-id="57623" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Club%20America%20vs%20Monterrey.jpg" group-title="AXS", Club America vs Monterrey - Leagues Cup [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90905ee4f896100fc85432-backup/chunks.m3u8?is_vip=false&token=1788494549-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e06ffbf258b58c50604400bf131363f5
-
-#EXTINF:-1 tvg-id="57623" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Club%20America%20vs%20Monterrey.jpg" group-title="AXS", Club America vs Monterrey - Leagues Cup [Server 3]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90905ee4f896100fc85432/chunks.m3u8?is_vip=false&token=1788494550-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-994d2460ff3d992d82a795e27192ce35
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a789d16da063f1058c991a5/chunks.m3u8?is_vip=false&token=1788502643-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3fb8bbb303a2de2f63ae5d334066c496
 
 #===== Jio Hotstar (114 channels) =====
 # JHS Channels — Generated 2026-09-02 21:53:10 IST
