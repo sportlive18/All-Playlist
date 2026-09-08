@@ -1,67 +1,51 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:04:32 AM 08-09-2026
+#LAST_UPDATE:06:32 AM 08-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:20
 
-#===== Prime Video (4 channels) =====
+#===== Prime Video (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:04:32 AM 08-09-2026
+#LAST_UPDATE:06:32 AM 08-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:5
+#LIVE_COUNT:2
 #UPCOMING_COUNT:0
 
-#EXTINF:-1 tvg-id="B0HCPBBVN7" tvg-name="The Morning Drive" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.935f8277-21d0-4de6-9221-fda8795805f7/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",The Morning Drive
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e14535ab02e4065cc846047f1feee48d:a51c5c164f9a6b0ae751afeec7f85052
-https://hls-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/vax19ewjes/out/v1/f077d112d47e4a899664fa27031ba9fa/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0HFWH52T8" tvg-name="Road to the Dance" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.57569de5-52fa-4788-939b-acfd15abdf93/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Road to the Dance
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=b3c143f76cc86fcaf89268bb8881b23a:f957c339c7098930d2421c15b64b1452
-https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ac4wkwd8nd/out/v1/67df1a7f8a284bef90b219be4aeec7e8/cenc.mpd
-
-#EXTINF:-1 tvg-id="B0H5Y318SL" tvg-name="Seville, Early Rounds" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.aa81ea27-c98a-4f28-bde2-520604978a2b/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Seville, Early Rounds
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
-
-#===== AXS (5 channels) =====
+#===== AXS (6 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 4:32:28 AM 08-09-2026
+#last update time: 7:02:25 AM 08-09-2026
 
 #EXTINF:-1 tvg-id="65033" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/US%20Open.jpg" group-title="AXS", US Open - US Open
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788906749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0f86433f24c1948e6b46feae8b2e5dbd
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788915746-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6d6c8ff54f378ec7c1636e8657f0ea18
 
-#EXTINF:-1 tvg-id="55191" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Washington%20Nationals%20vs%20San%20Diego%20Padres.jpg" group-title="AXS", Washington Nationals vs San Diego Padres - MLB
+#EXTINF:-1 tvg-id="55138" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vitoria%20vs%20Gremio.jpg" group-title="AXS", Vitoria vs Gremio - Serie A
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1788906752-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f57b1f6cb1f7a52a46a6f3c313b129c5
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7de316cc54bda3f6b6850e/chunks.m3u8?is_vip=false&token=1788915748-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a15642d2eca2e92d7bd7d57a9757e827
 
-#EXTINF:-1 tvg-id="54477" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Barracas%20Central%20vs%20Argentinos%20JRS.jpg" group-title="AXS", Barracas Central vs Argentinos JRS - Liga Profesional Argentina [Server 1]
+#EXTINF:-1 tvg-id="55192" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/St.%20Louis%20Cardinals%20vs%20San%20Francisco%20Giants.jpg" group-title="AXS", St. Louis Cardinals vs San Francisco Giants - MLB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7de316cc54bda3f6b6850c-backup/chunks.m3u8?is_vip=false&token=1788906754-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9f2f26ed05f888dc4dafed7db9d5d355
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1788915749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-6057859d48335f4d834235530113f1c4
 
-#EXTINF:-1 tvg-id="54477" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Barracas%20Central%20vs%20Argentinos%20JRS.jpg" group-title="AXS", Barracas Central vs Argentinos JRS - Liga Profesional Argentina [Server 2]
+#EXTINF:-1 tvg-id="54489" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Union%20Santa%20Fe%20vs%20Instituto%20Cordoba.jpg" group-title="AXS", Union Santa Fe vs Instituto Cordoba - Liga Profesional Argentina
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7de316cc54bda3f6b6850c/chunks.m3u8?is_vip=false&token=1788906755-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-392c2faa2219b5366c716016cdd1cffe
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7de316cc54bda3f6b68500/chunks.m3u8?is_vip=false&token=1788915750-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-e62962673f147067ecd25518757bcf71
+
+#EXTINF:-1 tvg-id="55660" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Le%C3%B3n%20W%20vs%20Puebla%20W.jpg" group-title="AXS", León W vs Puebla W - Liga MX Femenil
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a7f3488b6fa125e7d0fb29b/chunks.m3u8?is_vip=false&token=1788915754-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fedf482e2e36d44a1c0fea9dc0400ae6
 
 #===== Jio Hotstar (120 channels) =====
 # JHS Channels — Generated 2026-09-07 10:22:05 AM IST
@@ -2253,7 +2237,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0172b8cd13ed59349a05aadc58ae11e0:e4ab7836617767a2a6e7aaae17fad2b6
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814195~exp=1788817795~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=b7590661bf9d031b2be6845b3a4ea0fe8bdfc4f3085f3576740d5f0df968161e"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821288~exp=1788824888~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=b8efb261f5352ab971c4a5fcf61eacbd9fbd934f33de15b81efa32cbcb25b7e7"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="151" tvg-name="Movies Now HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png" group-title="Entertainment",Movies Now HD
@@ -2332,7 +2316,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Jaihind_tv_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=88295124db295a6b9f5027dc6049e294:641c40230a95cb76d1949125f9552fda
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788815591~exp=1788819191~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=7feaa0094f686a6605cc625bd909d2fbe61cdef78b089f833dbb37ee5ba588cd"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788822789~exp=1788826389~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=f8a8e3c69b584fad0d67cae4066c518f27d6ac5cfe1dc56ec1123d48a9ad39ac"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="473" tvg-name="Anmol TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmol.png" group-title="Entertainment",Anmol TV
@@ -4775,7 +4759,7 @@ https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_i
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814565~exp=1788818165~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=baa1e904814099cde2e5d2bbab6622c413945f5029129ba7040e4580422e6313"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821807~exp=1788825407~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=ede2bc124d9b5ab9ea6632a227bc0e8476a34d460c2daff553168da37db23bcd"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1335" tvg-name="National Geographic HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png" group-title="Nat Geo",National Geographic HD
@@ -4784,7 +4768,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b006dd7965e5777a7fa33dd636c2e5d:179f796bdf11b750bebd469a3aeae1d0
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788812927~exp=1788816527~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=3a79ff7485838c67a12cc3e158bd8a2022a7f1f7415b0fdbcd508189d1f03789"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788823693~exp=1788827293~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=26534a549c862101dc8d22069e65a903d1f06376d165ec4524b721a6e6736ce2"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd
 
 #===== News (158 channels) =====
@@ -6129,7 +6113,7 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=021bd4635e8653bca6830adaca183b14:035ec746d6ee0d39cb7cb15963da8424
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814195~exp=1788817795~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=a09318f5d1441ed70d8b0808eae577beddf0059ce94a6f74fa2479cccdf7bcf4"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821290~exp=1788824890~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=083453a0df0c70d857eff92495f96a5513aa2331690186ad90588eabec69732f"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="175" tvg-name="Aastha" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aastha.png" group-title="Other",Aastha
@@ -6486,7 +6470,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Food_Food_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39aa887ebbc35db6bd10217aba5e016b:a1862a47f6db0af137d0c69b3cb422bb
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814200~exp=1788817800~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=b73bfa93b1ad00df778ce8a6599c15b3b6ba8dced7c053711b241dde1d1c71d9"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821296~exp=1788824896~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=29547ae9c35cef1a77aaf944e99e8a32311911b8f6a122a351d059fb87114331"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="566" tvg-name="Animal Planet Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/AnimalPlanetHin.png" group-title="Other",Animal Planet Hindi
@@ -7822,7 +7806,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/MK_Six_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67e52f4bdcfc525898be0446feb7f185:8cf5c24b168105bca24b358eb05f6df4
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788812929~exp=1788816529~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=e8503ceeef444f5f56a8b3d0c04d0ac23ece7881c611bcd6659ec664d0bbdd46"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788823695~exp=1788827295~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=26e9b987962f4b23f40811628ed8ef234093e2ad0ecbfde6cdd4666944fd51e3"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1692" tvg-name="Badakhabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png" group-title="Other",Badakhabar
@@ -9589,7 +9573,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788815892~exp=1788819492~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=514f9a2690b9b3599909304000ef61de65caacbda92f9540f5406d8752dd2e8f"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788822926~exp=1788826526~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=a4af3a61e277dc0f59f5d1bf48635f30715e9b13fb66cb7326c34ab97bba86c3"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="872" tvg-name="Sony Yay Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png" group-title="Sony",Sony Yay Hindi
@@ -10729,7 +10713,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Taiwan_Plus_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e6afa4754bc15dd28ab6806f417d319d:6a74ef2884813547109ee96098610387
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788815897~exp=1788819497~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=d1154c4e0a85080cc28d0c354bf2944019ed68c15b7f4f89b6903363de5cc977"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788823100~exp=1788826700~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=93dbb619c509c6fe3a289eeb8f80e1313060a1b5631448c8f7e8a5c051ce0f3c"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3097" tvg-name="Star Gold Romance" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Romance.png" group-title="Tamil",Star Gold Romance
@@ -11519,7 +11503,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeCinemaHD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a23b609b33e254a48e4fc6fa7af0fd8d:4064c52328bfe9e6008776b48a431e4b
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814197~exp=1788817797~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=96ec170db703a1da1d8cf8546ea3689697aac28f631b9bdcd2626aa385fd1853"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821291~exp=1788824891~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=2f812fb7758e191d21cb57cf93e208c28fae75b97af496c29f638a72cb86f93d"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="413" tvg-name="Zee Cinemalu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinemalu.png" group-title="Zee",Zee Cinemalu
@@ -11546,7 +11530,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeYuva_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab0674eba3f5adf96a9b65a6e82d208:476f813d8651987fc1b4074693676fd8
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788814555~exp=1788818155~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=1a38d689215045561d25cc9b09169e72950e203ecd68333396e61ffd163feb54"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788821807~exp=1788825407~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=c783a0f08a82ff59c56cae0b9c1c16f5086534b41d1cfaee073ba1377e615c97"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="484" tvg-name="Zee Cinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinema.png" group-title="Zee",Zee Cinema
