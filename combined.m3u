@@ -1,46 +1,38 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
 #===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:10:32 AM 09-09-2026
+#LAST_UPDATE:12:02 PM 09-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:20
 
-#===== Prime Video (1 channels) =====
+#===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:10:32 AM 09-09-2026
+#LAST_UPDATE:12:02 PM 09-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:2
+#LIVE_COUNT:1
 #UPCOMING_COUNT:0
 
-#===== AXS (5 channels) =====
+#EXTINF:-1 tvg-id="B0HHRG9LR5" tvg-name="Triton ONE Poker Series Jeju II-$30K NLH 8-Handed" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.4a1cb111-6ba2-4fa5-a6dc-d4f220ffa2ec/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Triton ONE Poker Series Jeju II-$30K NLH 8-Handed
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0bd0136d2728be3d6506cfe054a3fd59:27ae4995704be63440c0dcb001b2abbd
+https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/znpxp4vhyl/out/v1/2a14edb0fa434870a70679d37f5f013c/cenc.mpd
+
+#===== AXS (2 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 10:47:30 AM 09-09-2026
+#last update time: 12:17:25 PM 09-09-2026
 
 #EXTINF:-1 tvg-id="65087" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Us%20open.jpg" group-title="AXS", Us open - US Open
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789015651-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-84cb5a09906a7077a980f41d0a94ce6d
-
-#EXTINF:-1 tvg-id="55206" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Texas%20Rangers%20vs%20Seattle%20Mariners.jpg" group-title="AXS", Texas Rangers vs Seattle Mariners - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55846/720p/chunks.m3u8?is_vip=false&token=1789015652-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c9f87bfec819421b689952ded565e1ab
-
-#EXTINF:-1 tvg-id="55209" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cincinnati%20Reds%20vs%20Los%20Angeles%20Dodgers.jpg" group-title="AXS", Cincinnati Reds vs Los Angeles Dodgers - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55849/720p/chunks.m3u8?is_vip=false&token=1789015653-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8509cf222284a54efd11a559570a2881
-
-#EXTINF:-1 tvg-id="60865" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Vanuatu%20United%20vs%20Central%20Coast%20Mariners.jpg" group-title="AXS", Vanuatu United vs Central Coast Mariners - Friendlies Clubs
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a99cad55c0020a997bbbdab-backup/chunks.m3u8?is_vip=false&token=1789015654-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0d3459a7b31cabd07cd8c9905fafa0a6
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789021046-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-09f71ca4a2e85d86923598ee2af17f6e
 
 #===== Jio Hotstar (127 channels) =====
 # JHS Channels — Generated 2026-09-09 02:04:02 AM IST
