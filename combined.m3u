@@ -1,83 +1,114 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Willow (1 channels) =====
+#===== Fancode (1 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248296_53026_GUY_ABF_FC-Web.png" group-title="Fancode", Caribbean Premier League, 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4248296_english_hls_07e7e5a63b5981_1ta-di_h264/1080p.m3u8?hdntl=Expires=1788993226~_GO=Generated~acl=/mumbai/4248296_english_hls_07e7e5a63b5981_1ta-di_h264/*~Signature=AWDec-FZ_qGz814eI72Sw8q4PlvQmaX-ktJmyh65nhwjHayfMns-67hIP097xWL9VX-x0t8njc4WODXtG6KLKLQBktEC
+
+#===== Willow (2 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:04:02 AM 09-09-2026
+#LAST_UPDATE:07:02 AM 09-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:20
+#LIVE_COUNT:1
+#UPCOMING_COUNT:19
+
+#EXTINF:-1 tvg-id="B0H9B5L8CC" tvg-name="Caribbean Premier League 2026 - 30th Match - Guyana Amazon Warriors vs Antigua And Barbuda Falcons" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.04560bac-178b-417e-be3b-42d2d286afc4/3/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Caribbean Premier League 2026 - 30th Match - Guyana Amazon Warriors vs Antigua And Barbuda Falcons
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6d2bdb41d94e4ce5970cfb94c761450e:36e58d99b132061d0899a08880fb8dd6
+https://ss-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/45uxkdljzf/out/v1/73d2bc98182848119455113680a0c4e9/cenc.mpd
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:04:02 AM 09-09-2026
+#LAST_UPDATE:07:02 AM 09-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:4
 #UPCOMING_COUNT:0
 
-#EXTINF:-1 tvg-id="B0HGCDVJ1M" tvg-name="Ohio Dominican at Fairmont State" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.9b86586c-0bdc-42ba-bbab-e03244ac06aa/1/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Ohio Dominican at Fairmont State
+#EXTINF:-1 tvg-id="B0HF15BWJX" tvg-name="World Series Final: Western Wolfpacks at Central Cyclones" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.cc58a35d-6120-4084-b175-dbb84daf5604/4/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",World Series Final: Western Wolfpacks at Central Cyclones
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=6670dbc6eb97a1c7fc6395d952fb00b7:72a3574c534811db5a4804695a184221
 https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/nl9acyq8n3/out/v1/5dc4b6dd4c094ccb8c3c92e03e87cda7/cenc.mpd
 
-#===== AXS (11 channels) =====
+#===== AXS (15 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 4:17:26 AM 09-09-2026
+#last update time: 7:02:26 AM 09-09-2026
 
 #EXTINF:-1 tvg-id="65087" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Us%20open.jpg" group-title="AXS", Us open - US Open
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1788992247-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b6f23cfbeb9c383b29f17cc239c11c2c
-
-#EXTINF:-1 tvg-id="55690" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Fluminense%20vs%20Platense.jpg" group-title="AXS", Fluminense vs Platense - CONMEBOL Libertadores [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a881ab5bd56ad3e895d0af9-backup/chunks.m3u8?is_vip=false&token=1788992249-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fbf113186db1c1ca2976fcd84614378f
-
-#EXTINF:-1 tvg-id="55690" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Fluminense%20vs%20Platense.jpg" group-title="AXS", Fluminense vs Platense - CONMEBOL Libertadores [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a881ab5bd56ad3e895d0af9/chunks.m3u8?is_vip=false&token=1788992250-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-36e8c410049b97d635b2cd75b65f70b0
-
-#EXTINF:-1 tvg-id="56833" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Santa%20Fe%20vs%20Vasco%20DA%20Gama.jpg" group-title="AXS", Santa Fe vs Vasco DA Gama - CONMEBOL Sudamericana [Server 1]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8fbd5751b97c1e61609a09-backup/chunks.m3u8?is_vip=false&token=1788992251-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-dfb455d1285f4ec5e5fed4ccc0c3706b
-
-#EXTINF:-1 tvg-id="56833" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Santa%20Fe%20vs%20Vasco%20DA%20Gama.jpg" group-title="AXS", Santa Fe vs Vasco DA Gama - CONMEBOL Sudamericana [Server 2]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8fbd5751b97c1e61609a09/chunks.m3u8?is_vip=false&token=1788992252-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-62686bb1baa5bbb0b28f2c71078742ce
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789002147-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-fb0f0595995672984f2a6e4fce0e1cdb
 
 #EXTINF:-1 tvg-id="55195" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Cleveland%20Guardians%20vs%20Baltimore%20Orioles.jpg" group-title="AXS", Cleveland Guardians vs Baltimore Orioles - MLB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55835/720p/chunks.m3u8?is_vip=false&token=1788992254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-62d4eb4976276888201630e9c7805f6e
-
-#EXTINF:-1 tvg-id="55196" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Minnesota%20Twins%20vs%20Detroit%20Tigers.jpg" group-title="AXS", Minnesota Twins vs Detroit Tigers - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55836/720p/chunks.m3u8?is_vip=false&token=1788992254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4c9af9f85f20100d427ac4eaadcf5956
-
-#EXTINF:-1 tvg-id="55197" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/New%20York%20Mets%20vs%20Miami%20Marlins.jpg" group-title="AXS", New York Mets vs Miami Marlins - MLB
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1788992254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f86767b0b1c63a47aeaa98a2a52f1941
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55835/720p/chunks.m3u8?is_vip=false&token=1789002148-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-452d07af239f3e85f6ca86689e690412
 
 #EXTINF:-1 tvg-id="55198" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Houston%20Astros%20vs%20Philadelphia%20Phillies.jpg" group-title="AXS", Houston Astros vs Philadelphia Phillies - MLB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1788992254-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-104fbeabf576cac0c0fe6fd5321289db
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1789002149-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cbb65f36418bd6148c4e9a55db0ff7d8
+
+#EXTINF:-1 tvg-id="55197" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/New%20York%20Mets%20vs%20Miami%20Marlins.jpg" group-title="AXS", New York Mets vs Miami Marlins - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1789002150-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d56cb22e64df7bc0b2c6f49271c6d39e
+
+#EXTINF:-1 tvg-id="55196" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Minnesota%20Twins%20vs%20Detroit%20Tigers.jpg" group-title="AXS", Minnesota Twins vs Detroit Tigers - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55836/720p/chunks.m3u8?is_vip=false&token=1789002151-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-cfb4d18aa15a67eee663cbe2c373748e
 
 #EXTINF:-1 tvg-id="55199" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Los%20Angeles%20Angels%20vs%20Boston%20Red%20Sox.jpg" group-title="AXS", Los Angeles Angels vs Boston Red Sox - MLB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1788992255-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-45bed3e8ea948eee76fd519b73ca35f1
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55839/720p/chunks.m3u8?is_vip=false&token=1789002152-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-b27cd8bf59e7c54cb82448e698184431
+
+#EXTINF:-1 tvg-id="55754" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Warriors%20vs%20Falcons.jpg" group-title="AXS", Warriors vs Falcons - CPL
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/490/720p/chunks.m3u8?is_vip=false&token=1789002157-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8c09388bcaa6f08fe9bea8bba7c91efb
+
+#EXTINF:-1 tvg-id="55200" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Colorado%20Rockies%20vs%20New%20York%20Yankees.jpg" group-title="AXS", Colorado Rockies vs New York Yankees - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55840/720p/chunks.m3u8?is_vip=false&token=1789002158-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-009916a48c504a3c21a98e037726a3f9
+
+#EXTINF:-1 tvg-id="55201" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tampa%20Bay%20Rays%20vs%20Atlanta%20Braves.jpg" group-title="AXS", Tampa Bay Rays vs Atlanta Braves - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55841/720p/chunks.m3u8?is_vip=false&token=1789002159-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ec3c1fe5cc9f4203087ad7595cd4a492
+
+#EXTINF:-1 tvg-id="55202" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Pittsburgh%20Pirates%20vs%20Chicago%20White%20Sox.jpg" group-title="AXS", Pittsburgh Pirates vs Chicago White Sox - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55843/720p/chunks.m3u8?is_vip=false&token=1789002163-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-50e9bf8b40d61644d86b7ccf9f8bbeab
+
+#EXTINF:-1 tvg-id="55203" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Chicago%20Cubs%20vs%20Milwaukee%20Brewers.jpg" group-title="AXS", Chicago Cubs vs Milwaukee Brewers - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55844/720p/chunks.m3u8?is_vip=false&token=1789002164-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3443c96fecd6d7585a3e3a3a30f796c5
+
+#EXTINF:-1 tvg-id="55204" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Arizona%20Diamondbacks%20vs%20Kansas%20City%20Royals.jpg" group-title="AXS", Arizona Diamondbacks vs Kansas City Royals - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55842/720p/chunks.m3u8?is_vip=false&token=1789002165-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a06bc6bd59931de6ec9effca55f3f12e
+
+#EXTINF:-1 tvg-id="56302" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Boca%20Juniors%20vs%20Sao%20Paulo.jpg" group-title="AXS", Boca Juniors vs Sao Paulo - CONMEBOL Sudamericana [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8828b72550b2f5668f02e9-backup/chunks.m3u8?is_vip=false&token=1789002168-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eed344247a017d50b4b6bd0c401ef4d8
+
+#EXTINF:-1 tvg-id="56302" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Boca%20Juniors%20vs%20Sao%20Paulo.jpg" group-title="AXS", Boca Juniors vs Sao Paulo - CONMEBOL Sudamericana [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a8828b72550b2f5668f02e9/chunks.m3u8?is_vip=false&token=1789002168-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ea608e53ceb993868657ff39741314d9
 
 #===== Jio Hotstar (127 channels) =====
 # JHS Channels — Generated 2026-09-09 02:04:02 AM IST
@@ -2339,7 +2370,7 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Discoveryscience2/default/manifest.
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0172b8cd13ed59349a05aadc58ae11e0:e4ab7836617767a2a6e7aaae17fad2b6
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788899774~exp=1788903374~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=de097633094ee905ea399a6b18824efcced62b6f79d9ee3ec541d9ebcb1520af"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907013~exp=1788910613~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=fb13c52d6e41eeed45abd4e62076abb8f3fd824ac494ce7fbed1c580c32741b5"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="151" tvg-name="Movies Now HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png" group-title="Entertainment",Movies Now HD
@@ -2418,7 +2449,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Jaihind_tv_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=88295124db295a6b9f5027dc6049e294:641c40230a95cb76d1949125f9552fda
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788902223~exp=1788905823~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=f07bba230f0a403837d38a1ad7ad2d91168daa425a09290f6d5ca8808d62e77f"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788909490~exp=1788913090~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=31811bee8dee130acd91fcdd5ef3d164ecb4ef685a9dbdc6c7fafd43ea5c03c2"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="473" tvg-name="Anmol TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmol.png" group-title="Entertainment",Anmol TV
@@ -4861,7 +4892,7 @@ https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_i
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=45fc661aa1af51c98950c43329391d18:c2677c874886e78d24b3fb656c5734e0
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788900193~exp=1788903793~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=45bafaf49dcdef24d795f41a251857f61129c463919adf031f1a47c5073b4c85"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907214~exp=1788910814~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=023d9cf209cbfe6e92550281c81dc6da784bb5a587000a300f097a3e1961059b"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1335" tvg-name="National Geographic HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png" group-title="Nat Geo",National Geographic HD
@@ -4870,7 +4901,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4b006dd7965e5777a7fa33dd636c2e5d:179f796bdf11b750bebd469a3aeae1d0
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788899595~exp=1788903195~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=b67049b7df2657519f5b92d8c582dee5c2fcd5a4c213ccdedc0bcdc9f292f8e2"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788906792~exp=1788910392~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=38c99509bb86dfcb785da9579e9797450352b3d8ce864ed61c125229211ac395"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd
 
 #===== News (158 channels) =====
@@ -6215,7 +6246,7 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=021bd4635e8653bca6830adaca183b14:035ec746d6ee0d39cb7cb15963da8424
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788899775~exp=1788903375~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=ded33788b9e9916560d0d9fea4b5d9cbef30613999a456ace547b785bccc3fe4"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907013~exp=1788910613~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=33116426adeb046c645a44746a0f8553e17194d938889e1858deff48fcf6723e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="175" tvg-name="Aastha" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aastha.png" group-title="Other",Aastha
@@ -6572,7 +6603,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Food_Food_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=39aa887ebbc35db6bd10217aba5e016b:a1862a47f6db0af137d0c69b3cb422bb
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788900190~exp=1788903790~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=578d9315c3da7a8e0a0573d4c34b7248217270dca5e015d13a5bcdc5aace7382"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907195~exp=1788910795~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=389c4d5141874cf34c1eb28131000c97b277c2e59a573301163454c864d3c0c4"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="566" tvg-name="Animal Planet Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/AnimalPlanetHin.png" group-title="Other",Animal Planet Hindi
@@ -7908,7 +7939,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/MK_Six_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=67e52f4bdcfc525898be0446feb7f185:8cf5c24b168105bca24b358eb05f6df4
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788899597~exp=1788903197~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=9bf5f7faa86538dc1f8213f169a0219e3289bd53a5f80f216857d15110906d44"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788906793~exp=1788910393~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=f68fe59205091a166316113dfd91aeb3be0273512fd5b6726dc4cf5deb94c99e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1692" tvg-name="Badakhabar" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Badakhabar.png" group-title="Other",Badakhabar
@@ -9675,7 +9706,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyPIX_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f45e69507f0f5aa1a6e82374efb0af25:f84348219837769feb5a26a7b1cd31dc
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788900494~exp=1788904094~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=52297e083240437740ea5b9ea5c94b5f3ab361e417458bcff6992594b056fb8f"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907507~exp=1788911107~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=69853093f71e0ff9ec3aa62a6fbd8bb8411353488a8ed2d0712e3c48960a3dad"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="872" tvg-name="Sony Yay Hindi" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyYAYHin.png" group-title="Sony",Sony Yay Hindi
@@ -10815,7 +10846,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Taiwan_Plus_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e6afa4754bc15dd28ab6806f417d319d:6a74ef2884813547109ee96098610387
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788902298~exp=1788905898~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=ae1b8714635a70609b55bd852e57ca09841dee06eb26761603ab0bd778b8816b"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788909496~exp=1788913096~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=e23040fac3c9971a9ddf4ed40f8225ef0c76c87f0201f0213eec6ef8e179179a"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3097" tvg-name="Star Gold Romance" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Romance.png" group-title="Tamil",Star Gold Romance
@@ -11605,7 +11636,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeCinemaHD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=a23b609b33e254a48e4fc6fa7af0fd8d:4064c52328bfe9e6008776b48a431e4b
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788899775~exp=1788903375~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=5937b8aab0eb9667a9289cb112412a511103a1e748fc23d338b5cd4de3d8c317"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907013~exp=1788910613~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=22259714cc5b9b1f01e4572aec4bc524e504ee2d60dc1c3259b91d8996854c26"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="413" tvg-name="Zee Cinemalu" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinemalu.png" group-title="Zee",Zee Cinemalu
@@ -11632,7 +11663,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeYuva_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ab0674eba3f5adf96a9b65a6e82d208:476f813d8651987fc1b4074693676fd8
 #EXTVLCOPT:http-user-agent=Droovy
-#EXTHTTP:{"cookie": "__hdnea__=st=1788900186~exp=1788903786~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=d3a4ab7a040e695f996d53c6005210915ff39cdd769a704c98c36af1669109bf"}
+#EXTHTTP:{"cookie": "__hdnea__=st=1788907192~exp=1788910792~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=54de0c3d7313ff2e36b362122dfb46b5c3b086c718691be83addd324c7722169"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="484" tvg-name="Zee Cinema" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinema.png" group-title="Zee",Zee Cinema
