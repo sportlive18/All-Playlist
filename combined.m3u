@@ -1,113 +1,172 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== SonyLIV (9 channels) =====
+#===== Fancode (1 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4248160_53014_STG_LUT_fc-web.png" group-title="Fancode", League One 2026-27 [English]
+https://in-mc-flive.fancode.com/mumbai/4248160_english_hls_5556cd96ef36476_1ta-di_h264/1080p.m3u8?hdntl=Expires=1789152676~_GO=Generated~acl=/mumbai/4248160_english_hls_5556cd96ef36476_1ta-di_h264/*~Signature=AWDec-FIHh5-4tOAYpnhSBdV6oWOVGt28LdDHQsQbyopwGKSppotVe2-nN_P6lEa5GH3wd0xEpaptQ0UNHIqMec0qEID
+
+#===== SonyLIV (8 channels) =====
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788527714323822_UCL_26_MD1_Manchester-United-vs-Sabah_live_landscape_thumb.jpg" group-title="SonyLIV", Manchester United vs Sabah - MD 1 - 11 Sep 2026 [ENG] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022319/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2022319/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788527714323822_UCL_26_MD1_Manchester-United-vs-Sabah_live_landscape_thumb.jpg" group-title="SonyLIV", Manchester United vs Sabah - MD 1 - 11 Sep 2026 [HIN] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022315/Footlive1009/HIN/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2022315/Footlive1009/HIN/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788527714323822_UCL_26_MD1_Manchester-United-vs-Sabah_live_landscape_thumb.jpg" group-title="SonyLIV", Manchester United vs Sabah - MD 1 - 11 Sep 2026 [TAM] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2094587/Footlive1009/TAM/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2094587/Footlive1009/TAM/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788527714323822_UCL_26_MD1_Manchester-United-vs-Sabah_live_landscape_thumb.jpg" group-title="SonyLIV", Manchester United vs Sabah - MD 1 - 11 Sep 2026 [TEL] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2018457/Footlive1009/TEL/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2018457/Footlive1009/TEL/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788527714323822_UCL_26_MD1_Manchester-United-vs-Sabah_live_landscape_thumb.jpg" group-title="SonyLIV", Manchester United vs Sabah - MD 1 - 11 Sep 2026 [KAN] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022318/Footlive1009/KAN/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2022318/Footlive1009/KAN/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788525716058822_UCL_26_MD1_Bayern-Munchen-vs-Bodo-Glimt_live_landscape_thumb.jpg" group-title="SonyLIV", Bayern Munchen vs Bodo/Glimt - MD 1 - 11 Sep 2026 [ENG] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2018458/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2018458/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788528128258822_UCL_26_MD1_Como-vs-Leipziglive_landscape_thumb.jpg" group-title="SonyLIV", Como vs Leipzig - MD 1 - 11 Sep 2026  [ENG] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022317/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2022317/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023491/1788528531995822_UCL_26_MD1_Slavia-Praha-vs-Lens_landscape_thumb.jpg" group-title="SonyLIV", Slavia Praha vs Lens - MD 1 - 11 Sep 2026 [ENG] - UEFA Champions League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2022316/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
+https://sonydaimenew.akamaized.net/hls/live/2022316/Footlive1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789115787~acl=/*~id=67526795663974360265148278339658~hmac=e8018ff64e2391af611429a4dd01c3b6b7b19786db7e0ce62db5e25e45ebf139
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023403/1788419148422889_DP_World_Tour_Amgen_Irish_Open_day1_landscape_thumb.jpg" group-title="SonyLIV", Amgen Irish Open - Day 1 - 10 Sep 2026 [ENG] - DP World Tour
-https://sonydaimenew.akamaized.net/hls/live/2037139/Golf_Amg1009/ENG/std_lrh-800300010.m3u8?hdnea=exp=1789109099~acl=/*~id=99763195987281363127774771898684~hmac=d6c3cc1ba33580f3cb35f57cf9c080a8b3e8ea7713396ae329cd6cc7a0efa7a5
-
-#===== Willow (2 channels) =====
+#===== Willow (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:12:32 AM 11-09-2026
+#LAST_UPDATE:02:32 AM 11-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
-#UPCOMING_COUNT:19
-
-#EXTINF:-1 tvg-id="B0HFX3ZJK3" tvg-name="Womens Asia Cup 2026 - 1st Semi Final - India Women vs Bangladesh Women" tvg-logo="https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.482e7911-824a-4758-90b7-0afc4cad60e4/4/BOXART-16X9/en-US._UR1920,1080_.jpeg" group-title="Willow",Womens Asia Cup 2026 - 1st Semi Final - India Women vs Bangladesh Women
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=003c72c63c86f868ef211119981e5046:ca3cf9655b3dfa0a6b1d353ae7527bb0
-https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/qdjwigiywh/out/v1/f524d603272e4527b06aef18e80d9404/cenc.mpd
+#LIVE_COUNT:0
+#UPCOMING_COUNT:20
 
 #===== Prime Video (2 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:12:32 AM 11-09-2026
+#LAST_UPDATE:02:32 AM 11-09-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:4
 #UPCOMING_COUNT:0
 
-#EXTINF:-1 tvg-id="B0HG9LW4J6" tvg-name="Challenger Tour-Live: Seville-ATP Early Rounds" tvg-logo="https://images-na.ssl-images-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T2/images/S/le-target-images-prod/amzn1.dv.gti.4dec1338-be7f-4129-bb17-b616ef17bb68/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Challenger Tour-Live: Seville-ATP Early Rounds
+#EXTINF:-1 tvg-id="B0HG9LW4J6" tvg-name="Challenger Tour-Live: Seville-ATP Early Rounds" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.4dec1338-be7f-4129-bb17-b616ef17bb68/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video",Challenger Tour-Live: Seville-ATP Early Rounds
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
+https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 
-#===== AXS (10 channels) =====
+#===== AXS (23 channels) =====
 #name: Axsports Auto Update Playlist
 #telegram: https://t.me/livesportsplay
 #owner: Md Sohanur Rahman Hady
 #special thanks to: MR. Joy Chowdhury
-#last update time: 12:47:22 AM 11-09-2026
+#last update time: 2:32:27 AM 11-09-2026
 
 #EXTINF:-1 tvg-id="56981" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Bayern%20M%C3%BCnchen%20vs%20BodoGlimt.jpg" group-title="AXS", Bayern München vs Bodo/Glimt - UEFA Champions League [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/33006/720p/chunks.m3u8?is_vip=false&token=1789152443-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-672b4170ca44fa9dbd1eb7b22ea14468
+https://livecdn-tc-iptv.rumsport10.live/live_abr/33006/720p/chunks.m3u8?is_vip=false&token=1789158748-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-062bd67ed4419f0d27774a52f98bc5e0
 
 #EXTINF:-1 tvg-id="56981" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Bayern%20M%C3%BCnchen%20vs%20BodoGlimt.jpg" group-title="AXS", Bayern München vs Bodo/Glimt - UEFA Champions League [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76f0-hd/chunks.m3u8?is_vip=false&token=1789152444-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3d6bf5662141aac8c8522f56e8d6916f
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76f0-hd/chunks.m3u8?is_vip=false&token=1789158749-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-3f16bc74722134b4e238fc064d03edb9
 
-#EXTINF:-1 tvg-id="57082" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Como%20vs%20RB%20Leipzig.jpg" group-title="AXS", Como vs RB Leipzig - UEFA Champions League
+#EXTINF:-1 tvg-id="56981" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Bayern%20M%C3%BCnchen%20vs%20BodoGlimt.jpg" group-title="AXS", Bayern München vs Bodo/Glimt - UEFA Champions League [Server 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0-hd/chunks.m3u8?is_vip=false&token=1789152446-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-c54023afcdd560ad4afea717112ebd1c
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76f0-fhd/chunks.m3u8?is_vip=false&token=1789158750-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-aaae873a1a1f9e52c09414ae44ab29b0
+
+#EXTINF:-1 tvg-id="56981" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Bayern%20M%C3%BCnchen%20vs%20BodoGlimt.jpg" group-title="AXS", Bayern München vs Bodo/Glimt - UEFA Champions League [Server 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76f0-backup/chunks.m3u8?is_vip=false&token=1789158750-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-f185f21053cca78787ffde5ea6de087d
+
+#EXTINF:-1 tvg-id="56981" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Bayern%20M%C3%BCnchen%20vs%20BodoGlimt.jpg" group-title="AXS", Bayern München vs Bodo/Glimt - UEFA Champions League [Server 5]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76f0/chunks.m3u8?is_vip=false&token=1789158751-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-351f66d7912ea54b6d2f2dc281adfb79
+
+#EXTINF:-1 tvg-id="57082" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Como%20vs%20RB%20Leipzig.jpg" group-title="AXS", Como vs RB Leipzig - UEFA Champions League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/238/720p/chunks.m3u8?is_vip=false&token=1789158752-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2e038256be1b6dc59f20c2be4a80fb74
+
+#EXTINF:-1 tvg-id="57082" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Como%20vs%20RB%20Leipzig.jpg" group-title="AXS", Como vs RB Leipzig - UEFA Champions League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0-hd/chunks.m3u8?is_vip=false&token=1789158753-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-4c382ff0918274a891335106677d85cb
+
+#EXTINF:-1 tvg-id="57082" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Como%20vs%20RB%20Leipzig.jpg" group-title="AXS", Como vs RB Leipzig - UEFA Champions League [Server 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0-backup/chunks.m3u8?is_vip=false&token=1789158753-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-30295ee5f53d374eb503c1acf6fdc017
+
+#EXTINF:-1 tvg-id="57082" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Como%20vs%20RB%20Leipzig.jpg" group-title="AXS", Como vs RB Leipzig - UEFA Champions League [Server 4]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2da14cfe5ec671d76e0/chunks.m3u8?is_vip=false&token=1789158754-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-5ae228807603655711daa5532415973e
 
 #EXTINF:-1 tvg-id="56951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Manchester%20United%20vs%20Sabah%20FA.jpg" group-title="AXS", Manchester United vs Sabah FA - UEFA Champions League [Server 1]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/366/720p/chunks.m3u8?is_vip=false&token=1789152447-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d8035c4b5747e487d88e86d345f5ee07
+https://livecdn-tc-iptv.rumsport10.live/live_abr/325/720p/chunks.m3u8?is_vip=false&token=1789158755-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-8c876e5af6bbb3b1adf1dade27843c27
 
 #EXTINF:-1 tvg-id="56951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Manchester%20United%20vs%20Sabah%20FA.jpg" group-title="AXS", Manchester United vs Sabah FA - UEFA Champions League [Server 2]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129e4-hd/chunks.m3u8?is_vip=false&token=1789152447-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-9137be056982165f69bea55cd1f4b08a
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129e4-hd/chunks.m3u8?is_vip=false&token=1789158756-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-02b11b2910a67341172533f89fdb53d4
 
-#EXTINF:-1 tvg-id="57054" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slavia%20Praha%20vs%20Lens.jpg" group-title="AXS", Slavia Praha vs Lens - UEFA Champions League
+#EXTINF:-1 tvg-id="56951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Manchester%20United%20vs%20Sabah%20FA.jpg" group-title="AXS", Manchester United vs Sabah FA - UEFA Champions League [Server 3]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129c2-hd/chunks.m3u8?is_vip=false&token=1789152448-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-74bc78bcfba7e0093996b2e4d2f9181a
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129e4-backup/chunks.m3u8?is_vip=false&token=1789158756-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0b93ffb9b5bf38f503a5d9d67468974c
 
-#EXTINF:-1 tvg-id="55773" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Tampa%20Bay%20Rays%20vs%20Atlanta%20Braves.jpg" group-title="AXS", Tampa Bay Rays vs Atlanta Braves - MLB
+#EXTINF:-1 tvg-id="56951" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Manchester%20United%20vs%20Sabah%20FA.jpg" group-title="AXS", Manchester United vs Sabah FA - UEFA Champions League [Server 4]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55835/720p/chunks.m3u8?is_vip=false&token=1789152450-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d9da00c739c89dfb84e8fad27aa4356a
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129e4/chunks.m3u8?is_vip=false&token=1789158757-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-a483ba390557bc78e2201f3a4eefc637
+
+#EXTINF:-1 tvg-id="57054" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slavia%20Praha%20vs%20Lens.jpg" group-title="AXS", Slavia Praha vs Lens - UEFA Champions League [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129c2-hd/chunks.m3u8?is_vip=false&token=1789158758-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0cce921ab5af88c01da7a72dacda6132
+
+#EXTINF:-1 tvg-id="57054" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slavia%20Praha%20vs%20Lens.jpg" group-title="AXS", Slavia Praha vs Lens - UEFA Champions League [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129c2-backup/chunks.m3u8?is_vip=false&token=1789158759-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2130e282480b95937acc52f3aa7473e9
+
+#EXTINF:-1 tvg-id="57054" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Slavia%20Praha%20vs%20Lens.jpg" group-title="AXS", Slavia Praha vs Lens - UEFA Champions League [Server 3]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a90f2daf2fa6c299ee129c2/chunks.m3u8?is_vip=false&token=1789158760-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-ef38563da0f5a44a9776f76367f3ba75
 
 #EXTINF:-1 tvg-id="55774" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Houston%20Astros%20vs%20Philadelphia%20Phillies.jpg" group-title="AXS", Houston Astros vs Philadelphia Phillies - MLB
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1789152456-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-869e2d541fdc93f61803520a3d827741
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55837/720p/chunks.m3u8?is_vip=false&token=1789158761-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-2f96eb1cce4fe68a9b50f58aa36e2356
 
 #EXTINF:-1 tvg-id="65177" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/English%20Open%20Terzo%20turno.jpg" group-title="AXS", English Open: Terzo turno - World Snooker Tour
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
-https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789152457-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-0d9b70d66b5bc2c173fc52721d3dc35c
+https://livecdn-tc-iptv.rumsport10.live/live_abr/1418/720p/chunks.m3u8?is_vip=false&token=1789158762-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-eae9007bcf124d7b948dd6c3c66ff100
+
+#EXTINF:-1 tvg-id="56847" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Estrela%20vs%20SC%20Braga.jpg" group-title="AXS", Estrela vs SC Braga - Primeira Liga [Server 1]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6a1cf8000f680c3c906854-backup/chunks.m3u8?is_vip=false&token=1789158766-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-98e35ba3c9faa1cd195df3080b9f800d
+
+#EXTINF:-1 tvg-id="56847" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Estrela%20vs%20SC%20Braga.jpg" group-title="AXS", Estrela vs SC Braga - Primeira Liga [Server 2]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-livestream.rumsport10.live/sla/1-6a6a1cf8000f680c3c906854/chunks.m3u8?is_vip=false&token=1789158767-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-40a8ffe5abb3b08e6cd838ce34e2942e
+
+#EXTINF:-1 tvg-id="65176" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/US%20Open.jpg" group-title="AXS", US Open - US Open
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/147445/720p/chunks.m3u8?is_vip=false&token=1789158768-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-d20b9670bf45372098de5a1d9277065b
+
+#EXTINF:-1 tvg-id="55775" tvg-logo="https://raw.githubusercontent.com/srhady/axsports/main/bing_posters/Texas%20Rangers%20vs%20Seattle%20Mariners.jpg" group-title="AXS", Texas Rangers vs Seattle Mariners - MLB
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://iframe.rumsport8.live/
+https://livecdn-tc-iptv.rumsport10.live/live_abr/55838/720p/chunks.m3u8?is_vip=false&token=1789158769-Kv4cPTAAP5YTi-edcb381b402a9d3b83c369dc063ab6747063ec51-da82da38ad07d46cda099952eb437d4d
 
 #===== Jio Hotstar (127 channels) =====
 # JHS Channels — Generated 2026-09-10 06:05:30 PM IST
