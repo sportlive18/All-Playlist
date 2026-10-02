@@ -17,7 +17,7 @@ PLAYLISTS = [
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},
 ]
 
-OUTPUT_FILE = "Combined.m3u"
+OUTPUT_FILE = "combined.m3u"
 EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
 
 # ------------------ BRANDING SUFFIXES ------------------
