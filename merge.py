@@ -29,9 +29,10 @@ VIRAT10_SUFFIX = " @virat10"
 # ============================================================
 SPORTS_CATEGORY = "Sports"
 
-# True  -> sports channels go to the Sports folder (even from SONY/ZEE/SUN).
-# False -> SONY/ZEE/SUN keep their own folders even for sports channels.
-SPORTS_TAKES_PRIORITY = True
+# If True, every sports channel is ALSO duplicated into its
+# respective source folder (e.g. Sony Sports Ten 1 appears in
+# both "Sports | Sportlink" AND "Sony | Sportlink").
+DUPLICATE_SPORTS_IN_SOURCE = True
 
 # Any channel whose title contains one of these goes to "Sports | Sportlink"
 SPORTS_KEYWORDS = [
@@ -74,9 +75,9 @@ SOURCE_CATEGORY_OVERRIDE = {
     "PRIMEVIDEO":     "Prime Video",
     "HOTSTAR":        "Hotstar",
     "Sports Special": "Sports Special",
-    "SONY":           "Sony",   # <-- every SONY playlist channel -> Sony folder
-    "ZEE":            "Zee",    # <-- every ZEE playlist channel  -> Zee folder
-    "SUN":            "Sun",    # <-- every SUN playlist channel  -> Sun folder
+    "SONY":           "Sony",
+    "ZEE":            "Zee",
+    "SUN":            "Sun",
 }
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
@@ -146,11 +147,6 @@ def clean_line(line):
     return line.strip()
 
 def extract_channel_blocks(lines):
-    """
-    Yield a list of lines per channel.
-    A channel block starts with #EXTINF and includes any following
-    #KODIPROP / #EXTVLCOPT lines plus the URL line.
-    """
     block = []
     for line in lines:
         line = clean_line(line)
@@ -186,8 +182,6 @@ def categorize_channel(title):
     if not title:
         return DEFAULT_CATEGORY
     title_lower = title.lower()
-    if is_sports_channel(title):
-        return SPORTS_CATEGORY
     for category, keywords in CATEGORY_MAP.items():
         for kw in keywords:
             if kw in title_lower:
@@ -199,7 +193,6 @@ def fix_channel_block(block, category):
     new_block = []
     for line in block:
         if line.startswith('#EXTINF'):
-            # --- 1. Append @virat10 to tvg-name (or create one) ---
             if 'tvg-name=' in line:
                 line = re.sub(
                     r'tvg-name="([^"]*)"',
@@ -217,7 +210,6 @@ def fix_channel_block(block, category):
                             1
                         )
 
-            # --- 2. Set group-title to category ---
             if 'group-title=' in line:
                 line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
             else:
@@ -235,6 +227,7 @@ def main():
 
     all_channels = []
     sports_count = 0
+    duplicate_count = 0
 
     for playlist in PLAYLISTS:
         name = playlist["name"]
@@ -251,30 +244,29 @@ def main():
             title = get_channel_title(block)
             sport = is_sports_channel(title)
 
-            # ---------- CATEGORY DECISION ----------
-            # Priority:
-            #   1. Sports priority ON -> sports channel goes to Sports folder.
-            #   2. Source override exists -> use it (e.g. SONY -> Sony).
-            #   3. Otherwise -> keyword categorization.
-            if sport and SPORTS_TAKES_PRIORITY:
-                base_category = SPORTS_CATEGORY
+            # ---------- Determine the SOURCE / KEYWORD category ----------
+            # This is where the channel would normally live if we ignore sports.
+            if override_cat:
+                source_category = override_cat
+            else:
+                source_category = categorize_channel(title)
+                if name == "JIO-TV":
+                    source_category = f"Jiotv {source_category}"
+
+            # ---------- Channel routing ----------
+            if sport:
+                # 1. Always add to the Sports folder
+                all_channels.append((f"{SPORTS_CATEGORY}{SPORTLINK_SUFFIX}", block))
                 sports_count += 1
 
-            elif override_cat:
-                base_category = override_cat
+                # 2. Also duplicate into its source folder
+                if DUPLICATE_SPORTS_IN_SOURCE:
+                    all_channels.append((f"{source_category}{SPORTLINK_SUFFIX}", block))
+                    duplicate_count += 1
 
             else:
-                base_category = categorize_channel(title)
-
-                # ---------- JIO-TV SPECIAL HANDLING ----------
-                # Prefix non-sports JioTV categories with "Jiotv " so they
-                # don't mix with the main Sony/Zee/Sun folders.
-                if name == "JIO-TV":
-                    base_category = f"Jiotv {base_category}"
-                # ---------------------------------------------
-
-            category = f"{base_category}{SPORTLINK_SUFFIX}"
-            all_channels.append((category, block))
+                # Non-sports channel -> only its source / keyword folder
+                all_channels.append((f"{source_category}{SPORTLINK_SUFFIX}", block))
 
     # Group by category
     groups = {}
@@ -301,7 +293,7 @@ def main():
         for block in blocks:
             fixed = fix_channel_block(block, cat)
             out_lines.extend(fixed)
-            out_lines.append('')   # blank line after each channel
+            out_lines.append('')
 
     # Remove trailing blank lines
     while out_lines and out_lines[-1] == '':
@@ -314,8 +306,9 @@ def main():
             f.write('\n')
         print("\n" + "=" * 50)
         print(f"✅ Successfully created {OUTPUT_FILE}")
-        print(f"📊 Total channels: {total}")
+        print(f"📊 Total channels (with duplicates): {total}")
         print(f"🏆 Sports channels in Sports folder: {sports_count}")
+        print(f"🔁 Sports channels duplicated to source folder: {duplicate_count}")
         print(f"📅 Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}")
         print(f"📁 File size: {os.path.getsize(OUTPUT_FILE)} bytes")
         print(f"\n📂 Categories (in order): {', '.join(ordered_cats)}")
