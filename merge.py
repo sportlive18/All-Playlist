@@ -17,7 +17,7 @@ PLAYLISTS = [
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},
 ]
 
-OUTPUT_FILE = "combined.m3u"
+OUTPUT_FILE = "Combined.m3u"
 EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
 
 # ------------------ BRANDING SUFFIXES ------------------
@@ -91,38 +91,64 @@ def fetch_playlist(url):
         print(f"  📥 Fetching: {url}")
         resp = requests.get(url, timeout=20)
         resp.raise_for_status()
-        lines = resp.text.replace('\r\n', '\n').split('\n')
-        print(f"  ✅ Fetched {len(lines)} lines")
-        return lines
+        text = resp.text.replace('\r\n', '\n')
+        print(f"  ✅ Fetched {len(text)} characters")
+        return text
     except Exception as e:
         print(f"  ❌ Failed: {e}")
-        return []
+        return ""
 
-def clean_line(line):
-    return line.strip()
 
-def extract_channel_blocks(lines):
-    block = []
-    for line in lines:
-        line = clean_line(line)
+def extract_channel_blocks(text):
+    """
+    Split the playlist text into channel blocks based on #EXTINF.
+    Handles malformed M3U where #EXTM3U and #EXTINF are on the same line,
+    #EXTINF spans multiple lines, and #KODIPROP / URLs are on the same line.
+    """
+    # Force a newline before every #EXTINF, #KODIPROP, and http(s)://
+    text = re.sub(r'(?<!\n)(#EXTINF)', r'\n\1', text)
+    text = re.sub(r'(?<!\n)(#KODIPROP)', r'\n\1', text)
+    text = re.sub(r'(?<!\n)(https?://)', r'\n\1', text)
+
+    blocks = []
+    current = []
+    for line in text.split('\n'):
+        line = line.strip()
         if not line:
             continue
         if line.startswith('#EXTM3U'):
             continue
-        if line.startswith('#EXTINF') and block:
-            yield block
-            block = []
-        block.append(line)
-    if block:
-        yield block
+        if line.startswith('#EXTINF'):
+            if current:
+                blocks.append(current)
+            current = [line]
+        else:
+            if current:
+                current.append(line)
+    if current:
+        blocks.append(current)
+    return blocks
+
 
 def get_channel_title(block):
+    """
+    Extract the channel title from a block.
+    Concatenates all lines except #KODIPROP and URL lines,
+    then takes the text after the last comma.
+    """
+    parts = []
     for line in block:
-        if line.startswith('#EXTINF'):
-            parts = line.rsplit(',', 1)
-            if len(parts) > 1:
-                return parts[1].strip()
+        if line.startswith('#KODIPROP'):
+            continue
+        if line.startswith('http://') or line.startswith('https://'):
+            continue
+        parts.append(line)
+    full = ' '.join(parts)
+    # The title is after the last comma
+    if ',' in full:
+        return full.rsplit(',', 1)[1].strip()
     return None
+
 
 def categorize_channel(title):
     if not title:
@@ -133,6 +159,7 @@ def categorize_channel(title):
             if kw in title_lower:
                 return category
     return DEFAULT_CATEGORY
+
 
 def fix_channel_block(block, category):
     """Apply branding suffixes and set correct group-title."""
@@ -148,15 +175,20 @@ def fix_channel_block(block, category):
                 )
             else:
                 # No tvg-name — create one from the channel title
-                parts = line.rsplit(',', 1)
-                if len(parts) > 1:
-                    title = parts[1].strip()
-                    # Insert right after the #EXTINF:-1 tag
+                title = get_channel_title(block)
+                if title:
                     if line.startswith('#EXTINF:-1 '):
                         line = line.replace(
                             '#EXTINF:-1 ',
                             f'#EXTINF:-1 tvg-name="{title}{VIRAT10_SUFFIX}" ',
                             1
+                        )
+                    else:
+                        line = re.sub(
+                            r'(#EXTINF:\S+)',
+                            r'\1 tvg-name="' + title + VIRAT10_SUFFIX + '"',
+                            line,
+                            count=1
                         )
 
             # --- 2. Set group-title to the category (which already has | Sportlink) ---
@@ -170,6 +202,7 @@ def fix_channel_block(block, category):
             new_block.append(line)
     return new_block
 
+
 # ------------------ MAIN ------------------
 def main():
     print("🚀 Starting playlist merge with category grouping...")
@@ -182,13 +215,13 @@ def main():
         icon = playlist["icon"]
         url = playlist["url"]
         print(f"\n📺 Processing: {icon} {name}")
-        lines = fetch_playlist(url)
-        if not lines:
+        text = fetch_playlist(url)
+        if not text:
             continue
 
         override_cat = SOURCE_CATEGORY_OVERRIDE.get(name)
 
-        for block in extract_channel_blocks(lines):
+        for block in extract_channel_blocks(text):
             title = get_channel_title(block)
 
             if override_cat:
@@ -251,6 +284,7 @@ def main():
         print(f"\n📂 Categories (in order): {', '.join(ordered_cats)}")
     except Exception as e:
         print(f"❌ Error writing file: {e}")
+
 
 if __name__ == "__main__":
     main()
