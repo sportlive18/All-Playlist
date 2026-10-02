@@ -189,11 +189,19 @@ def main():
         override_cat = SOURCE_CATEGORY_OVERRIDE.get(name)
 
         for block in extract_channel_blocks(lines):
+            title = get_channel_title(block)
+
             if override_cat:
                 base_category = override_cat
             else:
-                title = get_channel_title(block)
                 base_category = categorize_channel(title)
+
+            # ---------- JIO-TV SPECIAL HANDLING ----------
+            if name == "JIO-TV":
+                # Prefix every JioTV category with "Jiotv "
+                # This keeps JioTV Sony/Zee separate from the main Sony/Zee categories
+                base_category = f"Jiotv {base_category}"
+            # ------------------------------------------------
 
             # Append Sportlink suffix to every category
             category = f"{base_category}{SPORTLINK_SUFFIX}"
