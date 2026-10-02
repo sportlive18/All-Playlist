@@ -10,11 +10,11 @@ PLAYLISTS = [
     {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
     {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
     {"name": "PRIMEVIDEO", "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
-    {"name": "JIO-TV", "icon": "📡", "url": "hhttps://raw.githubusercontent.com/sportlink-10/playlist/refs/heads/main/jtvplus7.m3u"},
+    {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus7.m3u"},
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
     {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
-    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlink-10/playlist/refs/heads/main/hotstar.m3u"},
+    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},
 ]
 
 OUTPUT_FILE = "combined.m3u"
@@ -29,10 +29,8 @@ VIRAT10_SUFFIX = " @virat10"
 # ============================================================
 SPORTS_CATEGORY = "Sports"
 
-# True  -> EVERY channel matching SPORTS_KEYWORDS lands in the Sports folder,
-#          even if it came from Fancode / SonyLIV / Willow / PrimeVideo.
-# False -> Those sources keep their own folders; only the general playlists
-#          (JioTV, Sony, Zee, Sun, Hotstar) feed the Sports folder.
+# True  -> sports channels go to the Sports folder (even from SONY/ZEE/SUN).
+# False -> SONY/ZEE/SUN keep their own folders even for sports channels.
 SPORTS_TAKES_PRIORITY = True
 
 # Any channel whose title contains one of these goes to "Sports | Sportlink"
@@ -46,8 +44,9 @@ SPORTS_KEYWORDS = [
     "espn", "eurosport", "sky sports", "fox sports", "bein sports",
     "dazn", "supersport", "astro supersport", "premier sports",
     "free sports", "ziggo sport", "sportv", "canal sport", "tsn",
-    "willow", "willow cricket", "dd sports", "sports18", "star sports 1",
-    "star sports 2", "star sports 3", "star sports select", "star sports first",
+    "willow", "willow cricket", "dd sports", "sports18",
+    "star sports 1", "star sports 2", "star sports 3",
+    "star sports select", "star sports first",
     "star sports hindi", "star sports tamil", "star sports telugu",
 
     # --- Sports by discipline ---
@@ -56,7 +55,7 @@ SPORTS_KEYWORDS = [
     "motogp", "formula 1", "formula one", "olympics", "wwe", "ufc",
     "wrestling", "athletics", "swimming", "volleyball", "handball",
     "rugby", "cycling", "snooker", "table tennis", "esports", "darts",
-    "skiing", "surfing", "mma", "kabaddi",
+    "skiing", "surfing", "mma",
 
     # --- Leagues / tournaments / events ---
     "ipl", "isl", "t20", "odi", "test match", "world cup",
@@ -68,18 +67,19 @@ SPORTS_KEYWORDS = [
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
 SOURCE_CATEGORY_OVERRIDE = {
-    "FANCODE":     "Fancode",
-    "SONYLIV":     "SonyLIV",
-    "Jio Hotstar": "Jio Hotstar",
-    "WILLOW":      "Willow",
-    "PRIMEVIDEO":  "Prime Video",
-    "HOTSTAR":     "Hotstar",
+    "FANCODE":        "Fancode",
+    "SONYLIV":        "SonyLIV",
+    "Jio Hotstar":    "Jio Hotstar",
+    "WILLOW":         "Willow",
+    "PRIMEVIDEO":     "Prime Video",
+    "HOTSTAR":        "Hotstar",
     "Sports Special": "Sports Special",
+    "SONY":           "Sony",   # <-- every SONY playlist channel -> Sony folder
+    "ZEE":            "Zee",    # <-- every ZEE playlist channel  -> Zee folder
+    "SUN":            "Sun",    # <-- every SUN playlist channel  -> Sun folder
 }
 
 # ------------------ KEYWORD CATEGORY MAPPING ------------------
-# NOTE: Cricket / Football / Boxing / Baseball were removed from here
-#       because they are now handled by SPORTS_KEYWORDS above.
 CATEGORY_MAP = {
     "Assamese":   ["assamese", "asomiya"],
     "Bengali":    ["bengali", "bangla", "bn"],
@@ -115,7 +115,7 @@ DEFAULT_CATEGORY = "Other"
 
 # ------------------ CATEGORY ORDER (first = top) ------------------
 CATEGORY_ORDER = [
-    "Sports | Sportlink",          # <-- NEW: all sports channels land here
+    "Sports | Sportlink",
     "Sports Special | Sportlink",
     "Live Events | Sportlink",
     "Fancode | Sportlink",
@@ -124,6 +124,9 @@ CATEGORY_ORDER = [
     "Prime Video | Sportlink",
     "Hotstar | Sportlink",
     "Jio Hotstar | Sportlink",
+    "Sony | Sportlink",
+    "Zee | Sportlink",
+    "Sun | Sportlink",
 ]
 
 # ------------------ HELPER FUNCTIONS ------------------
@@ -143,6 +146,11 @@ def clean_line(line):
     return line.strip()
 
 def extract_channel_blocks(lines):
+    """
+    Yield a list of lines per channel.
+    A channel block starts with #EXTINF and includes any following
+    #KODIPROP / #EXTVLCOPT lines plus the URL line.
+    """
     block = []
     for line in lines:
         line = clean_line(line)
@@ -166,7 +174,6 @@ def get_channel_title(block):
     return None
 
 def is_sports_channel(title):
-    """Return True if the channel title matches any sports keyword."""
     if not title:
         return False
     title_lower = title.lower()
@@ -179,7 +186,6 @@ def categorize_channel(title):
     if not title:
         return DEFAULT_CATEGORY
     title_lower = title.lower()
-    # Sports check comes FIRST so "Star Sports" doesn't get caught by "Star"
     if is_sports_channel(title):
         return SPORTS_CATEGORY
     for category, keywords in CATEGORY_MAP.items():
@@ -189,11 +195,11 @@ def categorize_channel(title):
     return DEFAULT_CATEGORY
 
 def fix_channel_block(block, category):
-    """Apply branding suffixes and set correct group-title."""
+    """Apply @virat10 suffix to tvg-name and set group-title to category."""
     new_block = []
     for line in block:
         if line.startswith('#EXTINF'):
-            # --- 1. Append @virat10 to tvg-name (or add it if missing) ---
+            # --- 1. Append @virat10 to tvg-name (or create one) ---
             if 'tvg-name=' in line:
                 line = re.sub(
                     r'tvg-name="([^"]*)"',
@@ -211,7 +217,7 @@ def fix_channel_block(block, category):
                             1
                         )
 
-            # --- 2. Set group-title to the category (which already has | Sportlink) ---
+            # --- 2. Set group-title to category ---
             if 'group-title=' in line:
                 line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
             else:
@@ -246,8 +252,11 @@ def main():
             sport = is_sports_channel(title)
 
             # ---------- CATEGORY DECISION ----------
-            if sport and (SPORTS_TAKES_PRIORITY or not override_cat):
-                # Sports wins -> everything goes into ONE Sports folder
+            # Priority:
+            #   1. Sports priority ON -> sports channel goes to Sports folder.
+            #   2. Source override exists -> use it (e.g. SONY -> Sony).
+            #   3. Otherwise -> keyword categorization.
+            if sport and SPORTS_TAKES_PRIORITY:
                 base_category = SPORTS_CATEGORY
                 sports_count += 1
 
@@ -258,13 +267,12 @@ def main():
                 base_category = categorize_channel(title)
 
                 # ---------- JIO-TV SPECIAL HANDLING ----------
-                # Only non-sports JioTV channels get the "Jiotv " prefix,
-                # so the Sports folder isn't split into two.
+                # Prefix non-sports JioTV categories with "Jiotv " so they
+                # don't mix with the main Sony/Zee/Sun folders.
                 if name == "JIO-TV":
                     base_category = f"Jiotv {base_category}"
                 # ---------------------------------------------
 
-            # Append Sportlink suffix to every category
             category = f"{base_category}{SPORTLINK_SUFFIX}"
             all_channels.append((category, block))
 
@@ -293,7 +301,7 @@ def main():
         for block in blocks:
             fixed = fix_channel_block(block, cat)
             out_lines.extend(fixed)
-            out_lines.append('')   # one blank line after each channel
+            out_lines.append('')   # blank line after each channel
 
     # Remove trailing blank lines
     while out_lines and out_lines[-1] == '':
@@ -303,7 +311,7 @@ def main():
     try:
         with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
             f.write('\n'.join(out_lines))
-            f.write('\n')  # final newline
+            f.write('\n')
         print("\n" + "=" * 50)
         print(f"✅ Successfully created {OUTPUT_FILE}")
         print(f"📊 Total channels: {total}")
