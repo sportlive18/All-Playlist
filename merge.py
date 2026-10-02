@@ -10,7 +10,6 @@ PLAYLISTS = [
     {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
     {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
     {"name": "PRIMEVIDEO", "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
-    {"name": "AXSPORTS", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u"},
     {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/jtvplus7.m3u"},
     {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
     {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
@@ -18,11 +17,12 @@ PLAYLISTS = [
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/hotstar.m3u"},
 ]
 
-OUTPUT_FILE = "combined.m3u"
+OUTPUT_FILE = "Combined.m3u"
 EPG_URL = "https://www.tsepg.cf/epg.xml.gz"
 
-# ------------------ SUFFIX FOR ALL CATEGORIES ------------------
+# ------------------ BRANDING SUFFIXES ------------------
 SPORTLINK_SUFFIX = " | Sportlink"
+VIRAT10_SUFFIX = " @virat10"
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
 SOURCE_CATEGORY_OVERRIDE = {
@@ -31,7 +31,6 @@ SOURCE_CATEGORY_OVERRIDE = {
     "Jio Hotstar": "Jio Hotstar",
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
-    "AXSPORTS":    "AXS",
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
 }
@@ -82,7 +81,6 @@ CATEGORY_ORDER = [
     "SonyLIV | Sportlink",
     "Willow | Sportlink",
     "Prime Video | Sportlink",
-    "AXS | Sportlink",
     "Hotstar | Sportlink",
     "Jio Hotstar | Sportlink",
 ]
@@ -137,13 +135,36 @@ def categorize_channel(title):
     return DEFAULT_CATEGORY
 
 def fix_channel_block(block, category):
+    """Apply branding suffixes and set correct group-title."""
     new_block = []
     for line in block:
         if line.startswith('#EXTINF'):
+            # --- 1. Append @virat10 to tvg-name (or add it if missing) ---
+            if 'tvg-name=' in line:
+                line = re.sub(
+                    r'tvg-name="([^"]*)"',
+                    lambda m: f'tvg-name="{m.group(1).strip()}{VIRAT10_SUFFIX}"',
+                    line
+                )
+            else:
+                # No tvg-name — create one from the channel title
+                parts = line.rsplit(',', 1)
+                if len(parts) > 1:
+                    title = parts[1].strip()
+                    # Insert right after the #EXTINF:-1 tag
+                    if line.startswith('#EXTINF:-1 '):
+                        line = line.replace(
+                            '#EXTINF:-1 ',
+                            f'#EXTINF:-1 tvg-name="{title}{VIRAT10_SUFFIX}" ',
+                            1
+                        )
+
+            # --- 2. Set group-title to the category (which already has | Sportlink) ---
             if 'group-title=' in line:
                 line = re.sub(r'group-title="[^"]*"', f'group-title="{category}"', line)
             else:
                 line = re.sub(r'(#EXTINF:[^,]+)', r'\1 group-title="' + category + '"', line)
+
             new_block.append(line)
         else:
             new_block.append(line)
