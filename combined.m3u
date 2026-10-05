@@ -1,12 +1,5 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Sports | Sportlink (11 channels) =====
-#EXTINF:-1 tvg-id="B0HL22BGF3" tvg-name="Cricket Highlights-WCL 2026: Bangladesh vs England - 6th Match @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5d297e3f-d708-430a-baf9-27e0cf86e7e7/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Sports | Sportlink",Cricket Highlights-WCL 2026: Bangladesh vs England - 6th Match
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
-
+#===== Sports | Sportlink (10 channels) =====
 #EXTINF:-1 tvg-id="sony-ten-1" tvg-name="Sony Sports Ten 1 @virat10" group-title="Sports | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 1
 https://sliv.tgaadi.workers.dev/ten1sd.m3u8
 
@@ -37,45 +30,25 @@ https://sliv.tgaadi.workers.dev/ten4hd.m3u8
 #EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD @virat10" group-title="Sports | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 5 HD
 https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
 
-#===== Fancode | Sportlink (4 channels) =====
+#===== Fancode | Sportlink (1 channels) =====
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249657_53086_USA_UAE_fc-web.png" group-title="Fancode | Sportlink", ICC CWC League 2 USA, 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4249657_english_hls_564ff93f9840854_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791298527~_GO=Generated~acl=/mumbai/4249657_english_hls_564ff93f9840854_1ta-di_h264/*~Signature=AXZsC1BadYyjQyZmgZWqqegWsJ8P4Oj_z4NC4AgQbjsXsI-wj5DzKVg-EeMcJeypMd5kVanDvmmQmFiRVlSDpnws9SoO
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249217_53069_BGC_EDC_FC-Web_1790764441279.png" group-title="Fancode | Sportlink", World Championship of Legends, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4249217_english_hls_c61fbb525579262_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791298528~_GO=Generated~acl=/mumbai/4249217_english_hls_c61fbb525579262_1ta-di_h264/*~Signature=AXZsC1DHdgJMX_CUR7rkGss1zuWnC-Ad7-RGIMcwzBtxvB75JC57po0z-XBtZ3Jrp3baEYnqGxAlwtaxInrWeLjs-tAB
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249217_53069_BGC_EDC_FC-Web_1790764441279.png" group-title="Fancode | Sportlink", World Championship of Legends, 2026 [Hindi]
-https://in-mc-flive.fancode.com/mumbai/4249217_hindi_hls_1480bdd9cf91170_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791298528~_GO=Generated~acl=/mumbai/4249217_hindi_hls_1480bdd9cf91170_1ta-di_h264/*~Signature=AXZsC1CMPbVaCFBNHRuBTdwgpxLHVafAzu8gQ-EuEmTy34L5WvWGWS2OkWoknZrNnEwqVRRBl2gqePVdFIehS-fRZYAP
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4250082_53103_SHA_EMR_FC-WEB.jpg" group-title="Fancode | Sportlink", Emirates D10, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4250082_english_hls_92f86185ca66052_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791299741~_GO=Generated~acl=/mumbai/4250082_english_hls_92f86185ca66052_1ta-di_h264/*~Signature=AXZsC1B5GPBvAfKxEtR22li0tKvE-9JNTYA4wdGa-trQV4twU99UBrQoRuMIvTMT-nAo_hxrbeLh7j-K0i90IWavNlsD
-
-#===== SonyLIV | Sportlink (1 channels) =====
-#EXTINF:-1 tvg-name="Cyprus vs Latvia - 5 Oct 2026  [ENG] - UEFA Nations League 2026-27 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025563/1790826911383953_UNL2627_MD4_Cyprus_vs_Latvia_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Cyprus vs Latvia - 5 Oct 2026  [ENG] - UEFA Nations League 2026-27
-https://sonydaimenew.akamaized.net/hls/live/2120299/Footlive0510/ENG/std_lrh-800300010.m3u8?hdnea=exp=1791257895~acl=/*~id=93401479484571521516026392771308~hmac=ab7b0c264c1cbc08cf9afde935f8823303650a82d8eef65e84c6b38a8646ba9f
-
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:09:32 PM 05-10-2026
+#LAST_UPDATE:04:02 AM 06-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
-#UPCOMING_COUNT:19
+#LIVE_COUNT:0
+#UPCOMING_COUNT:20
 
-#===== Prime Video | Sportlink (2 channels) =====
+#===== Prime Video | Sportlink (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:09:32 PM 05-10-2026
+#LAST_UPDATE:04:02 AM 06-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:3
+#LIVE_COUNT:2
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0HL22BGF3" tvg-name="Cricket Highlights-WCL 2026: Bangladesh vs England - 6th Match @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.5d297e3f-d708-430a-baf9-27e0cf86e7e7/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Cricket Highlights-WCL 2026: Bangladesh vs England - 6th Match
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
-https://hls-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
 
 #===== Sony | Sportlink (22 channels) =====
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" tvg-language="Hindi",SET HD
