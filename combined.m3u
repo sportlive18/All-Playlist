@@ -30,35 +30,25 @@ https://sliv.tgaadi.workers.dev/ten4hd.m3u8
 #EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD @virat10" group-title="Sports | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 5 HD
 https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
 
-#===== Fancode | Sportlink (2 channels) =====
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249826_53099_MGM_TTS_FC-Web.png" group-title="Fancode | Sportlink", Canada Super 60, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4249826_english_hls_e90a66e4e180848_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791231840~_GO=Generated~acl=/mumbai/4249826_english_hls_e90a66e4e180848_1ta-di_h264/*~Signature=ARxeIm-ZXzQdCrHUrP7tSh1fRz83j2U2FTNHldUs1KCUXDNlYTWLovxU5Rfumi3_GdXGJavWoDEdJVhMUwnQW8Gtwj4K
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Bankmini.png" group-title="Fancode | Sportlink", Bank of Utah Championship 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4249703_english_hls_46f7c9a80064678_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791233656~_GO=Generated~acl=/mumbai/4249703_english_hls_46f7c9a80064678_1ta-di_h264/*~Signature=ARxeIm_7-hpS7yqezjQnAK4IR0TesULfW6msNNu90MYJ1oiE6J2gwG7EZiW_OHXXzvWavP0dA4b1qP0wuAb-ewAZ5KgK
+#===== Fancode | Sportlink (1 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249827_53099_VAC_BBZ_FC-Web.png" group-title="Fancode | Sportlink", Canada Super 60, 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4249827_english_hls_296ca1937683936_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791240319~_GO=Generated~acl=/mumbai/4249827_english_hls_296ca1937683936_1ta-di_h264/*~Signature=ARxeIm_VycxbbH-XNg4cKo7YZVYCiV_Bzm5I_h7xUj9m6ExxrvIANsK0JiXgKxISKxU_XPSNzMUU0Wbff2iS-HIp1S4F
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:03:32 AM 05-10-2026
+#LAST_UPDATE:06:32 AM 05-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:20
 
-#===== Prime Video | Sportlink (2 channels) =====
+#===== Prime Video | Sportlink (1 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:03:32 AM 05-10-2026
+#LAST_UPDATE:06:32 AM 05-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:1
+#LIVE_COUNT:0
 #UPCOMING_COUNT:0
-
-#EXTINF:-1 tvg-id="B0HKZNRCY9" tvg-name="PPA Tour: Las Vegas Open-Championship Sunday @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.8fa74d52-d9c9-4043-9966-e202f5170ff8/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",PPA Tour: Las Vegas Open-Championship Sunday
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=2be100252a42be3a17d29c93e28eaacc:07c5e72df3602e9652dd06d839776e72
-https://dash-ott.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/can8dnk7we/out/v1/d6c56496531749a6989b78ab18c67557/cenc.mpd
 
 #===== Sony | Sportlink (22 channels) =====
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" tvg-language="Hindi",SET HD
