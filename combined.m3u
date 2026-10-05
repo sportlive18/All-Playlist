@@ -1,5 +1,8 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Sports | Sportlink (10 channels) =====
+#===== Sports | Sportlink (11 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg" group-title="Sports | Sportlink", West Singhbhum T20 League 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4250051_english_hls_a8957583d23601_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791256653~_GO=Generated~acl=/mumbai/4250051_english_hls_a8957583d23601_1ta-di_h264/*~Signature=ARxeIm8jnzD4dkGi9CsQg7z74oDqip1R_nSo8RPcxEkHPbVHomoHN0GdIVQVq7ek4QVLjYtW1NRCpHsApEZctVxwiRkB
+
 #EXTINF:-1 tvg-id="sony-ten-1" tvg-name="Sony Sports Ten 1 @virat10" group-title="Sports | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 1
 https://sliv.tgaadi.workers.dev/ten1sd.m3u8
 
@@ -30,25 +33,48 @@ https://sliv.tgaadi.workers.dev/ten4hd.m3u8
 #EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD @virat10" group-title="Sports | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 5 HD
 https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
 
-#===== Fancode | Sportlink (1 channels) =====
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249827_53099_VAC_BBZ_FC-Web.png" group-title="Fancode | Sportlink", Canada Super 60, 2026 [English]
-https://in-mc-flive.fancode.com/mumbai/4249827_english_hls_296ca1937683936_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791240319~_GO=Generated~acl=/mumbai/4249827_english_hls_296ca1937683936_1ta-di_h264/*~Signature=ARxeIm_VycxbbH-XNg4cKo7YZVYCiV_Bzm5I_h7xUj9m6ExxrvIANsK0JiXgKxISKxU_XPSNzMUU0Wbff2iS-HIp1S4F
+#===== Fancode | Sportlink (4 channels) =====
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249820_53099_VAC_TTS_FC-Web.png" group-title="Fancode | Sportlink", Canada Super 60, 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4249828_english_hls_81953f6e7f47328_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791256652~_GO=Generated~acl=/mumbai/4249828_english_hls_81953f6e7f47328_1ta-di_h264/*~Signature=ARxeIm_pl3t1UmZeNq2awvJdyg5vkP0ljehyYvpKeTWCFI1NcXeirBqnyt31mcNo5LrrOQM3EU08Ma5_4rPo-dzc8gIC
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg" group-title="Fancode | Sportlink", West Singhbhum T20 League 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4250051_english_hls_a8957583d23601_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791256653~_GO=Generated~acl=/mumbai/4250051_english_hls_a8957583d23601_1ta-di_h264/*~Signature=ARxeIm8jnzD4dkGi9CsQg7z74oDqip1R_nSo8RPcxEkHPbVHomoHN0GdIVQVq7ek4QVLjYtW1NRCpHsApEZctVxwiRkB
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Web1.png" group-title="Fancode | Sportlink", ICC Men's T20 WC Asia Sub-regional Qualifier A, 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4249720_english_hls_633686f4e765959_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791265738~_GO=Generated~acl=/mumbai/4249720_english_hls_633686f4e765959_1ta-di_h264/*~Signature=ARxeIm_BKK1cNELDxbsTHJdjKBlRVUZ3xGr4N-d2EIWLMcamrvAAtp4mp6jSB5N3VKgH-1Xq-fjGIdhd4K4ZdUFKYygM
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Japan_Open_2026_FC-WEB.jpg" group-title="Fancode | Sportlink", ATP 500 - Kinoshita Group Japan Open 2026 [English]
+https://in-mc-flive.fancode.com/mumbai/4248577_english_hls_277ccda48828192_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791262102~_GO=Generated~acl=/mumbai/4248577_english_hls_277ccda48828192_1ta-di_h264/*~Signature=ARxeIm_ad1RvYDHLyffb7zO97vwdKoxBQrnI_E3xvw2pFNAPaYLB8tdF8g74JEdouFjSbxZiTUOulDFgrZWdxEwVgxcN
 
 #===== Willow | Sportlink (1 channels) =====
 #PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:06:32 AM 05-10-2026
+#LAST_UPDATE:12:32 PM 05-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
 #LIVE_COUNT:0
 #UPCOMING_COUNT:20
 
-#===== Prime Video | Sportlink (1 channels) =====
+#===== Prime Video | Sportlink (3 channels) =====
 #PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:06:32 AM 05-10-2026
+#LAST_UPDATE:12:32 PM 05-10-2026
 #TELEGRAM:https://t.me/livesportsplay
 #OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
+#LIVE_COUNT:2
 #UPCOMING_COUNT:0
+
+#EXTINF:-1 tvg-id="B0H8DZXSZF" tvg-name="Predator Pro Billiard Series: Indonesia @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f6811025-cbe3-4c7c-9414-bc075b97c131/2/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Predator Pro Billiard Series: Indonesia
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=18ebe4e0e59f5ff07ed9879c4c0e0008:e172cb6887761bf883aa925e173e7b67
+https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/g4ydvmoa9t/out/v1/73c73d5ac64146c2b7b133cac333a24c/cenc.mpd
+
+#EXTINF:-1 tvg-id="B0HKS4XYGP" tvg-name="Tennis Today Live-Beijing-ATP & Tokyo-ATP Semifinals, Beijing-WTA 3rd Round @virat10" tvg-logo="https://images-na.ssl-images-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.24ecc50c-236a-40be-81f1-16d0e29cf711/5/BOXART-16X9/en-US._UR1920,1080_CLs%7C1920,1080%7C/G/bundle/BottomRightCardGradient16x9.png,/G/01/digital/video/merch/subs/benefit-id/a-f/freewithads/logos/channels-logo-white.png%7C0,0,1920,1080+0,0,1920,1080+1578,847,263,156_kv053498f62d21803ffcbf28da234cfe9f_SX624_FMjpg_.jpg" group-title="Prime Video | Sportlink",Tennis Today Live-Beijing-ATP & Tokyo-ATP Semifinals, Beijing-WTA 3rd Round
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
+https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
 
 #===== Sony | Sportlink (22 channels) =====
 #EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" tvg-language="Hindi",SET HD
