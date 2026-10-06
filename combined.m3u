@@ -874,22 +874,6 @@ https://in-mc-flive.fancode.com/mumbai/4249723_english_hls_5dadd1d15570232_1ta-d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Japan_Open_2026_FC-WEB.jpg" group-title="Fancode | Sportlink", ATP 500 - Kinoshita Group Japan Open 2026 [English]
 https://in-mc-flive.fancode.com/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/1080p.m3u8?hdntl=Expires=1791339711~_GO=Generated~acl=/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/*~Signature=AXZsC1CbAGMPI__KIMP0WG7G95XIW8EdUjJYmvKFz8EoQOI6bag-0kpbX2Qjb7dDc5xEXeDHJVWkbERXL7nMszU6d0IK
 
-#===== Willow | Sportlink (1 channels) =====
-#PLAYLIST:Willow Cricket Event Info
-#LAST_UPDATE:01:02 PM 06-10-2026
-#TELEGRAM:https://t.me/livesportsplay
-#OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:20
-
-#===== Prime Video | Sportlink (1 channels) =====
-#PLAYLIST:Prime Video Free Sports
-#LAST_UPDATE:01:02 PM 06-10-2026
-#TELEGRAM:https://t.me/livesportsplay
-#OWNER:Md Sohanur Rahman Hady
-#LIVE_COUNT:0
-#UPCOMING_COUNT:0
-
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
 #EXTVLCOPT:http-user-agent=Virat Kohli
@@ -2496,7 +2480,7 @@ https://livestream1.sunnxt.com/05b5df1221764bca9867054c5e65ee62/SunTVB_IN_index.
 #KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
 https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd
 
- group-title="Sun | Sportlink", Sun TV HD - Dolby Vision
+#EXTINF:-1 group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="195491" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/195491/640x360_SunTVHDDolbyVision_195491_8110232c-dd00-4dbe-98ff-25bf5fe8749e.jpg"  group-title="Sun | Sportlink", Sun TV HD - Dolby Vision
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
 https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd
