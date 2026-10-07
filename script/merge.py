@@ -6,16 +6,16 @@ from datetime import datetime
 
 # ------------------ CONFIGURATION ------------------
 PLAYLISTS = [
-    {"name": "FANCODE", "icon": "🏏", "url": "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"},
-    {"name": "SONYLIV", "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
-    {"name": "WILLOW", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
-    {"name": "PRIMEVIDEO", "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
-    {"name": "AXSPORTS", "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/axsports/refs/heads/main/playlist.m3u"},
-    {"name": "JIO-TV", "icon": "📡", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zio.m3u"},
-    {"name": "ZEE", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/zee.m3u"},
-    {"name": "SONY", "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sony.m3u"},
-    {"name": "SUN", "icon": "☀️", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/sun.m3u"},
-    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://raw.githubusercontent.com/sportlive18/jio-tv-auto-update-playlist/refs/heads/main/tstar.m3u"},
+    {"name": "FANCODE",     "icon": "🏏", "url": "https://raw.githubusercontent.com/doctor-8trange/zyphx8/refs/heads/main/data/fancode.m3u"},
+    {"name": "SONYLIV",     "icon": "📺", "url": "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u"},
+    {"name": "WILLOW",      "icon": "🏏", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/live_sports.m3u"},
+    {"name": "PRIMEVIDEO",  "icon": "📺", "url": "https://raw.githubusercontent.com/srhady/willow-event/refs/heads/main/primevideo_sports.m3u"},
+    {"name": "VZY",         "icon": "🎬", "url": "https://premiumplugx.me/vzy/playlist.php"},
+    {"name": "JIO-TV",      "icon": "📡", "url": "https://sportlink-playlist.pages.dev/zio.m3u"},
+    {"name": "ZEE",         "icon": "📺", "url": "https://vk-playlist.pages.dev/zee3.m3u"},
+    {"name": "SONY",        "icon": "📺", "url": "https://vk-playlist.pages.dev/sony.m3u"},
+    {"name": "SUN",         "icon": "☀️", "url": "https://vk-playlist.pages.dev/sun.m3u"},
+    {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-playlist.pages.dev/tstar.m3u"},
 ]
 
 OUTPUT_FILE = "Combined.m3u"
@@ -32,7 +32,8 @@ SOURCE_CATEGORY_OVERRIDE = {
     "Jio Hotstar": "Jio Hotstar",
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
-    "AXSPORTS":    "AXS",
+    # "VZY" intentionally omitted — let keyword categorizer split it
+    # into Movies / News / Music / Entertainment / Sports / etc.
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
 }
@@ -83,7 +84,6 @@ CATEGORY_ORDER = [
     "SonyLIV | Sportlink",
     "Willow | Sportlink",
     "Prime Video | Sportlink",
-    "AXS | Sportlink",
     "Hotstar | Sportlink",
     "Jio Hotstar | Sportlink",
 ]
