@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://www.tsepg.cf/epg.xml.gz"
-#===== Fancode | Sportlink (7 channels) =====
+#===== Fancode | Sportlink (6 channels) =====
 # Written and Directed by ✨ D O C T O R - S T R A N G E ✨
 # Join us on Telegram: https://t.me/jitendraunatti_github
-#DATE:- Wednesday, 7 October 2026 at 6:42:25 pm
+#DATE:- Wednesday, 7 October 2026 at 7:28:18 pm
 
 #EXTINF:-1 tvg-id="4249224" tvg-name="Australia Champions Vs Bangladesh Champions @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/4249224_53069_AAC_BGC_FC-Web_1790764440661.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Australia Champions Vs Bangladesh Champions
 https://dai-fancode.pages.dev/mumbai/4249224_english_hls_6e34c851e257087_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
@@ -18,9 +18,6 @@ https://dai-fancode.pages.dev/mumbai/4248809_english_hls_59b8a894ac27038_1ta-di_
 
 #EXTINF:-1 tvg-id="4248811" tvg-name="Grandstand 2 @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Grandstand 2
 https://dai-fancode.pages.dev/mumbai/4248811_english_hls_9911f305b738415_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
-
-#EXTINF:-1 tvg-id="4248810" tvg-name="Stadium Court @virat10" tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png" tvg-language="English" group-title="Fancode | Sportlink",ENG | Stadium Court
-https://dai-fancode.pages.dev/mumbai/4248810_english_hls_0f627da36a15946_1ta-di_h264/index.m3u8|User-Agent=ReactNativeVideo/9.11.1 (Linux;Android 13) AndroidXMedia3/1.6.1&Referer=https://fancode.com/
 
 #===== SonyLIV | Sportlink (2 channels) =====
 #EXTINF:-1 tvg-name="Ayodhya Garjan vs Garvi Gujjus - 7 Oct 2026 [ENG] - Volleyball Championship League 2026 @virat10" tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000025944/1791297098402989_VCL_Ayodhya-Garjan-vs-Garvi-Gujjus_live_landscape_thumb.jpg" group-title="SonyLIV | Sportlink", Ayodhya Garjan vs Garvi Gujjus - 7 Oct 2026 [ENG] - Volleyball Championship League 2026
@@ -65,13 +62,6 @@ https://dash-ott.bia-cf.live.pv-cdn.net/pdx-nitro/live/clients/dash/enc/tll6uwep
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=59f50679c9e60963bd0cb6640992aaaa:8685817c4d31f322e08940feeae2855a
 https://otte.live.fly.ww.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/k653vm77p0/out/v1/313a4febbed346d298f7c1c281a00f6d/cenc.mpd
-
-#===== AXS | Sportlink (1 channels) =====
-#name: Axsports Auto Update Playlist
-#telegram: https://t.me/livesportsplay
-#owner: Md Sohanur Rahman Hady
-#special thanks to: MR. Joy Chowdhury
-#last update time: 6:33 PM 02-10-2026
 
 #===== Jio Hotstar | Sportlink (126 channels) =====
 #EXTINF:-1 tvg-name="Bigboss 24/7 live-HINDI @virat10" tvg-logo="https://img10.hotstar.com/image/upload/sources/r1/cms/prod/2305/1788708712305-h.jpg" group-title="Jio Hotstar | Sportlink", Bigboss 24/7 live-HINDI
@@ -1437,7 +1427,7 @@ https://jcevents.hotstar.com/bpk-tv/305f6c39f663997943fadd41d113ac21_CTV/Fallbac
 #EXTHTTP:{"Origin":"https://www.hotstar.com","Referer":"https://www.hotstar.com/","User-Agent":"Virat Kohli","Cookie":"hdntl=exp=1791447895~acl=%2f*~id=defea8908ef08d51219ffbe4def0a6b7~data=hdntl~hmac=c97eff8c1d45441abe9bf9359c0d6c57a2624db117f28887d05c5e62c4fab354"}
 https://jcevents.hotstar.com/bpk-tv/e03bbf7688f4b14faa3782e78851c3d9_CTV/Fallback/index2.m3u8
 
-#===== Bengali | Sportlink (29 channels) =====
+#===== Bengali | Sportlink (35 channels) =====
 #EXTINF:-1 tvg-id="573" tvg-name="Discovery Bengali @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Bengali.png" group-title="Bengali | Sportlink",Discovery Bengali
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -1771,6 +1761,26 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDBen_MOB/WDVLive/index.mpd
 #EXTVLCOPT:http-cookie=__hdnea__=st=1780028520~exp=1780050120~acl=/*~hmac=7413d53c66e79d08e63eb3e4037e1b905498bf5f3a5d92c8aab70b56b23e2f2d&__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1780028520~exp=1780050120~acl=/*~hmac=7413d53c66e79d08e63eb3e4037e1b905498bf5f3a5d92c8aab70b56b23e2f2d&__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeBanglaSonar_MOB/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="0-9-zeebanglacinema" tvg-name="Zee Bangla Sonar @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebanglacinema/list/1920x1080list63969e710a85462aacd4c38d07ce52af.png" group-title="Bengali | Sportlink",Zee Bangla Sonar
+https://premiumplugx.me/jee/zee5.php/0-9-zeebanglacinema.m3u8
+
+#EXTINF:-1 tvg-id="0-9-366" tvg-name="Zee Bangla International @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-366/list/1920x1080lista0006de49f9b4d14b3e63b76723b7e8d.png" group-title="Bengali | Sportlink",Zee Bangla International
+https://premiumplugx.me/jee/zee5.php/0-9-366.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeebangla" tvg-name="Zee Bangla HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebangla/list/1920x1080listdf1822e039924461b4723428ec83c127.png" group-title="Bengali | Sportlink",Zee Bangla HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeebangla.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383484" tvg-name="Zee Bangla @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383484/list/1920x1080list907975089cce4bdf92d0d72c193d3fc5.png" group-title="Bengali | Sportlink",Zee Bangla
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383484.m3u8
+
+#EXTINF:-1 tvg-id="0-9-378" tvg-name="TV9 Bangla @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-378/list/1920x1080list5a92a5aca71743c0881070b78d3305b0.png" group-title="Bengali | Sportlink",TV9 Bangla
+https://premiumplugx.me/jee/zee5.php/0-9-378.m3u8
+
+#EXTINF:-1 tvg-name="Sun Bangla @virat10" group-title="Bengali | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194388" tvg-language="Bengali" tvg-logo="https://sund-images.sunnxt.com/192537/640x360_GeminiMoviesHD_192537_abeec905-1e11-4abf-98fd-16d62fce60c8.jpg",Sun Bangla
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=01f7b9f7bf7e425f86d6dfd478390e3f:5fde68100a7856d055038236ffc7c84a
+https://livestream7.sunnxt.com/bf76ee92dd01473bb2eb57d137294484/SunBanglaB_IN_index.mpd
 
 #===== Bhojpuri | Sportlink (4 channels) =====
 #EXTINF:-1 tvg-id="741" tvg-name="Sangeet Bhojpuri @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sangeet_Bhojpuri.png" group-title="Bhojpuri | Sportlink",Sangeet Bhojpuri
@@ -2370,7 +2380,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/IDHDHindi_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryHDHin_MOB/WDVLive/index.mpd
 
-#===== English | Sportlink (24 channels) =====
+#===== English | Sportlink (25 channels) =====
 #EXTINF:-1 tvg-id="242" tvg-name="Discovery English @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Discovery_Channel_Eng.png" group-title="English | Sportlink",Discovery English
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -2651,7 +2661,10 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryScienceHin_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/greengold/HLSPartner/index.m3u8
 
-#===== Entertainment | Sportlink (180 channels) =====
+#EXTINF:-1 tvg-id="0-9-9z5829362" tvg-name="Zee One French @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5829362/list/1920x1080listf34b0c1bacb3417faf7985f38e8d235b.png" group-title="English | Sportlink",Zee One French
+https://premiumplugx.me/jee/zee5.php/0-9-9z5829362.m3u8
+
+#===== Entertainment | Sportlink (197 channels) =====
 #EXTINF:-1 tvg-id="146" tvg-name="History TV18 HD @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/History_HD.png" group-title="Entertainment | Sportlink",History TV18 HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -4732,6 +4745,77 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ValamTVDayro_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 
+#EXTINF:-1 tvg-id="0-9-251" tvg-name="TV9 Bharatvarsh @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-251/list/1920x1080list29d512d8cda14edd8bedf44c9ae60dfe.png" group-title="Entertainment | Sportlink",TV9 Bharatvarsh
+https://premiumplugx.me/jee/zee5.php/0-9-251.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeesalaam" tvg-name="Salaam TV @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeesalaam/list/1920x1080listea24467092ca488db9a3bacc63eb6d9f.png" group-title="Entertainment | Sportlink",Salaam TV
+https://premiumplugx.me/jee/zee5.php/0-9-zeesalaam.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910243" tvg-name="Great! Movies @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910243/list/1920x1080list245d80214f924d4898bfb7d5d2b949e2.png" group-title="Entertainment | Sportlink",Great! Movies
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910243.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeanmol" tvg-name="Anmol TV @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmol/list/1920x1080listef6865f9714b40139037d98300559cd7.png" group-title="Entertainment | Sportlink",Anmol TV
+https://premiumplugx.me/jee/zee5.php/0-9-zeeanmol.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_1510237423" tvg-name="&TV HD USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1510237423/list/1920x1080list26d04b21315949609f8b5a37a0b2d679.png" group-title="Entertainment | Sportlink",&TV HD USA
+https://premiumplugx.me/jee/zee5.php/0-9-channel_1510237423.m3u8
+
+#EXTINF:-1 tvg-id="0-9-tvhd_0" tvg-name="&TV HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvhd_0/list/1920x1080list8cecf80ef6884ff09063a5abd21f81d6.png" group-title="Entertainment | Sportlink",&TV HD
+https://premiumplugx.me/jee/zee5.php/0-9-tvhd_0.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_122044711" tvg-name="&TV HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_122044711/list/1920x1080list823b2c22c4344831a7e5f42e44410e50.png" group-title="Entertainment | Sportlink",&TV HD
+https://premiumplugx.me/jee/zee5.php/0-9-channel_122044711.m3u8
+
+#EXTINF:-1 tvg-name="KTV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194409" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194409/640x360_KTV_194409_91b39445-b996-4e46-bafa-b78548e4da2e.jpg",KTV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=426117d115b04497b0b0d425e8095184:aa751ae8a41ac6f87141734163ffe3b2
+https://livestream.sunnxt.com/6ae70edd4c1440379f5311e8fbddc7c1/KTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="KTV HD @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194405" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194405/640x360_KTVHD_194405_3c6880f0-468e-48f4-b09a-89fd5fed775d.jpg",KTV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=351e547391bb45cbac66d2cb9ec0c294:3bd646753f4903eee3b404646c7819d3
+https://livestream.sunnxt.com/61477b4c8d8d45d5a49e044cc1dffc60/KTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Udaya Movies @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194397" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194386/640x360_UdayaMovies_194386_429c7b3b-44a9-4328-8be3-645621c6e167.jpg",Udaya Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b4dbffb517824732a955ca02dd6aacd9:83c2aa2946432f1ded7c049efe79feef
+https://livestream.sunnxt.com/1c02547243c041eea5dab1c343018e90/UdayaMoviesB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini TV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194396" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194396/640x360_GeminiTV_194396_b5217fee-8105-4d55-bdb6-f282715761d1.jpg",Gemini TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2ec6fa5b77ff4223a376c2b98032fbf8:afe96f602fd6abedcd9c2c8cdf799afd
+https://livestream4.sunnxt.com/a1a61fa1811c4d20a5c2d5e14cdc0cd2/GeminiTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Movies HD @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="192537" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/192537/640x360_GeminiMoviesHD_192537_abeec905-1e11-4abf-98fd-16d62fce60c8.jpg", Gemini Movies HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0c37231880034787bce9fd3607aa09ea:e063bb30351dac572bac24ed43d304b2
+https://livestream.sunnxt.com/ec0d4961a002442295f91efc9d675c9d/GeminiMoviesHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Movies @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194384" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194384/640x360_GeminiMovies_194384_bc1cee7f-1f8a-4b8e-83ea-da41279c9d40.jpg", Gemini Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0c37231880034787bce9fd3607aa09ea:e063bb30351dac572bac24ed43d304b2
+https://livestream.sunnxt.com/6a59979ff0044fd3b6e0cb85d6f44432/GeminiMoviesB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Adithya TV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194407" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194407/960x540_AdithyaTV_194407_b6f8fa30-255b-4f4a-8f8f-4264abda8b33.jpg" ,Adithya TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d674a1a7f43641a29bd8867d87c7259a:812f55dcde68619fc6ad95951b241d2c
+https://livestream.sunnxt.com/4d0eb3cde30247ada4ade679fdfbaf86/AdithyaTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Kushi TV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194346" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194346/960x540_KushiTV_194346_b0eff97b-4670-42fb-9d87-49d78fab6f3a.jpg" ,Kushi TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e16421cf7c374c57a8f7e91049f58cd9:b7e01aba2c307b1f05057e91a9d150d2
+https://livestream.sunnxt.com/4a736d41608849758a0aed36949ded30/KushiTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Chutti TV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194390" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194390/640x360_ChuttiTV_194390_61005292-313a-45b4-b6a8-3ac5128a513e.jpg", Chutti TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=05da38a46fb7403088f41434e44de980:488046139a1e1d65323cfe4bb1b30b7b
+https://livestream.sunnxt.com/3ed29d5b01b546eaa05d184cd87535f1/ChuttiTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Chintu TV @virat10" group-title="Entertainment | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194347" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194347/960x540_ChintuTV_194347_64af5425-0ed0-4c8a-b071-00ef86eaefde.jpg" ,Chintu TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=19d8a5cc002f411b89b33925acdc33e0:2a9aa7a3f69834c4f348430cc3f658bb
+https://livestream.sunnxt.com/ed4c67ad957644b69361651d9101107e/ChintuTVB_IN_index.mpd
+
 #===== French | Sportlink (1 channels) =====
 #EXTINF:-1 tvg-id="838" tvg-name="France 24 @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/France_24.png" group-title="French | Sportlink",France 24
 #KODIPROP:inputstream=inputstream.adaptive
@@ -4745,7 +4829,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/4sites/HLSPartner/index.m3u8
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/France_24_MOB/WDVLive/index.mpd
 
-#===== Gujarati | Sportlink (33 channels) =====
+#===== Gujarati | Sportlink (34 channels) =====
 #EXTINF:-1 tvg-id="196" tvg-name="Colors Gujarati @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ColorsGujarati.png" group-title="Gujarati | Sportlink",Colors Gujarati
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -5138,6 +5222,9 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Pradesh24_Gujarati_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/BHP_News_Gujarat_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="0-9-260" tvg-name="TV9 Gujarati @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-260/list/1920x1080listb129c32bd0c14c1d82d8cfc4d070f385.png" group-title="Gujarati | Sportlink",TV9 Gujarati
+https://premiumplugx.me/jee/zee5.php/0-9-260.m3u8
+
 #===== Haryanvi | Sportlink (1 channels) =====
 #EXTINF:-1 tvg-id="2751" tvg-name="Saga Music Haryanvi @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Saga_Music_Haryanvi.png" group-title="Haryanvi | Sportlink",Saga Music Haryanvi
 #KODIPROP:inputstream=inputstream.adaptive
@@ -5160,7 +5247,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Saga_Music_Haryanvi_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://nw18live.cdn.jio.com/bpk-tv/History_HD_NW18_MOB/output01/index.m3u8
 
-#===== Kannada | Sportlink (30 channels) =====
+#===== Kannada | Sportlink (34 channels) =====
 #EXTINF:-1 tvg-id="651" tvg-name="Raj News Kannada @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Kannada.png" group-title="Kannada | Sportlink",Raj News Kannada
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -5509,6 +5596,18 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/rmaxx/HLSPartner/index.m3u8
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLivSports4Kan_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="0-9-9z583537" tvg-name="Zee News Kannada @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z583537/list/1920x1080list358dd49ed7aa4d228a21ddec9e1a562f.png" group-title="Kannada | Sportlink",Zee News Kannada
+https://premiumplugx.me/jee/zee5.php/0-9-9z583537.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeekannada" tvg-name="Zee Kannada HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeekannada/list/1920x1080list6d595ac187f94ee8a066a848374117fe.png" group-title="Kannada | Sportlink",Zee Kannada HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeekannada.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383466" tvg-name="Zee Kannada @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383466/list/1920x1080listfd49e00fc50544278290170f04bc63c0.png" group-title="Kannada | Sportlink",Zee Kannada
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383466.m3u8
+
+#EXTINF:-1 tvg-id="0-9-259" tvg-name="TV9 Kannada @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-259/list/1920x1080lista505db213ec44e79a15958594030aee3.png" group-title="Kannada | Sportlink",TV9 Kannada
+https://premiumplugx.me/jee/zee5.php/0-9-259.m3u8
+
 #===== Malayalam | Sportlink (13 channels) =====
 #EXTINF:-1 tvg-id="650" tvg-name="Raj News Malayalam @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Raj_News_Malayalam.png" group-title="Malayalam | Sportlink",Raj News Malayalam
 #KODIPROP:inputstream=inputstream.adaptive
@@ -5666,7 +5765,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DiscoveryKidsMal_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMalayalam_MOB/WDVLive/index.mpd
 
-#===== Marathi | Sportlink (23 channels) =====
+#===== Marathi | Sportlink (30 channels) =====
 #EXTINF:-1 tvg-id="232" tvg-name="News18 Marathi @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News18Lokmat.png" group-title="Marathi | Sportlink",News18 Marathi
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -5935,6 +6034,29 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNMarathi_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/CNHDMarathi_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="0-9-channel_926372368" tvg-name="Zee Marathi USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_926372368/list/1920x1080list77f6a2a9e7dc4fb7bc152faad4e16f34.png" group-title="Marathi | Sportlink",Zee Marathi USA
+https://premiumplugx.me/jee/zee5.php/0-9-channel_926372368.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeemarathi" tvg-name="Zee Marathi HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeemarathi/list/1920x1080list41e48666669042d2a7b9725cb6bcbbc4.png" group-title="Marathi | Sportlink",Zee Marathi HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeemarathi.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383486" tvg-name="Zee Marathi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383486/list/1920x1080listb4e1d6116c3e45c6865e08a5a50cab00.png" group-title="Marathi | Sportlink",Zee Marathi
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383486.m3u8
+
+#EXTINF:-1 tvg-id="0-9-257" tvg-name="TV9 Marathi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-257/list/1920x1080list5117a7ffa60f4fbb89e4a983d9ff1fd3.png" group-title="Marathi | Sportlink",TV9 Marathi
+https://premiumplugx.me/jee/zee5.php/0-9-257.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5942785" tvg-name="NDTV Marathi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5942785/list/1920x1080listf3c00f12d45f4ef99cb6c05dd34b9bbd.png" group-title="Marathi | Sportlink",NDTV Marathi
+https://premiumplugx.me/jee/zee5.php/0-9-9z5942785.m3u8
+
+#EXTINF:-1 tvg-id="sony-marathi" tvg-name="Sony Marathi @virat10" group-title="Marathi | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MARATHI.png" tvg-language="Marathi",Sony Marathi
+https://sliv.tgaadi.workers.dev/sonymarathi.m3u8
+
+#EXTINF:-1 tvg-name="Sun Marathi @virat10" group-title="Marathi | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194387" tvg-language="Marathi" tvg-logo="https://sund-images.sunnxt.com/194387/640x360_SunMarathi_194387_441db2e2-0fa1-48ca-be59-7f5dd70f66cb.jpg",Sun Marathi
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5ea90a1f3b1e4a0a9b72c8e0f4a9bf31:30899fda5ca4dfb5a4535ce10c4d7341
+https://livestream9.sunnxt.com/b0aacde03b744564870634ecb10e8a31/SunMarathiB_IN_index.mpd
+
 #===== Nat Geo | Sportlink (2 channels) =====
 #EXTINF:-1 tvg-id="1332" tvg-name="Nat Geo Wild HD @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nat_Geo_Wild_HD.png" group-title="Nat Geo | Sportlink",Nat Geo Wild HD
 #KODIPROP:inputstream=inputstream.adaptive
@@ -5960,7 +6082,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791368416~exp=1791390016~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=233afc6bc0e7de713c465bca830d403cc6c08290496ccd77f9605337ab108c37"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd
 
-#===== News | Sportlink (157 channels) =====
+#===== News | Sportlink (165 channels) =====
 #EXTINF:-1 tvg-id="177" tvg-name="ABP News India @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ABP_News_India.png" group-title="News | Sportlink",ABP News India
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -7781,6 +7903,30 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/TheHind24News_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/GTCNews_MOB/WDVLive/index.mpd
 
+#EXTINF:-1 tvg-id="0-9-201" tvg-name="Suvarna News @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-201/list/1920x1080list18e77b64b1e443a893092a15e6abf46b.png" group-title="News | Sportlink",Suvarna News
+https://premiumplugx.me/jee/zee5.php/0-9-201.m3u8
+
+#EXTINF:-1 tvg-id="0-9-203" tvg-name="Polimer News @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-203/list/1920x1080list40293db0c0da4a28b3f10e2134f13bc8.png" group-title="News | Sportlink",Polimer News
+https://premiumplugx.me/jee/zee5.php/0-9-203.m3u8
+
+#EXTINF:-1 tvg-id="0-9-261" tvg-name="News 9 @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-261/list/1920x1080list13d09c26c3784c1ab25e55d0950f2ca7.png" group-title="News | Sportlink",News 9
+https://premiumplugx.me/jee/zee5.php/0-9-261.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5942784" tvg-name="NDTV Profit @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5942784/list/1920x1080list458ac1c9d3ce45f0a665658188b40ef0.png" group-title="News | Sportlink",NDTV Profit
+https://premiumplugx.me/jee/zee5.php/0-9-9z5942784.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5942783" tvg-name="NDTV India @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5942783/list/1920x1080listb9b2d987b12f4b9ba5927030844cc937.png" group-title="News | Sportlink",NDTV India
+https://premiumplugx.me/jee/zee5.php/0-9-9z5942783.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5942782" tvg-name="NDTV @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5942782/list/1920x1080list037398cd6ada454db42a52ddd1b8db8d.png" group-title="News | Sportlink",NDTV
+https://premiumplugx.me/jee/zee5.php/0-9-9z5942782.m3u8
+
+#EXTINF:-1 tvg-id="0-9-255" tvg-name="Good News Today @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-255/list/rszgoodnews1170x658withlogof6c4a3ed182348079c1710c2311eccf1.png" group-title="News | Sportlink",Good News Today
+https://premiumplugx.me/jee/zee5.php/0-9-255.m3u8
+
+#EXTINF:-1 tvg-id="0-9-200" tvg-name="Asianet News @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-200/list/1920x1080list20a59c86a81f4ff2b755a7389ffc30b0.png" group-title="News | Sportlink",Asianet News
+https://premiumplugx.me/jee/zee5.php/0-9-200.m3u8
+
 #===== Odia | Sportlink (3 channels) =====
 #EXTINF:-1 tvg-id="696" tvg-name="News18 Odia @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/News18odia.png" group-title="Odia | Sportlink",News18 Odia
 #KODIPROP:inputstream=inputstream.adaptive
@@ -7814,7 +7960,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Oriya_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://nw18live.cdn.jio.com/bpk-tv/News18_Odia_NW18_MOB/output01/index.m3u8
 
-#===== Other | Sportlink (361 channels) =====
+#===== Other | Sportlink (390 channels) =====
 #EXTINF:-1 tvg-id="164" tvg-name="Travelxp HD @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Travel_XP_HD.png" group-title="Other | Sportlink",Travelxp HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -11959,7 +12105,114 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ShreeSalangpurDham_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/amg02159c11/HLSPartner/index.m3u8
 
-#===== Punjabi | Sportlink (22 channels) =====
+#EXTINF:-1 tvg-id="0-9-channel_1643519345" tvg-name="Zing USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1643519345/list/1920x1080listclean721faf534a79451fa714b25d2102de48.png" group-title="Other | Sportlink",Zing USA
+https://premiumplugx.me/jee/zee5.php/0-9-channel_1643519345.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zing" tvg-name="Zing @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zing/list/1920x1080list47035ca213b8483fb3985b221724ae7b.png" group-title="Other | Sportlink",Zing
+https://premiumplugx.me/jee/zee5.php/0-9-zing.m3u8
+
+#EXTINF:-1 tvg-id="0-9-wion" tvg-name="WION @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-wion/list/1920x1080listc74581d3907f4df09b0d23cede8ee172.png" group-title="Other | Sportlink",WION
+https://premiumplugx.me/jee/zee5.php/0-9-wion.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910526" tvg-name="Tiny Pop @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910526/list/1920x1080list167ee27b9ca34f9e9fedea9957e88b73.png" group-title="Other | Sportlink",Tiny Pop
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910526.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938343" tvg-name="Sai Baba, Shirdi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938343/list/1920x1080list23240713a29a4abda387ad336c66b9fd.png" group-title="Other | Sportlink",Sai Baba, Shirdi
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938343.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910527" tvg-name="POP UP @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910527/list/1920x1080list8dc1ec2e49de47fd8100d7699181666c.png" group-title="Other | Sportlink",POP UP
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910527.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910525" tvg-name="POP @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910525/list/1920x1080list51ecd4e5ad064965a16e206953156849.png" group-title="Other | Sportlink",POP
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910525.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5210099" tvg-name="Mumbaicha Raja @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5210099/list/1920x1080listwithoutlivee1cd7f96bda4401b8301cc2057ece993.png" group-title="Other | Sportlink",Mumbaicha Raja
+https://premiumplugx.me/jee/zee5.php/0-9-9z5210099.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938347" tvg-name="Ma Naina Devi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938347/list/1920x1080b54008b0d7be4deda1236b32f675ffd8.png" group-title="Other | Sportlink",Ma Naina Devi
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938347.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938349" tvg-name="Kashi Vishwanath @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938349/list/1920x1080list68d3487d41a94c5485d8624564d623da.png" group-title="Other | Sportlink",Kashi Vishwanath
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938349.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938346" tvg-name="Iskcon Vrindavan @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938346/list/1920x1080lista1ad77e99fdb4182b024a321b04bf510.png" group-title="Other | Sportlink",Iskcon Vrindavan
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938346.m3u8
+
+#EXTINF:-1 tvg-id="0-9-indiatoday" tvg-name="India Today @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-indiatoday/list/rszindiatoday1170x658withlogo410d6610b5e84f34beb1298b4e227b12.png" group-title="Other | Sportlink",India Today
+https://premiumplugx.me/jee/zee5.php/0-9-indiatoday.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910524" tvg-name="Great! Christmas @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910524/list/1920x1080list29ad1cd5c9c14a4488f0aec0a22f3d69.png" group-title="Other | Sportlink",Great! Christmas
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910524.m3u8
+
+#EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" tvg-name="Big Magic @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-bigmagic_1786965389/list/1920x1080listde632d881f1f4a879a94669005bb7256.png" group-title="Other | Sportlink",Big Magic
+https://premiumplugx.me/jee/zee5.php/0-9-bigmagic_1786965389.m3u8
+
+#EXTINF:-1 tvg-id="0-9-bigganga" tvg-name="Anmol Cinema 2 @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list/1920x1080list07c314433276453ca706229ab5e5c042.png" group-title="Other | Sportlink",Anmol Cinema 2
+https://premiumplugx.me/jee/zee5.php/0-9-bigganga.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" tvg-name="Anmol Cinema @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeanmolcinema/list/1920x1080listfa46ad9c89684d268b5c141e7987de38.png" group-title="Other | Sportlink",Anmol Cinema
+https://premiumplugx.me/jee/zee5.php/0-9-zeeanmolcinema.m3u8
+
+#EXTINF:-1 tvg-id="0-9-209" tvg-name="&xplorHD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-209/list/1920x1080list1fb75b73f2e441d49af9bc4a1ad782de.png" group-title="Other | Sportlink",&xplorHD
+https://premiumplugx.me/jee/zee5.php/0-9-209.m3u8
+
+#EXTINF:-1 tvg-id="0-9-tvpictureshd" tvg-name="&Pictures HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvpictureshd/list/1920x1080listead02d49416241ce89c60432d7b879a6.png" group-title="Other | Sportlink",&Pictures HD
+https://premiumplugx.me/jee/zee5.php/0-9-tvpictureshd.m3u8
+
+#EXTINF:-1 tvg-id="0-9-pictures" tvg-name="&Pictures @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-pictures/list/1920x1080liste1864f84ee8f422e9a726e5fe401050c.png" group-title="Other | Sportlink",&Pictures
+https://premiumplugx.me/jee/zee5.php/0-9-pictures.m3u8
+
+#EXTINF:-1 tvg-name="Udaya HD @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194399" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194399/640x360_UdayaTVHD_194399_728eed6e-6e9e-469c-8ad4-b9d1ef48ca8c.jpg",Udaya HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=91b5f2d0205c4527b7aa3e41f35e1e7f:66ddb1a017753f966e20442ab2f91f18
+https://livestream16.sunnxt.com/a8d28f18944c4946ad7133938860e7cf/UdayaTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Udaya @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="193239" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/193239/640x360_TestChannel_193239_e9155a54-81ab-49a1-9b95-0cd81b234dc0.jpg", Udaya
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3084683c80234b6bbf69abfd5bb258a0:4ae6b547e5c8f51329a12d7953ee4c72
+https://livestream5.sunnxt.com/e2f36b5d0be74780a041a8f5b65bc7e6/UdayaTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Udaya Music @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194401" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194401/640x360_UdayaMusic_194401_c6816391-ea32-4780-bf8f-25cb839cef89.jpg",Udaya Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=9ac3472b0040459cab52035ead6fe1ae:ba9fe9dd1b8e5421e2f8c9d23bd86922
+https://livestream.sunnxt.com/8034b7519d6a4ab8929aa4279fda1f29/UdayaMusicB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Udaya Comedy @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194400" tvg-language="Kannada" tvg-logo="https://sund-images.sunnxt.com/194400/640x360_UdayaComedy_194400_476f38f8-3104-4816-a540-968b36f27a5f.jpg",Udaya Comedy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=71329783aeb74e6e9e1014fb9e4c30f4:1e025a9ed7e50fa35b8de2c96cccdd6b
+https://livestream.sunnxt.com/8a3d3d8d679b4f9f83a8305b4ead0644/UdayaComedyB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini HD @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194392" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194392/640x360_GeminiTVHD_194392_f0f60f9d-f692-4ab4-b335-cb971893af2f.jpg", Gemini HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=880dc94460af4197bbbf43a176fb3a95:0beb7012ffd133360889d5d56e20de4d
+https://livestream14.sunnxt.com/e778d9c98488494b9c9b38f9c48b63ec/GeminiTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Music HD @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194393" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194393/640x360_GeminiMusicHD_194393_dbfc3b93-0581-4d7c-985b-c160e0031a73.jpg", Gemini Music HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=76230567f3c04513a7e5d1249ab65983:4ee6dc9a99d894dc41b0878d6ea22790
+https://livestream.sunnxt.com/6a6520e446604c6e9840e5bf3a3a7d95/GeminiMusicHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Music @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194395" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194410/640x360_SunMusic_194410_d4d08876-9d23-432c-aab4-b5c70c58aaac.jpg" ,Gemini Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0faa2e9469fc45fdaf1728333351ec71:ffcf9dee6ede62bd8740dacfaa0c1e59
+https://livestream.sunnxt.com/52b94f70c6e64692b2497f5023b629cd/GeminiMusicB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Comedy @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194394" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194394/640x360_GeminiComedy_194394_f3c8c427-351c-4b4f-a67f-616ec0feb1d2.jpg",Gemini Comedy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=93e686ceac134f30b0a7bc3ce5a76b26:2c37e97fa0646751e1f2b85bc4b9ff8a
+https://livestream.sunnxt.com/167c40e9521b470b87b4cf921fd0e146/GeminiComedyB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Gemini Life @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194337" tvg-language="Telugu" tvg-logo="https://sund-images.sunnxt.com/194337/640x360_TestGeminiLife_194337_1927e76e-b04a-428b-a0fc-6aa5ed06fa88.jpg" ,Gemini Life
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=96d5157791ea4817a66a419e285a137f:d6d0ad2a9a6cc56e18d7557c7c693a37
+https://livestream.sunnxt.com/a4b4f71a8b4344f3a280e906657a517a/GeminiLifeB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Kochu @virat10" group-title="Other | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194348" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194348/960x540_KochuTV_194348_9777cbfd-685b-4e06-a7cc-f2902c1874e8.jpg",Kochu
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7354fb333b0c4159bc6c433c4db13d0f:fbf8b4a11febf7d2eed2283006979176
+https://livestream.sunnxt.com/1893b9ab790747cb80a584873a608dcb/KochuTVB_IN_index.mpd
+
+#===== Punjabi | Sportlink (30 channels) =====
 #EXTINF:-1 tvg-id="474" tvg-name="Sony Pal @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/SonyPAL.png" group-title="Punjabi | Sportlink",Sony Pal
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -12216,7 +12469,31 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/PunjabiShorts_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/RashtriyaPahal_MOB/WDVLive/index.mpd
 
-#===== Sony | Sportlink (17 channels) =====
+#EXTINF:-1 tvg-id="0-9-zeetvapac" tvg-name="Zee TV APAC HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvapac/list/1920x1080list9d19430d882842cdb42aef55e83e2010.png" group-title="Punjabi | Sportlink",Zee TV APAC HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeetvapac.m3u8
+
+#EXTINF:-1 tvg-id="0-9-360" tvg-name="Zee Tamil HD APAC @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-360/list/1920x1080listef67d9a80c9345bdb8254aa042944e0b7ad5084c9f924e2f8b42e4bd7b673fde.png" group-title="Punjabi | Sportlink",Zee Tamil HD APAC
+https://premiumplugx.me/jee/zee5.php/0-9-360.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5950417" tvg-name="Zee Punjabi HD UK @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5950417/list/1920x1080listafcc61b571eb4b23b55110e56c45b755.png" group-title="Punjabi | Sportlink",Zee Punjabi HD UK
+https://premiumplugx.me/jee/zee5.php/0-9-9z5950417.m3u8
+
+#EXTINF:-1 tvg-id="0-9-215" tvg-name="Zee Punjabi @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-215/list/1920x1080list480fac72c9754914bae975f1553ad4cb.png" group-title="Punjabi | Sportlink",Zee Punjabi
+https://premiumplugx.me/jee/zee5.php/0-9-215.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5946518" tvg-name="Patna Sahib @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5946518/list/1920x1080list164900487c7a428795c4786ef8318830.png" group-title="Punjabi | Sportlink",Patna Sahib
+https://premiumplugx.me/jee/zee5.php/0-9-9z5946518.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938351" tvg-name="Mahavir Mandir Patna @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938351/list/1920x1080list6e05767874a241f49b24a29a035b2292.png" group-title="Punjabi | Sportlink",Mahavir Mandir Patna
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938351.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938345" tvg-name="Dagdusheth Halwai Ganpati Mandir @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938345/list/1920x1080list01e244654b18462fb0dbe2bdd96e18e3.png" group-title="Punjabi | Sportlink",Dagdusheth Halwai Ganpati Mandir
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938345.m3u8
+
+#EXTINF:-1 tvg-id="sony-pal" tvg-name="Sony Pal @virat10" group-title="Punjabi | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20PAL.png" tvg-language="Hindi",Sony Pal
+https://sliv.tgaadi.workers.dev/sonypalsd.m3u8
+
+#===== Sony | Sportlink (27 channels) =====
 #EXTINF:-1 tvg-id="291" tvg-name="SET HD @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_HD.png" group-title="Sony | Sportlink",SET HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -12421,7 +12698,37 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/SonyLIV_Sports_5_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/SonyMAX1_MOB/WDVLive/index.mpd
 
-#===== Sun | Sportlink (9 channels) =====
+#EXTINF:-1 tvg-id="sony-hd" tvg-name="SET HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SET-LOGO-HD.png" tvg-language="Hindi",SET HD
+https://sliv.tgaadi.workers.dev/sethd.m3u8
+
+#EXTINF:-1 tvg-id="sony-sab-hd" tvg-name="Sony SAB HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20SAB%20HD_WHITE.png" tvg-language="Hindi",Sony SAB HD
+https://sliv.tgaadi.workers.dev/sabhd.m3u8
+
+#EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20AATH.png" tvg-language="Bengali",Sony Aath
+https://sliv.tgaadi.workers.dev/sonyaathsd.m3u8
+
+#EXTINF:-1 tvg-id="sony-yay" tvg-name="Sony Yay @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY%20YAY.png" tvg-language="Hindi",Sony Yay
+https://sliv.tgaadi.workers.dev/sonyyaysd.m3u8
+
+#EXTINF:-1 tvg-id="sony-max-hd" tvg-name="Sony MAX HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX-HD_WHITE.png" tvg-language="Hindi",Sony MAX HD
+https://sliv.tgaadi.workers.dev/sonymaxhd.m3u8
+
+#EXTINF:-1 tvg-id="sony-max" tvg-name="Sony MAX @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX.png" tvg-language="Hindi",Sony MAX
+https://sliv.tgaadi.workers.dev/sonymaxsd.m3u8
+
+#EXTINF:-1 tvg-id="sony-max-2" tvg-name="Sony MAX 2 @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_MAX2.png" tvg-language="Hindi",Sony MAX 2
+https://sliv.tgaadi.workers.dev/max2.m3u8
+
+#EXTINF:-1 tvg-id="sony-wah" tvg-name="Sony WAH @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_WAH.png" tvg-language="Hindi",Sony WAH
+https://sliv.tgaadi.workers.dev/sonywah.m3u8
+
+#EXTINF:-1 tvg-id="sony-pix-hd" tvg-name="Sony PIX HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/PIX%20HD_WHITE.png" tvg-language="English",Sony PIX HD
+https://sliv.tgaadi.workers.dev/pixhd.m3u8
+
+#EXTINF:-1 tvg-id="sony-bbc-earth-hd" tvg-name="Sony BBC Earth HD @virat10" group-title="Sony | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SBBCE_LOGO_NEW_PNG.png" tvg-language="English",Sony BBC Earth HD
+https://sliv.tgaadi.workers.dev/sonybbcearthhd.m3u8
+
+#===== Sun | Sportlink (21 channels) =====
 #EXTINF:-1 tvg-id="676" tvg-name="Sun News @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_News.png" group-title="Sun | Sportlink",Sun News
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -12530,7 +12837,67 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_Comedy_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Surya_Movies_MOB/WDVLive/index.mpd
 
-#===== Tamil | Sportlink (130 channels) =====
+#EXTINF:-1 tvg-name="Sun TV @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194408" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194408/640x360_SunTV_194408_2617a80e-4f90-42fa-b13a-acc8d7c97f9e.jpg",Sun TV
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6752015acf084572a08dfe21796f8b45:ff823ddbe5625c35d3e93f0ed4520115
+https://livestream1.sunnxt.com/05b5df1221764bca9867054c5e65ee62/SunTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun TV HD @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194403" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194403/640x360_SunTVHD_194403_522c701c-4770-4934-a6d3-47045b0d4fa5.jpg",Sun TV HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
+https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun TV HD - Dolby Vision @virat10" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="195491" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/195491/640x360_SunTVHDDolbyVision_195491_8110232c-dd00-4dbe-98ff-25bf5fe8749e.jpg"  group-title="Sun | Sportlink", Sun TV HD - Dolby Vision
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3891557f1cb14dedb7545bf52499d748:fb662f742e5f5e0c61a7c1c66d2b019a
+https://livestream2.sunnxt.com/19ee29194c4d4fc286c3e697362e60cd/SunTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun Music HD @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194406" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194406/640x360_SunMusicHD_194406_87e8d029-f695-477c-9ace-a3c2cbe15004.jpg",Sun Music HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=b5a2c6d13b9748de9ceebc0a8adc8af3:e806fec1bf1c8a844216118c94bad020
+https://livestream.sunnxt.com/d434796d90fa4dc9b7ecfacedbe683f1/SunMusicHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun Music @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194410" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194410/640x360_SunMusic_194410_d4d08876-9d23-432c-aab4-b5c70c58aaac.jpg",Sun Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=21ddc14c4da94c079d4f4c343ecdcd80:5701bee4ee9b625d0c8ed7de032a7478
+https://livestream.sunnxt.com/585bb66e95c84ccea3f828c96b3567b5/SunMusicB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun Life @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194391" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194391/640x360_SunLife_194391_d407948a-b7a2-4a1f-8409-56f7261cefa1.jpg",Sun Life
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=81546df3f41c4a6dbc9a4efc7f2fb626:3928505f4054cf1fa935276fdbe40992
+https://livestream.sunnxt.com/6b79451f54284b3fb680fd717ee008dc/SunLifeB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Sun News @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194404" tvg-language="Tamil" tvg-logo="https://sund-images.sunnxt.com/194404/640x360_SunNews_194404_0af09ceb-cb6f-48e6-9f5c-395749f0fcee.jpg",Sun News
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4df8f920386e4346ba6b7d7ae935d668:c5fcaa8df5663365d938a50987f71b84
+https://livestream3.sunnxt.com/491c99fb6d0c49e88e6349170d890a2f/SunNewsB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Surya HD @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194397" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194397/640x360_SuryaTVHD_194397_7b54e231-bbb9-48d2-8aae-35a5886deed3.jpg",Surya HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=eae838ccd75d4a1fbff6fd7dd1c97780:8259ce0c112725a4d2c94d154207425f
+https://livestream15.sunnxt.com/d719fad367614ee5baad747822767ad8/SuryaTVHDB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Surya @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194398" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194398/640x360_SuryaTV_194398_45a56617-7aa9-4ced-a1c8-82b80adb83a7.jpg",Surya
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=56e1f5b5b72e4e45a98b6f287c265ab9:6dee8663e63cc8f8dda8478b8b2f3b71
+https://livestream6.sunnxt.com/30612a1b269d4a18aa14657641c47515/SuryaTVB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Surya Movies @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194385" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194385/640x360_SuryaMovies_194385_2d5dbc38-915d-4e41-b8b0-ea98ca6c88d3.jpg",Surya Movies
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=6b67bccef7024f2da29b42e10dc13f89:2e8460c47d3f01693e193dba5963a5e1
+https://livestream.sunnxt.com/e24ee14c395945bd8ccb065e1bce8b9b/SuryaMoviesB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Surya Music @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="194338" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194338/640x360_SuryaMusic_194338_7fe35164-9a93-45ad-92a1-31126e592a84.jpg" ,Surya Music
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=25a1d2a4c3f848b1aed911ad691fe232:3c8b2cf8611c343e6a231b6a9c7c8b58
+https://livestream.sunnxt.com/8c2352ff54954e7b9a4188045dcf3b27/SuryaMusicB_IN_index.mpd
+
+#EXTINF:-1 tvg-name="Surya Comedy @virat10" group-title="Sun | Sportlink" group-logo="https://i.ibb.co/2dwmRgM/Sun-NXT-logo-small.png" tvg-id="193251" tvg-language="Malayalam" tvg-logo="https://sund-images.sunnxt.com/194400/640x360_UdayaComedy_194400_476f38f8-3104-4816-a540-968b36f27a5f.jpg",Surya Comedy
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=11563b00a46b43f2a0f80ecf42a4fb77:9bad28ad6f23dbb917c63ee680f66a1f
+https://livestream.sunnxt.com/6505e922bf164423ad122f404747356a/SuryaComedyB_IN_index.mpd
+
+#===== Tamil | Sportlink (138 channels) =====
 #EXTINF:-1 tvg-id="153" tvg-name="Zee Talkies @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeTalkies.png" group-title="Tamil | Sportlink",Zee Talkies
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -14067,7 +14434,31 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ShreeSanatan_TV_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/UIPMPentathlonWC_MOB/WDVLive/index.mpd
 
-#===== Telugu | Sportlink (55 channels) =====
+#EXTINF:-1 tvg-id="0-9-zeetamil" tvg-name="Zee Tamil HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetamil/list/1920x1080listef67d9a80c9345bdb8254aa042944e0b.png" group-title="Tamil | Sportlink",Zee Tamil HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeetamil.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383487" tvg-name="Zee Tamil @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383487/list/1920x1080listf00742d846d24c75ae2016840ffc0c40.png" group-title="Tamil | Sportlink",Zee Tamil
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383487.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeetalkies" tvg-name="Zee Talkies HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetalkies/list/1920x1080list8db83dea9fb7450aa0d1bf6a4e5f30f5.png" group-title="Tamil | Sportlink",Zee Talkies HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeetalkies.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383489" tvg-name="Zee Talkies @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383489/list/1920x1080list43aaeb0656a9484e855f731963eeeb20.png" group-title="Tamil | Sportlink",Zee Talkies
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383489.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_265145625" tvg-name="Zee News Uttar Pradesh Uttrakhand @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_265145625/list/1920x1080listbf42a88acc514eb8b563d9e55e219e39.png" group-title="Tamil | Sportlink",Zee News Uttar Pradesh Uttrakhand
+https://premiumplugx.me/jee/zee5.php/0-9-channel_265145625.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zee24taas" tvg-name="Zee 24 Taas @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zee24taas/list/1920x1080list802d44dac3654efaa0e854eebada19f2.png" group-title="Tamil | Sportlink",Zee 24 Taas
+https://premiumplugx.me/jee/zee5.php/0-9-zee24taas.m3u8
+
+#EXTINF:-1 tvg-id="0-9-24ghantatv" tvg-name="Zee 24 Ghanta @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-24ghantatv/list/1920x1080listc476445912954ccc93b909f11a387547.png" group-title="Tamil | Sportlink",Zee 24 Ghanta
+https://premiumplugx.me/jee/zee5.php/0-9-24ghantatv.m3u8
+
+#EXTINF:-1 tvg-id="0-9-aajtak" tvg-name="Aaj Tak @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/list/1920x1080list935cdb804dd94a7ea7cc62f203b5c3dd.png" group-title="Tamil | Sportlink",Aaj Tak
+https://premiumplugx.me/jee/zee5.php/0-9-aajtak.m3u8
+
+#===== Telugu | Sportlink (72 channels) =====
 #EXTINF:-1 tvg-id="166" tvg-name="Cartoon Network Telugu @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/CNTelugu.png" group-title="Telugu | Sportlink",Cartoon Network Telugu
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -14708,6 +15099,57 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/GuaranteeNews_MOB/WDVLive/index.mpd
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/ose-155ads-montreal/HLSPartner/index.m3u8
 
+#EXTINF:-1 tvg-id="0-9-zeetelugu" tvg-name="Zee Telugu HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetelugu/list/1920x1080list7d962673d8684a68b275025f4af506aa.png" group-title="Telugu | Sportlink",Zee Telugu HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeetelugu.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383485" tvg-name="Zee Telugu @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383485/list/1920x1080list2bed10081fb542f3b3353b1922d2504e.png" group-title="Telugu | Sportlink",Zee Telugu
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383485.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z583538" tvg-name="Zee News Telugu @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z583538/list/1920x1080listbb95a40331fb43089c0d84cfbfc15452.png" group-title="Telugu | Sportlink",Zee News Telugu
+https://premiumplugx.me/jee/zee5.php/0-9-9z583538.m3u8
+
+#EXTINF:-1 tvg-id="0-9-258" tvg-name="TV9 Telugu @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-258/list/1920x1080listf159579f9b3641f9967581c6fe07d2f7.png" group-title="Telugu | Sportlink",TV9 Telugu
+https://premiumplugx.me/jee/zee5.php/0-9-258.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5938348" tvg-name="Somnath Temple @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5938348/list/1920x1080listfcb8614f3e134a70a68c4a7f91fa7869.png" group-title="Telugu | Sportlink",Somnath Temple
+https://premiumplugx.me/jee/zee5.php/0-9-9z5938348.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5946519" tvg-name="Shree Naga Sai  Temple - Coimbatore @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5946519/list/1920x1080list8859cf73709c45b0a1c505fbd63c7eb9.png" group-title="Telugu | Sportlink",Shree Naga Sai  Temple - Coimbatore
+https://premiumplugx.me/jee/zee5.php/0-9-9z5946519.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5910523" tvg-name="Great! Mystery @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5910523/list/1920x1080list93b0575cd13e421b85644fbe96334c30.png" group-title="Telugu | Sportlink",Great! Mystery
+https://premiumplugx.me/jee/zee5.php/0-9-9z5910523.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-1" tvg-name="Sony Sports Ten 1 @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_SD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 1
+https://sliv.tgaadi.workers.dev/ten1sd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-2" tvg-name="Sony Sports Ten 2 @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_SD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 2
+https://sliv.tgaadi.workers.dev/ten2sd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-3" tvg-name="Sony Sports Ten 3 @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi.png" tvg-language="Hindi",Sony Sports Ten 3
+https://sliv.tgaadi.workers.dev/ten3sd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-4" tvg-name="Sony Sports Ten 4 @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Tamil.png" tvg-language="Hindi",Sony Sports Ten 4
+https://sliv.tgaadi.workers.dev/ten4sd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-5" tvg-name="Sony Sports Ten 5 @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_SD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 5
+https://sliv.tgaadi.workers.dev/sonysixsd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-1-hd" tvg-name="Sony Sports Ten 1HD @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen1_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 1HD
+https://sliv.tgaadi.workers.dev/ten1hd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-2-hd" tvg-name="Sony Sports Ten 2 HD @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen2_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 2 HD
+https://sliv.tgaadi.workers.dev/ten2hd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-3-hd" tvg-name="Sony Sports Ten 3 HD @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_3_Hindi_HD.png" tvg-language="Hindi",Sony Sports Ten 3 HD
+https://sliv.tgaadi.workers.dev/ten3hd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-4-hd" tvg-name="Sony Sports Ten 4 HD @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/Sony_Sports_Ten_4_Telugu.png" tvg-language="Hindi",Sony Sports Ten 4 HD
+https://sliv.tgaadi.workers.dev/ten4hd.m3u8
+
+#EXTINF:-1 tvg-id="sony-ten-5-hd" tvg-name="Sony Sports Ten 5 HD @virat10" group-title="Telugu | Sportlink" tvg-logo="https://www.sonypicturesnetworks.com/images/logos/SONY_SportsTen5_HD_Logo_CLR.png" tvg-language="English",Sony Sports Ten 5 HD
+https://sliv.tgaadi.workers.dev/sonysixhd.m3u8
+
 #===== Urdu | Sportlink (3 channels) =====
 #EXTINF:-1 tvg-id="712" tvg-name="DD urdu @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/DD_urdu.png" group-title="Urdu | Sportlink",DD urdu
 #KODIPROP:inputstream=inputstream.adaptive
@@ -14741,7 +15183,7 @@ https://nw18live.cdn.jio.com/bpk-tv/News18_Urdu_NW18_MOB/output01/index.m3u8
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791370804~exp=1791392404~acl=/*~hmac=4cfb7254b06eab7307fa11ee8148444b636972a663d5ccd4c77e627d521bc29e"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/Voice_TV_Urdu_MOB/WDVLive/index.mpd
 
-#===== Zee | Sportlink (30 channels) =====
+#===== Zee | Sportlink (76 channels) =====
 #EXTINF:-1 tvg-id="165" tvg-name="Zee Cinema HD @virat10" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinemaHD.png" group-title="Zee | Sportlink",Zee Cinema HD
 #KODIPROP:inputstream=inputstream.adaptive
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
@@ -15101,3 +15543,141 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema2_BTS/WDVLive/index.mpd
 #EXTVLCOPT:http-cookie=__hdnea__=st=1791371294~exp=1791374894~acl=/bpk-tv/ZeeThiraiHD_BTS/WDVLive/*~hmac=ca164df6cb84240a9cd548885cb1943c8d1dfe7cbdccea86330d8cdf78088cca
 #EXTHTTP:{"User-Agent": "Virat", "Referer": "https://www.jiotv.com/", "Origin": "https://www.jiotv.com/", "Cookie": "__hdnea__=st=1791371294~exp=1791374894~acl=/bpk-tv/ZeeThiraiHD_BTS/WDVLive/*~hmac=ca164df6cb84240a9cd548885cb1943c8d1dfe7cbdccea86330d8cdf78088cca"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeThiraiHD_BTS/WDVLive/index.mpd
+
+#EXTINF:-1 tvg-id="0-9-9z51072894" tvg-name="zeesouthflix @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z51072894/list/listchannel55f1b2a4158f417388e7fc76e74ed9bb.png" group-title="Zee | Sportlink",zeesouthflix
+https://premiumplugx.me/jee/zee5.php/0-9-9z51072894.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z51072893" tvg-name="zeehorrornights @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z51072893/list/listchannel35701e94301044df906d227d5d140ecc.png" group-title="Zee | Sportlink",zeehorrornights
+https://premiumplugx.me/jee/zee5.php/0-9-9z51072893.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z51072892" tvg-name="zeedilse @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z51072892/list/listchannelbb0c176e04c242229e3f4ad9e06dd668.png" group-title="Zee | Sportlink",zeedilse
+https://premiumplugx.me/jee/zee5.php/0-9-9z51072892.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z51072556" tvg-name="zeecomedynation @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z51072556/list/listchanneld45c01df595348328b825281b2a86399.png" group-title="Zee | Sportlink",zeecomedynation
+https://premiumplugx.me/jee/zee5.php/0-9-9z51072556.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z51072553" tvg-name="Zeecineclassic @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z51072553/list/listchannel950261e2f68147b6b631ee2b298ffb35.png" group-title="Zee | Sportlink",Zeecineclassic
+https://premiumplugx.me/jee/zee5.php/0-9-9z51072553.m3u8
+
+#EXTINF:-1 tvg-id="0-9-348" tvg-name="Zee Zest HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-348/list/1920x1080list7568db782c114329afd8bb7e030eca0d.png" group-title="Zee | Sportlink",Zee Zest HD
+https://premiumplugx.me/jee/zee5.php/0-9-348.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeyuva" tvg-name="Zee Yuva @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeyuva/list/1920x1080list5dd504da63d94665be555d032df9000c.png" group-title="Zee | Sportlink",Zee Yuva
+https://premiumplugx.me/jee/zee5.php/0-9-zeeyuva.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_1586895760" tvg-name="Zee TV USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1586895760/list/1920x1080listf53510abab6741be9e466c02f6897a6f.png" group-title="Zee | Sportlink",Zee TV USA
+https://premiumplugx.me/jee/zee5.php/0-9-channel_1586895760.m3u8
+
+#EXTINF:-1 tvg-id="0-9-tvme" tvg-name="Zee TV ME @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-tvme/list/1920x1080listbae3c1818b08472fa49e231c7a98cc78.png" group-title="Zee | Sportlink",Zee TV ME
+https://premiumplugx.me/jee/zee5.php/0-9-tvme.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_341994370" tvg-name="Zee TV HD USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_341994370/list/1920x1080listbecc8245db8f419bbf2a71c51fcabe2c.png" group-title="Zee | Sportlink",Zee TV HD USA
+https://premiumplugx.me/jee/zee5.php/0-9-channel_341994370.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeetvuk" tvg-name="Zee TV HD UK @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvuk/list/1920x1080list404f827960494873a0f99692d1e8f54f.png" group-title="Zee | Sportlink",Zee TV HD UK
+https://premiumplugx.me/jee/zee5.php/0-9-zeetvuk.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_1017420475" tvg-name="Zee TV HD Canada @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-channel_1017420475/list/1920x1080list2c847277b04f4f8f8f52f2edfba55c36.png" group-title="Zee | Sportlink",Zee TV HD Canada
+https://premiumplugx.me/jee/zee5.php/0-9-channel_1017420475.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeetvhd" tvg-name="Zee TV HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetvhd/list/1920x1080list3424a135de534b88a95bfd69d193ae1c.png" group-title="Zee | Sportlink",Zee TV HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeetvhd.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5898964" tvg-name="Zee TV DE @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5898964/list/zeetvhdpfthumbnail1920x1080013ba10b9bcc4d20b0df9cb57e917c49.png" group-title="Zee | Sportlink",Zee TV DE
+https://premiumplugx.me/jee/zee5.php/0-9-9z5898964.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeetv" tvg-name="Zee TV @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeetv/list/1920x1080lista5ee31338b52425094454cd07e6981b1.png" group-title="Zee | Sportlink",Zee TV
+https://premiumplugx.me/jee/zee5.php/0-9-zeetv.m3u8
+
+#EXTINF:-1 tvg-id="0-9-224" tvg-name="Zee Thirai HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-224/list/1920x1080listb7f3310976d14ed59a22940af7587e9a.png" group-title="Zee | Sportlink",Zee Thirai HD
+https://premiumplugx.me/jee/zee5.php/0-9-224.m3u8
+
+#EXTINF:-1 tvg-id="0-9-sarthaktv" tvg-name="Zee Sarthak @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-sarthaktv/list/1920x1080listaba3fb2c9c384395b15c9fb3b7936586.png" group-title="Zee | Sportlink",Zee Sarthak
+https://premiumplugx.me/jee/zee5.php/0-9-sarthaktv.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeerajasthannews" tvg-name="Zee Rajasthan News @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeerajasthannews/list/1920x1080list3a5b6daaa25e4cd4b35a9c252bbf0b19.png" group-title="Zee | Sportlink",Zee Rajasthan News
+https://premiumplugx.me/jee/zee5.php/0-9-zeerajasthannews.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeepunjabharyanahima" tvg-name="Zee Punjab Haryana Himachal Pradesh @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeepunjabharyanahima/list/1920x1080listc512a6acc3bd401f8a245c6b3d98ed18.png" group-title="Zee | Sportlink",Zee Punjab Haryana Himachal Pradesh
+https://premiumplugx.me/jee/zee5.php/0-9-zeepunjabharyanahima.m3u8
+
+#EXTINF:-1 tvg-id="0-9-241" tvg-name="Zee Power HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-241/list/1920x1080listd5138bd1283846adbe7cdaa408265ce1.png" group-title="Zee | Sportlink",Zee Power HD
+https://premiumplugx.me/jee/zee5.php/0-9-241.m3u8
+
+#EXTINF:-1 tvg-id="0-9-161" tvg-name="Zee One German @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-161/list/1920x1080list7cf53e98073d411e94a239e84d866ecf.png" group-title="Zee | Sportlink",Zee One German
+https://premiumplugx.me/jee/zee5.php/0-9-161.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5825786" tvg-name="Zee One @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5825786/list/1920x1080list3968dbaad0b24538986f7b4a558fbbb0.png" group-title="Zee | Sportlink",Zee One
+https://premiumplugx.me/jee/zee5.php/0-9-9z5825786.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeenews" tvg-name="Zee News @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/list/1920x1080list6f46ce2b3345452aaf6486f1138faf55.png" group-title="Zee | Sportlink",Zee News
+https://premiumplugx.me/jee/zee5.php/0-9-zeenews.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeemadhyapradeshchat" tvg-name="Zee Madhya Pradesh Chhattisgarh @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeemadhyapradeshchat/list/1920x1080list81c20075a9f74485aa1dacda518011f9.png" group-title="Zee | Sportlink",Zee Madhya Pradesh Chhattisgarh
+https://premiumplugx.me/jee/zee5.php/0-9-zeemadhyapradeshchat.m3u8
+
+#EXTINF:-1 tvg-id="0-9-129" tvg-name="Zee Keralam HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-129/list/1920x1080list28fd564242df4f358b7b3671b8bdf99a.png" group-title="Zee | Sportlink",Zee Keralam HD
+https://premiumplugx.me/jee/zee5.php/0-9-129.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeekalinganews" tvg-name="Zee Delhi NCR Haryana @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeekalinganews/list/1920x1080list83f2035960de4ef4abac7cf5f9b05b3d.png" group-title="Zee | Sportlink",Zee Delhi NCR Haryana
+https://premiumplugx.me/jee/zee5.php/0-9-zeekalinganews.m3u8
+
+#EXTINF:-1 tvg-id="0-9-176" tvg-name="Zee Classic @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-176/list/1920x1080list18cba842de654a3cb92b33556dfa0bc2.png" group-title="Zee | Sportlink",Zee Classic
+https://premiumplugx.me/jee/zee5.php/0-9-176.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinemalu" tvg-name="Zee Cinemalu HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemalu/list/1920x1080list1c86aa59112c4737ba7db3b4d7d521b4.png" group-title="Zee | Sportlink",Zee Cinemalu HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeecinemalu.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5383488" tvg-name="Zee Cinemalu @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5383488/list/1920x1080list8147fef103204cf4a2bc7a8aef2b9221.png" group-title="Zee | Sportlink",Zee Cinemalu
+https://premiumplugx.me/jee/zee5.php/0-9-9z5383488.m3u8
+
+#EXTINF:-1 tvg-id="0-9-179" tvg-name="Zee Cinema USA @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-179/list/1920x1080list7fae74f5533b4aaea330d6060f7f5f94.png" group-title="Zee | Sportlink",Zee Cinema USA
+https://premiumplugx.me/jee/zee5.php/0-9-179.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinemauk" tvg-name="Zee Cinema UK @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemauk/list/1920x1080listd6f35a1a8d4f4acbb39d29d200db8290.png" group-title="Zee | Sportlink",Zee Cinema UK
+https://premiumplugx.me/jee/zee5.php/0-9-zeecinemauk.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinemaintl" tvg-name="Zee Cinema ME @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemaintl/list/1920x1080listb14aad0d90b644e8ba27a9d15842fe9c.png" group-title="Zee | Sportlink",Zee Cinema ME
+https://premiumplugx.me/jee/zee5.php/0-9-zeecinemaintl.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinemahd" tvg-name="Zee Cinema HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinemahd/list/1920x1080listb0707389e11d47edb651c329f76a0755.png" group-title="Zee | Sportlink",Zee Cinema HD
+https://premiumplugx.me/jee/zee5.php/0-9-zeecinemahd.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinema" tvg-name="Zee Cinema @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeecinema/list/1920x1080list403630fe2cb2485db8bddad83245f88b.png" group-title="Zee | Sportlink",Zee Cinema
+https://premiumplugx.me/jee/zee5.php/0-9-zeecinema.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeebusiness" tvg-name="Zee Business @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebusiness/list/1920x1080list3eaf400b00cb4c83bf320df01fda3fbe.png" group-title="Zee | Sportlink",Zee Business
+https://premiumplugx.me/jee/zee5.php/0-9-zeebusiness.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeclassic" tvg-name="Zee Bollywood @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeclassic/list/1920x1080list993a532d3c6040d78b2e69a2862f4e28.png" group-title="Zee | Sportlink",Zee Bollywood
+https://premiumplugx.me/jee/zee5.php/0-9-zeeclassic.m3u8
+
+#EXTINF:-1 tvg-id="0-9-216" tvg-name="Zee Biskope @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-216/list/1920x1080list277eec9ca86a41f2bdc68935794767e9.png" group-title="Zee | Sportlink",Zee Biskope
+https://premiumplugx.me/jee/zee5.php/0-9-216.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeebioskop" tvg-name="Zee Bioskop @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebioskop/list/1920x1080list5409a17e022443fbb70d5e3d0d4ec9f2.png" group-title="Zee | Sportlink",Zee Bioskop
+https://premiumplugx.me/jee/zee5.php/0-9-zeebioskop.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeebiharjharkhand" tvg-name="Zee Bihar Jharkhand @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeebiharjharkhand/list/1920x1080lista938bfd0da624b799fde2c305bdf832f.png" group-title="Zee | Sportlink",Zee Bihar Jharkhand
+https://premiumplugx.me/jee/zee5.php/0-9-zeebiharjharkhand.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeehindustan" tvg-name="Zee Bharat @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeehindustan/list/1920x1080listdff5782e739a44828d0b3066f740fb9e.png" group-title="Zee | Sportlink",Zee Bharat
+https://premiumplugx.me/jee/zee5.php/0-9-zeehindustan.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5817234" tvg-name="Zee Alwan HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5817234/list/zeealwanhdpfthumbnail1920x1080f213bc5fb3ce4e28a1469737915b40e5.png" group-title="Zee | Sportlink",Zee Alwan HD
+https://premiumplugx.me/jee/zee5.php/0-9-9z5817234.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeealwan" tvg-name="Zee Alwan @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeealwan/list/zeealwanpfthumbnail1920x1080d29cc3acf6a5414893eeceb9009aa030.png" group-title="Zee | Sportlink",Zee Alwan
+https://premiumplugx.me/jee/zee5.php/0-9-zeealwan.m3u8
+
+#EXTINF:-1 tvg-id="0-9-9z5817235" tvg-name="Zee Aflam HD @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-9z5817235/list/zeeaflamhdpfthumbnail1920x1080fb725a0b2d5f4a7c851c75880e8333e7.png" group-title="Zee | Sportlink",Zee Aflam HD
+https://premiumplugx.me/jee/zee5.php/0-9-9z5817235.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeaflam" tvg-name="Zee Aflam @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeaflam/list/zeeaflampfthumbnail1920x108094e49cea51934c7d9afe7bc68f9257e7.png" group-title="Zee | Sportlink",Zee Aflam
+https://premiumplugx.me/jee/zee5.php/0-9-zeeaflam.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeaction" tvg-name="Zee Action @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zeeaction/list/1920x1080list109ad06dd3c2485a97dbaddc85d22130.png" group-title="Zee | Sportlink",Zee Action
+https://premiumplugx.me/jee/zee5.php/0-9-zeeaction.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zee24kalak" tvg-name="Zee 24 Kalak @virat10" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_auto,h_396,c_scale,f_webp,q_auto:eco/resources/0-9-zee24kalak/list/1920x1080listc5fe23e8d53b47ff8972e1923d74a629.png" group-title="Zee | Sportlink",Zee 24 Kalak
+https://premiumplugx.me/jee/zee5.php/0-9-zee24kalak.m3u8
