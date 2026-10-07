@@ -26,19 +26,21 @@ SPORTLINK_SUFFIX = " | Sportlink"
 VIRAT10_SUFFIX = " @virat10"
 
 # ------------------ CATEGORY OVERRIDE PER SOURCE ------------------
+# If a source is listed here, ALL its channels go into that single category.
+# If NOT listed, the script will:
+#   1. Use the channel's own group-title from the playlist (if present), OR
+#   2. Fall back to keyword categorization (categorize_channel) if no group-title.
 SOURCE_CATEGORY_OVERRIDE = {
     "FANCODE":     "Fancode",
     "SONYLIV":     "SonyLIV",
     "Jio Hotstar": "Jio Hotstar",
     "WILLOW":      "Willow",
     "PRIMEVIDEO":  "Prime Video",
-    # "VZY" intentionally omitted — let keyword categorizer split it
-    # into Movies / News / Music / Entertainment / Sports / etc.
     "HOTSTAR":     "Hotstar",
     "Sports Special": "Sports Special",
 }
 
-# ------------------ KEYWORD CATEGORY MAPPING ------------------
+# ------------------ KEYWORD CATEGORY MAPPING (fallback only) ------------------
 CATEGORY_MAP = {
     "Assamese":   ["assamese", "asomiya"],
     "Bengali":    ["bengali", "bangla", "bn"],
@@ -86,6 +88,12 @@ CATEGORY_ORDER = [
     "Prime Video | Sportlink",
     "Hotstar | Sportlink",
     "Jio Hotstar | Sportlink",
+    # VZY's own groups appear below (Movies, Entertainment, Music, News, Sports)
+    "Movies | Sportlink",
+    "Entertainment | Sportlink",
+    "Music | Sportlink",
+    "News | Sportlink",
+    "Sports | Sportlink",
 ]
 
 # ------------------ HELPER FUNCTIONS ------------------
@@ -127,6 +135,16 @@ def get_channel_title(block):
                 return parts[1].strip()
     return None
 
+def get_group_title(block):
+    """Extract the existing group-title="..." value from the #EXTINF line."""
+    for line in block:
+        if line.startswith('#EXTINF'):
+            m = re.search(r'group-title="([^"]*)"', line)
+            if m:
+                val = m.group(1).strip()
+                return val if val else None
+    return None
+
 def categorize_channel(title):
     if not title:
         return DEFAULT_CATEGORY
@@ -154,7 +172,6 @@ def fix_channel_block(block, category):
                 parts = line.rsplit(',', 1)
                 if len(parts) > 1:
                     title = parts[1].strip()
-                    # Insert right after the #EXTINF:-1 tag
                     if line.startswith('#EXTINF:-1 '):
                         line = line.replace(
                             '#EXTINF:-1 ',
@@ -193,10 +210,17 @@ def main():
 
         for block in extract_channel_blocks(lines):
             if override_cat:
+                # Hard override — all channels go into one category
                 base_category = override_cat
             else:
-                title = get_channel_title(block)
-                base_category = categorize_channel(title)
+                # Prefer the channel's own group-title from the playlist
+                own_group = get_group_title(block)
+                if own_group:
+                    base_category = own_group
+                else:
+                    # Fall back to keyword categorization
+                    title = get_channel_title(block)
+                    base_category = categorize_channel(title)
 
             # Append Sportlink suffix to every category
             category = f"{base_category}{SPORTLINK_SUFFIX}"
