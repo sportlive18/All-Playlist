@@ -12,8 +12,8 @@ PLAYLISTS = [
     {"name": "PRIMEVIDEO",  "icon": "📺", "url": "https://raw.githubusercontent.com/doctor-8trange/tekzya9/refs/heads/main/data/primevideoindia.m3u"},
     {"name": "VZY",         "icon": "🎬", "url": "https://premiumplugx.me/vzy/playlist.php"},
     {"name": "JIO-TV",      "icon": "📡", "url": "https://sportlink-playlist.pages.dev/zio.m3u"},
-    {"name": "ZEE",         "icon": "📺", "url": "https://vk-playlist.pages.dev/zee3.m3u"},
-    {"name": "SONY",        "icon": "📺", "url": "https://vk-playlist.pages.dev/sony.m3u"},
+    {"name": "ZEE",         "icon": "📺", "url": ""},
+    {"name": "SONY",        "icon": "📺", "url": "https://raw.githubusercontent.com/sportlive18/Sonyliv-Playlist-Autoupdate/refs/heads/main/sony.m3u"},
     {"name": "SUN",         "icon": "☀️", "url": "https://vk-playlist.pages.dev/sun.m3u"},
     {"name": "Jio Hotstar", "icon": "⭐", "url": "https://sportlink-playlist.pages.dev/tstar.m3u"},
 ]
